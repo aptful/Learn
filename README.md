@@ -11,4 +11,4 @@ KUTV-project参加
 ## UI
 UI置き場
 ### （例）color
-/lyout/color
+（例）/lyout/color
