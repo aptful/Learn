@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff8dc" >
+
+    <!--綾部-->
+
+    <!--帯->
+    <!-しょっぷ-->
+    <TextView
+        android:id="@+id/shopScreen"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="しょっぷ"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:textSize="30dp" />
+
+    <!--家マーク-->
+    <ImageButton
+        android:id="@+id/imageView3"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="-80dp"
+        android:background="@drawable/home"
+        />
+
+    <!--戻るボタン-->
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/back_normal" />
+
+    <!--オレンジのライン-->
+    <View
+        android:id="@+id/line_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#ff7f50"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--放送日時-->
+    <TextView
+        android:id="@+id/broaddayText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="2021/8/31"
+        android:textColor="#696969"
+        android:gravity="center"
+        />
+
+    <!--店名-->
+    <TextView
+        android:id="@+id/shopnameText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="カフェE"
+        android:textColor="#696969"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <!--店の写真-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/home3" />
+
+    <!--キーワードの図1-->
+    <ImageView
+        android:id="@+id/Keypic1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/key"
+        android:layout_marginLeft="40dp"
+        />
+
+    <!--キーワードの名前1-->
+    <TextView
+        android:id="@+id/keyText1"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="スイーツ"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-40dp"
+        />
+    <!--キーワードの図2-->
+    <ImageView
+        android:id="@+id/Keypic3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/key"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-40dp"
+        />
+
+    <!--キーワードの名前2-->
+    <TextView
+        android:id="@+id/keyText3"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="洋菓子"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="-40dp"
+        />
+
+    <!--キーワードの図3-->
+    <ImageView
+        android:id="@+id/Keypic2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/key"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="-40dp"
+        />
+
+    <!--キーワードの名前3-->
+    <TextView
+        android:id="@+id/keyText2"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="カフェ"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-40dp"
+        />
+
+    <!--文章1行目-->
+    <TextView
+        android:id="@+id/explanationText1"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="落ちついた雰囲気の店内となっており,中で"
+        android:textColor="#696969"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        />
+
+    <!--文章2行目-->
+    <TextView
+        android:id="@+id/explanationText2"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="もベルギー産のチョコレートを使用したワッ"
+        android:textColor="#696969"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        />
+
+    <!--文章3行目-->
+    <TextView
+        android:id="@+id/explanationText3"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="フルがおすすめです．"
+        android:textColor="#696969"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        />
+
+    <!--文章4行目-->
+    <TextView
+        android:id="@+id/explanationText4"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="チョコレートが大好きなあなたには，追いチ"
+        android:textColor="#696969"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        />
+
+    <!--文章5行目-->
+    <TextView
+        android:id="@+id/explanationText5"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:text="ョコレートサービスまで...！"
+        android:textColor="#696969"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        />
+
+    <!--住所オレンジ丸-->
+    <TextView
+        android:id="@+id/orangecircle1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/orange_circle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <!--住所-->
+    <TextView
+        android:id="@+id/shopText1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="住所：高知県高知市"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="-35dp"
+        android:gravity=""
+        />
+
+    <!--営業時間，定休日オレンジ丸-->
+    <TextView
+        android:id="@+id/orangecircle2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/orange_circle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <!--営業時間，定休日-->
+    <TextView
+        android:id="@+id/shopText2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="営業時間：11:00〜17:00\n定休日：火曜日，金曜日"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="-35dp"
+        android:gravity=""
+        />
+
+    <!--電話番号オレンジ丸-->
+    <TextView
+        android:id="@+id/orangecircle3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/orange_circle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <!--電話番号-->
+    <TextView
+        android:id="@+id/shopText3"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="電話番号：0889-29-××××"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="-35dp"
+        android:gravity=""
+        />
+
+    <!--お気に入り機能-->
+    <TextView
+        android:id="@+id/heart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/hart_line"
+        android:layout_gravity="right"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="-30dp"
+        />
+
+    <!--Line共有-->
+    <TextView
+        android:id="@+id/Lineaicon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/line"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-40dp"
+        />
+
+</LinearLayout>
+

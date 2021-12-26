@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff8dc" >
+
+    <!--作成者：小島-->
+
+    <!--帯-->
+    <!--おぷしょん-->
+    <TextView
+        android:id="@+id/keywordScreenText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="おぷしょん"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:textSize="30sp" />
+
+    <!--オレンジのライン-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:id="@+id/line_orange"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        android:background="#ff7f50"/>
+
+    <!--ホームボタン-->
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:background="@drawable/home"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="-80dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp" />
+
+    <!--戻るボタン-->
+    <ImageButton
+        android:id="@+id/buckButton"
+        android:background="@drawable/back_normal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@drawable/home" />
+
+
+    <!--アカウント内容確認ボタン-->
+    <Button
+        android:id="@+id/accountButton"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#ff7f50"
+        android:text="アカウント内容確認"
+        android:textSize="23sp"
+        android:gravity="left|center"
+        android:textColor="#fff8dc"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:stateListAnimator="@null"/>
+
+    <TextView
+        android:id="@+id/accountText"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="＞"
+        android:textColor="#fff8dc"
+        android:textSize="30sp"
+        android:layout_marginTop="-65dp"
+        android:layout_marginStart="120dp" />
+
+    <!--利用規約ボタン-->
+    <Button
+        android:id="@+id/ruleButton"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#ff7f50"
+        android:text="利用規約"
+        android:textSize="25sp"
+        android:gravity="left|center"
+        android:textColor="#fff8dc"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:stateListAnimator="@null"/>
+
+    <TextView
+        android:id="@+id/ruleText"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="＞"
+        android:textColor="#fff8dc"
+        android:textSize="30sp"
+        android:layout_marginTop="-65dp"
+        android:layout_marginStart="120dp" />
+
+    <!--ログアウトボタン-->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:backgroundTint="#ff7f50"
+        android:text="ログアウト"
+        android:textSize="25sp"
+        android:gravity="left|center"
+        android:textColor="#fff8dc"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:stateListAnimator="@null"/>
+
+    <TextView
+        android:id="@+id/logoutText"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="＞"
+        android:textColor="#fff8dc"
+        android:textSize="30sp"
+        android:layout_marginTop="-65dp"
+        android:layout_marginStart="120dp" />
+
+    <!--退会ボタン-->
+    <Button
+        android:id="@+id/signoutButton"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#6495ed"
+        android:gravity="left|center"
+        android:text="退会"
+        android:textColor="#fff8dc"
+        android:textSize="25sp"
+        android:stateListAnimator="@null"/>
+
+    <TextView
+        android:id="@+id/signoutText"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="＞"
+        android:textColor="#fff8dc"
+        android:textSize="30sp"
+        android:layout_marginTop="-65dp"
+        android:layout_marginStart="120dp" />
+
+
+
+</LinearLayout>
