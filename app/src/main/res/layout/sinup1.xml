@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff8dc" >
+    <!--帯-->
+    <!--    新規登録画面（1/3）の文字-->
+    <TextView
+        android:id="@+id/sinupOneLabel"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="#ff7f50"
+        android:gravity="center"
+        android:text="新規登録画面（1/3）"
+        android:textSize="22dp"
+        android:textColor="#fff8dc"/>
+
+    <!--次へボタン-->
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="-75dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="#fff8dc"
+        android:text="次へ"
+        android:textColor="#6495ed"
+        android:textSize="16dp"
+        />
+
+    <!--戻るボタン-->
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/back_pic" />
+    <!--ID-->
+    <TextView
+        android:id="@+id/IDText"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="ID"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <!--※IDは自動的に振り分けられます-->
+    <TextView
+        android:id="@+id/IDcomentText"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:gravity="left"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="-22dp"
+        android:text="※IDは自動的に振り分けられます"
+        android:textSize="15dp"
+        android:textColor="#696969"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <!--ID表示-->
+    <TextView
+            android:id="@+id/id"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text2"
+            android:text="abcd7"
+            android:textSize="20dp"
+            android:textColor="#696969"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            />
+
+
+
+    <!--パスワード-->
+    <TextView
+        android:id="@+id/passwordText"
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:gravity="left"
+        android:layout_marginLeft="48dp"
+        android:text="パスワード"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <!--    パスワード入力フォーム-->
+    <EditText
+        android:id="@+id/passwordEdit"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText"
+        android:inputType="textPassword"
+        android:textColor="#696969"
+        android:background="@drawable/edittext_flame"
+        android:paddingLeft="5dp"
+        />
+    <!--生年月日-->
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/birthText"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:layout_marginLeft="48dp"
+        android:text="生年月日"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <!--西暦-->
+    <TextView
+        android:id="@+id/yearText"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        android:text="西暦"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        />
+    <!--西暦入力フォーム-->
+    <EditText
+        android:id="@+id/yearEdit"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="-28dp"
+        android:layout_marginLeft="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText"
+        android:inputType="number"
+        android:textColor="#696969"
+        android:background="@drawable/edittext_flame"
+        android:paddingLeft="5dp"
+        />
+
+    <!--月-->
+    <TextView
+        android:id="@+id/monthText"
+        android:layout_width="26dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="158dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        android:text="月"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        />
+    <!--月入力フォーム-->
+    <EditText
+        android:id="@+id/monthEdit"
+        android:layout_marginTop="-36dp"
+        android:layout_marginLeft="185dp"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText"
+        android:inputType="number"
+        android:textColor="#696969"
+        android:background="@drawable/edittext_flame"
+
+        android:paddingLeft="5dp"
+        />
+
+    <!--日-->
+    <TextView
+        android:id="@+id/dayText"
+        android:layout_width="26dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="227dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        android:text="日"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        />
+
+    <!--日入力フォーム-->
+    <EditText
+        android:id="@+id/dayEdit"
+        android:layout_marginTop="-36dp"
+        android:layout_marginLeft="254dp"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText"
+        android:inputType="number"
+        android:textColor="#696969"
+        android:background="@drawable/edittext_flame"
+        android:paddingLeft="5dp"
+        />
+
+    <!--"☆メモやスクリーンショットで．ID・パスワードを控えておいてください"-->
+    <TextView
+        android:id="@+id/attention_sinupText"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        android:text="☆メモやスクリーンショットで\nID・パスワードを控えておいてください"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        />
+
+    <!--キャンセル-->
+    <TextView
+        android:id="@+id/canvelLabel"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="#6495ed"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="キャンセル"
+        android:textColor="#fff8dc"
+        android:textSize="22sp" />
+
+
+
+
+</LinearLayout>
