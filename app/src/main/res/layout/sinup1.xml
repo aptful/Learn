@@ -7,6 +7,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:background="#fff8dc" >
+    
+     <!--綾部-->
+    
     <!--帯-->
     <!--    新規登録画面（1/3）の文字-->
     <TextView
