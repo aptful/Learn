@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff8dc" >
+
+    <!--帯-->
+    <!--にゅーす-->
+    <TextView
+        android:id="@+id/keywordScreenText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="にゅーす"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:textSize="30sp" />
+
+    <!--オレンジのライン-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:id="@+id/line_orange"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        android:background="#ff7f50"/>
+
+    <!--ホームボタン-->
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:background="@drawable/home"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="-80dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        />
+
+    <!--一覧ボタン-->
+    <TextView
+        android:id="@+id/allButton"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="19dp"
+        android:background="#ff7f50"
+        android:gravity="center"
+        android:text="一覧"
+        android:textColor="#fff8dc"
+        android:textSize="20sp" />
+
+    <!--くーぽんボタン-->
+    <TextView
+        android:id="@+id/couponButton"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="-40dp"
+        android:background="#ff7f50"
+        android:gravity="center"
+        android:text="くーぽん"
+        android:textColor="#fff8dc"
+        android:textSize="20sp" />
+
+    <!--きーわーどボタン-->
+    <TextView
+        android:id="@+id/keywordButton"
+        android:layout_width="120dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="-39dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="きーわーど"
+        android:textColor="#ff7f50"
+        android:textSize="20sp" />
+
+    <!--お知らせフレーム-->
+    <ImageView
+        android:id="@+id/imageframe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/flame3" />
+
+    <ScrollView
+        android:layout_width="365dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-520dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <!--キーワード-->
+            <TextView
+                android:id="@+id/keywordText1"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginStart="30dp"
+                android:text="10/31 \ 「スイーツ」を含む番組が　\n
+       \ \ \ \放送されました"
+                android:textColor="#696969"
+                android:textSize="20sp" />
+
+            <!--説明-->
+            <TextView
+                android:id="@+id/contentsText1"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="-320dp"
+                android:text="甘いチョコレートとバニラ・・・"
+                android:background="@drawable/blueborder"
+                android:gravity="center"
+                android:textColor="#6495ed"
+                android:textSize="15sp" />
+
+
+
+            <!--オレンジのライン-->
+            <View
+                android:id="@+id/orangeLine1"
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginStart="-320dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:visibility="visible"
+                android:background="#ff7f50"
+                />
+
+            <!--キーワード-->
+            <TextView
+                android:id="@+id/keywordText2"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginStart="-320dp"
+                android:text="10/19 \ 「カフェ」を含む番組が　\n
+       \ \ \ \放送されました"
+                android:textColor="#696969"
+                android:textSize="20sp" />
+
+            <!--説明-->
+            <TextView
+                android:id="@+id/contentsText2"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginStart="-300dp"
+                android:text="古民家風カフェで外観も・・・"
+                android:background="@drawable/blueborder"
+                android:gravity="center"
+                android:textColor="#6495ed"
+                android:textSize="15sp" />
+
+
+
+            <!--オレンジのライン-->
+            <View
+                android:id="@+id/orangeLine2"
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="220dp"
+                android:layout_marginStart="-320dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:visibility="visible"
+                android:background="#ff7f50"
+                />
+
+            <!--キーワード-->
+            <TextView
+                android:id="@+id/keywordText3"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginStart="-310dp"
+                android:text="9/20 \ 「スイーツ」を含む番組が　\n
+       \ \ \ \放送されました"
+                android:textColor="#696969"
+                android:textSize="20sp" />
+
+            <!--説明-->
+            <TextView
+                android:id="@+id/contentsText3"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="290dp"
+                android:layout_marginStart="-340dp"
+                android:text="今話題の「マリトッツォ」が一風変わった・・・"
+                android:background="@drawable/blueborder"
+                android:gravity="center"
+                android:textColor="#6495ed"
+                android:textSize="15sp" />
+
+
+
+            <!--オレンジのライン-->
+            <View
+                android:id="@+id/orangeLine3"
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginStart="-350dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:visibility="visible"
+                android:background="#ff7f50"
+                />
+
+            <!--キーワード-->
+            <TextView
+                android:id="@+id/keywordText4"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="340dp"
+                android:layout_marginStart="-300dp"
+                android:text="9/10 \ 「パン」を含む番組が　\n
+       \ \ \ \放送されました"
+                android:textColor="#696969"
+                android:textSize="20sp" />
+
+            <!--説明-->
+            <TextView
+                android:id="@+id/contentsText4"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginStart="-290dp"
+                android:text="野菜をたっぷり使ったサンドウィッチ・・・"
+                android:background="@drawable/blueborder"
+                android:gravity="center"
+                android:textColor="#6495ed"
+                android:textSize="15sp" />
+
+
+
+            <!--オレンジのライン-->
+            <View
+                android:id="@+id/orangeLine4"
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="440dp"
+                android:layout_marginStart="-310dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:visibility="visible"
+                android:background="#ff7f50"
+                />
+
+            <!--キーワード-->
+            <TextView
+                android:id="@+id/keywordText5"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginStart="-320dp"
+                android:text="9/1 「ドリンク」「カフェ」\n \ \ \ \ \ \ \ を含む番組が放送されました"
+                android:textColor="#696969"
+                android:textSize="20sp" />
+
+            <!--説明-->
+            <TextView
+                android:id="@+id/contentsText5"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="510dp"
+                android:layout_marginStart="-300dp"
+                android:text="次に流行するかもしれない・・・"
+                android:background="@drawable/blueborder"
+                android:gravity="center"
+                android:textColor="#6495ed"
+                android:textSize="15sp" />
+
+
+
+            <!--オレンジのライン-->
+            <View
+                android:id="@+id/orangeLine5"
+                android:layout_width="330dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="550dp"
+                android:layout_marginStart="-310dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:visibility="visible"
+                android:background="#ff7f50"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
