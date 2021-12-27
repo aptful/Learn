@@ -9,7 +9,9 @@
     android:background="#fff8dc"
     android:textColor="#696969"
     >
-
+ <!--綾部-->
+    
+    
     <!--帯-->
     <!--    新規登録画面（2/3）の文字-->
     <TextView
