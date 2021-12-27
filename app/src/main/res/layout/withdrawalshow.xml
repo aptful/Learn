@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff8dc" >
+
+    <!--作成者：綾部-->
+
+    <!--帯-->
+    <!--退会-->
+    <TextView
+        android:id="@+id/keywordScreenText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="退会"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:textSize="30sp" />
+
+    <!--オレンジのライン-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:id="@+id/line_orange"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        android:background="#ff7f50"/>
+
+    <!--ホームボタン-->
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:background="@drawable/home"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="-80dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp" />
+
+    <!--戻るボタン-->
+    <ImageButton
+        android:id="@+id/buckButton"
+        android:background="@drawable/back_normal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@drawable/home" />
+
+    <!--IDtext-->
+    <TextView
+        android:id="@+id/IDText"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center_vertical"
+        android:text=" ID"
+        android:textSize="25dp"
+        android:textColor="#696969"
+        />
+
+
+    <!--ID入力フォーム-->
+    <EditText
+        android:id="@+id/IDEdit"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText"
+        android:inputType="textPassword"
+        android:textColor="#696969"
+        android:background="@drawable/edittext_flame"
+        android:paddingLeft="5dp"
+        />
+
+    <!--パスワードtext-->
+    <TextView
+        android:id="@+id/IDText"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical"
+        android:text=" パスワード"
+        android:textSize="25dp"
+
+
+        android:textColor="#696969"
+        />
+
+    <!--パスワード入力フォーム-->
+    <EditText
+        android:id="@+id/passwordEdit"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText"
+        android:inputType="textPassword"
+        android:textColor="#696969"
+        android:background="@drawable/edittext_flame"
+        android:paddingLeft="5dp"
+        />
+
+    <!--退会ボタン-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:text="退会"
+        android:textColor="#fff8dc"
+        android:textSize="20dp"
+        android:backgroundTint="#ff7f50"/>
+
+
+</LinearLayout>
