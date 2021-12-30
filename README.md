@@ -13,7 +13,7 @@ UI置き場
 ### （例）color
 （例）/lyout/color
 
-##app>src>main>res>drawable[xmlファイル作成時に使うファイル]
+## app>src>main>res>drawable[xmlファイル作成時に使うファイル]
 ・back_flame_back_cream.xml
 	→背景：クリーム　枠：黒
 ・back_flame_back_orange.xml
@@ -27,7 +27,7 @@ UI置き場
 ・rectangle
 	→背景：白　枠：黒　四角
 
-##app>src>main>res>layout[画面]
+## app>src>main>res>layout[画面]
 ・activity_main.xml
 	→元々あったファイル
 ・detailshopscreen.xml
