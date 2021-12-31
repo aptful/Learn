@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff8dc" >
+
+    <!--作成者:綾部-->
+
+    <!--帯-->
+    <!--    新規登録画面（3/3）の文字-->
+    <TextView
+        android:id="@+id/signupOneLabel"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="#ff7f50"
+        android:gravity="center"
+        android:text="新規登録画面（3/3）"
+        android:textSize="22dp"
+        android:textColor="#fff8dc"/>
+
+    <!--次へボタン-->
+    <Button
+        android:id="@+id/loginScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="-75dp"
+        android:layout_marginRight="12dp"
+        android:backgroundTint="#fff8dc"
+        android:text="次へ"
+        android:textColor="#6495ed"
+        android:textSize="16dp"
+        />
+
+    <!--戻るボタン-->
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/back_signup" />
+
+    <!--入力内容確認画面テキスト-->
+    <TextView
+        android:id="@+id/looksinupText"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center_vertical"
+        android:text="入力内容確認画面"
+        android:textColor="#696969"
+        android:textStyle="bold"/>
+
+    <!--IDテキスト-->
+    <TextView
+        android:id="@+id/ID_sinupText"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center_vertical"
+        android:text="   ID"
+        android:textSize="20dp"
+        android:textColor="#fff8dc"
+        android:background="@drawable/black_flame_back_orange"/>
+
+
+    <!--ID入力内容-->
+    <TextView
+        android:id="@+id/ID_edit__sinupText"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="-31dp"
+        android:gravity="center_vertical"
+        android:text="  1230287 "
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:background="@drawable/black_flame_back_cream"/>
+
+    <!--パスワードテキスト-->
+    <TextView
+        android:id="@+id/password_sinupText"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center_vertical"
+        android:text="  パスワード"
+        android:textSize="20dp"
+        android:textColor="#fff8dc"
+        android:background="@drawable/black_flame_back_orange"/>
+
+
+    <!--パスワード入力内容-->
+    <TextView
+        android:id="@+id/password_edit__sinupText"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="-31dp"
+        android:gravity="center_vertical"
+        android:text="   "
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:background="@drawable/black_flame_back_cream"/>
+
+    <!--生年月日テキスト-->
+    <TextView
+        android:id="@+id/birthday_sinupText"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center_vertical"
+        android:text="  生年月日"
+        android:textSize="20dp"
+        android:textColor="#fff8dc"
+        android:background="@drawable/black_flame_back_orange"/>
+
+
+    <!--生年月日入力内容-->
+    <TextView
+        android:id="@+id/birthday_edit__sinupText"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="-31dp"
+        android:gravity="center_vertical"
+        android:text=" 西暦2000年1月1日"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:background="@drawable/black_flame_back_cream"/>
+
+
+    <!--キーワードテキスト-->
+    <TextView
+        android:id="@+id/keywordText"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center_vertical"
+        android:text="   キーワード"
+        android:textColor="#696969"
+        android:textStyle="bold"/>
+
+
+    <!--キーワード内容確認-->
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@drawable/black_flame_back_cream"
+        android:scrollbars="vertical"
+        android:text="@string/keyword" />
+
+    <!--利用規約テキスト-->
+    <TextView
+        android:id="@+id/ruleText"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:gravity="center_vertical"
+        android:text="   利用規約"
+        android:textColor="#696969"
+        android:textStyle="bold"
+        />
+
+
+    <!--利用規約-->
+    <TextView
+        android:id="@+id/rule"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext_flame"
+        android:scrollbars="vertical"
+        android:text="@string/keyword" />
+
+
+</LinearLayout>

@@ -15,7 +15,7 @@
     <!--帯-->
     <!--    新規登録画面（2/3）の文字-->
     <TextView
-        android:id="@+id/sinupTwoLabel"
+        android:id="@+id/signupTwoLabel"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -33,11 +33,11 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="-80dp"
         android:background="@drawable/back_signup"
-        android:srcCompat="@drawable/back_signup" />
+         />
 
     <!--次へボタン-->
     <Button
-        android:id="@+id/nextButton"
+        android:id="@+id/signupThree"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="end"
