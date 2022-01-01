@@ -23,7 +23,7 @@
         android:textSize="22dp"
         android:textColor="#fff8dc"/>
 
-    <!--次へボタン-->
+    <!--完了ボタン-->
     <Button
         android:id="@+id/nextButton"
         android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
         android:layout_marginTop="-75dp"
         android:layout_marginRight="12dp"
         android:backgroundTint="#fff8dc"
-        android:text="次へ"
+        android:text="完了"
         android:textColor="#6495ed"
         android:textSize="16dp"
         />
@@ -153,7 +153,7 @@
     <!--キーワード内容確認-->
     <TextView
         android:layout_width="300dp"
-        android:layout_height="150dp"
+        android:layout_height="130dp"
         android:layout_gravity="center"
         android:background="@drawable/black_flame_back_cream"
         android:scrollbars="vertical"
@@ -177,11 +177,22 @@
     <TextView
         android:id="@+id/rule"
         android:layout_width="300dp"
-        android:layout_height="150dp"
+        android:layout_height="130dp"
         android:layout_gravity="center"
         android:background="@drawable/edittext_flame"
         android:scrollbars="vertical"
         />
+
+    <!--キャンセルボタン-->
+    <Button
+        android:id="@+id/cancelbutton"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#6495ed"
+        android:text="キャンセル"
+        android:textColor="#fff8dc"
+        android:textSize="22sp" />
 </LinearLayout>
 
 <!--    android:text="@string/keyword"-->
