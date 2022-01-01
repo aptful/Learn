@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
+    tools:context=".loginScreen"
     android:background="#fff8dc" >
 
     <!--作成者：綾部-->
@@ -87,7 +87,7 @@
 
     <!--パスワードtext-->
     <TextView
-        android:id="@+id/IDText"
+        android:id="@+id/PasswordText"
         android:layout_width="150dp"
         android:layout_height="30dp"
         android:layout_marginLeft="70dp"

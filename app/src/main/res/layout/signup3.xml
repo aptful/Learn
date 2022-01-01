@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
+    tools:context=".loginScreen"
     android:background="#fff8dc" >
 
     <!--作成者:綾部-->
@@ -13,7 +13,7 @@
     <!--帯-->
     <!--    新規登録画面（3/3）の文字-->
     <TextView
-        android:id="@+id/signupOneLabel"
+        android:id="@+id/sinupOneLabel"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -25,7 +25,7 @@
 
     <!--次へボタン-->
     <Button
-        android:id="@+id/loginScreen"
+        android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="right"
@@ -181,7 +181,7 @@
         android:layout_gravity="center"
         android:background="@drawable/edittext_flame"
         android:scrollbars="vertical"
-        android:text="@string/keyword" />
-
-
+        />
 </LinearLayout>
+
+<!--    android:text="@string/keyword"-->

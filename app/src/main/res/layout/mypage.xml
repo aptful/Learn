@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff8dc" >
+
+    <!--帯-->
+    <!--きーわーど-->
+    <TextView
+        android:id="@+id/mypageScreen"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="まいぺーじ"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:textSize="30dp" />
+
+    <!--オレンジのライン-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:id="@+id/line_orange"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        android:background="#ff7f50"/>
+
+    <!--設定マーク-->
+    <ImageView
+        android:id="@+id/configImage"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/config"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="-80dp"/>
+
+    <!--検索マーク-->
+    <ImageView
+        android:id="@+id/searchImage"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/search"
+        android:layout_gravity="end"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="-67dp"/>
+
+    <!--メガホンマーク-->
+    <ImageView
+        android:id="@+id/megaphoneImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/megaphone"
+        android:layout_marginTop="-75dp" />
+
+
+    <FrameLayout
+        android:id="@+id/mypageframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <!--テキストボックス-->
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:text="からふるの公式サイト・SNSをチェックしてみよう!"
+            android:layout_marginTop="130dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"/>
+
+        <!--ショップ-->
+        <ImageView
+            android:id="@+id/shopView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/shop"
+            android:layout_gravity="center"
+            android:layout_marginTop="-150dp"/>
+
+        <TextView
+            android:id="@+id/shopText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="しょっぷ"
+            android:textColor="#ff7f50"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="-70dp"/>
+
+        <!--クーポン-->
+        <ImageView
+            android:id="@+id/couponView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/coupon"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="180dp"/>
+
+        <TextView
+            android:id="@+id/couponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="くーぽん"
+            android:textColor="#ff7f50"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="330dp"/>
+
+        <!--キーワード-->
+        <ImageView
+            android:id="@+id/keywordView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/keyword"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="180dp"/>
+
+        <TextView
+            android:id="@+id/keywordImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="きーわーど"
+            android:textColor="#ff7f50"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="330dp"/>
+
+        <!--公式サイト-->
+        <ImageView
+            android:id="@+id/official"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/official"
+            android:layout_marginRight="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"/>
+
+        <!--情報提供-->
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/info"
+            android:layout_gravity="center"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="200dp"/>
+
+        <!--Twitter-->
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/twitter"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="200dp"/>
+
+        <!--Instagram-->
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/instagram"
+            android:layout_gravity="center"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="200dp"/>
+
+
+
+
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

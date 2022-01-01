@@ -9,13 +9,11 @@
     android:background="#fff8dc"
     android:textColor="#696969"
     >
- <!--綾部-->
-    
-    
+
     <!--帯-->
     <!--    新規登録画面（2/3）の文字-->
     <TextView
-        android:id="@+id/signupTwoLabel"
+        android:id="@+id/sinupTwoLabel"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -37,7 +35,7 @@
 
     <!--次へボタン-->
     <Button
-        android:id="@+id/signupThree"
+        android:id="@+id/nextButton"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="end"
