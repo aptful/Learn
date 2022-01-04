@@ -34,31 +34,31 @@
         android:background="#ff7f50"/>
 
     <!--設定マーク-->
-    <ImageView
+    <ImageButton
         android:id="@+id/configImage"
         android:layout_width="65dp"
         android:layout_height="65dp"
-        app:srcCompat="@drawable/config"
+        android:background="@drawable/config"
         android:layout_gravity="end"
         android:layout_marginEnd="10dp"
         android:layout_marginTop="-80dp"/>
 
     <!--検索マーク-->
-    <ImageView
+    <ImageButton
         android:id="@+id/searchImage"
         android:layout_width="65dp"
         android:layout_height="65dp"
-        app:srcCompat="@drawable/search"
+        android:background="@drawable/search"
         android:layout_gravity="end"
         android:layout_marginEnd="60dp"
         android:layout_marginTop="-67dp"/>
 
     <!--メガホンマーク-->
-    <ImageView
+    <ImageButton
         android:id="@+id/megaphoneImage"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        app:srcCompat="@drawable/megaphone"
+        android:background="@drawable/megaphone"
         android:layout_marginTop="-75dp" />
 
 
@@ -79,11 +79,11 @@
             android:layout_gravity="center"/>
 
         <!--ショップ-->
-        <ImageView
+        <ImageButton
             android:id="@+id/shopView"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            app:srcCompat="@drawable/shop"
+            android:background="@drawable/shop"
             android:layout_gravity="center"
             android:layout_marginTop="-150dp"/>
 
@@ -98,13 +98,14 @@
             android:layout_marginTop="-70dp"/>
 
         <!--クーポン-->
-        <ImageView
+        <ImageButton
             android:id="@+id/couponView"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            app:srcCompat="@drawable/coupon"
+            android:background="@drawable/coupon"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="180dp"/>
+
 
         <TextView
             android:id="@+id/couponText"
@@ -116,11 +117,11 @@
             android:layout_marginTop="330dp"/>
 
         <!--キーワード-->
-        <ImageView
+        <ImageButton
             android:id="@+id/keywordView"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            app:srcCompat="@drawable/keyword"
+            android:background="@drawable/keyword"
             android:layout_marginLeft="230dp"
             android:layout_marginTop="180dp"/>
 
@@ -134,41 +135,41 @@
             android:layout_marginTop="330dp"/>
 
         <!--公式サイト-->
-        <ImageView
+        <ImageButton
             android:id="@+id/official"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            app:srcCompat="@drawable/official"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/official"
             android:layout_marginRight="120dp"
             android:layout_gravity="center"
             android:layout_marginTop="200dp"/>
 
         <!--情報提供-->
-        <ImageView
+        <ImageButton
             android:id="@+id/info"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            app:srcCompat="@drawable/info"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:background="@drawable/info"
             android:layout_gravity="center"
             android:layout_marginRight="40dp"
             android:layout_marginTop="200dp"/>
 
         <!--Twitter-->
-        <ImageView
+        <ImageButton
             android:id="@+id/twitter"
             android:layout_width="90dp"
             android:layout_height="90dp"
-            app:srcCompat="@drawable/twitter"
+            android:background="@drawable/twitter"
             android:layout_gravity="center"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="200dp"/>
 
         <!--Instagram-->
-        <ImageView
+        <ImageButton
             android:id="@+id/instagram"
             android:layout_width="90dp"
             android:layout_height="90dp"
-            app:srcCompat="@drawable/instagram"
+            android:background="@drawable/instagram"
             android:layout_gravity="center"
             android:layout_marginLeft="120dp"
             android:layout_marginTop="200dp"/>
