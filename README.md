@@ -61,3 +61,58 @@ UI置き場
 	→新規登録画面2
 	
 ・signup3.xml→退会確認画面
+
+
+## app>java>com>example>myapplication[画面表示]
+・configScreen
+	→設定画面の表示
+	
+・couponScreen
+	→クーポン一覧画面の表示
+	
+・favShopScreen
+	→お気に入りのお店一覧画面表示
+	
+・keywordListScreen
+	→お気に入りのキーワード画面表示
+	
+・loginScreen
+	→ログイン画面表示
+	 新規登録画面１に遷移
+	
+・mypageScreen
+	→マイページ画面表示
+	 各画面に遷移
+
+・newsListScreen
+	→お知らせ一覧画面
+	
+・official
+	→設定画面表示
+	
+・searchScreen
+	→検索画面表示
+	
+・signupOne
+	→新規登録画面1表示
+	
+・signupTwo
+	→新規登録画面2表示
+	
+・signupThree
+	→新規登録画面3表示
+	
+
+## app>manifest[]
+・AndroidManifest.xml
+	→.ktを動かすためのactiveを追加
+	
+## Gradleスクリプト
+・build.gradle（モジュール）
+	→ buildFeatures {
+        viewBinding true
+   	 }
+	 
+## app>src>main>res>values>themes
+・themes.xml
+	→タイトルバー退避
