@@ -1,7 +1,6 @@
 package com.example.myapplication
 
 import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
@@ -25,8 +24,8 @@ class mypageScreen : AppCompatActivity() {
         val btncoupon: ImageButton =findViewById(R.id.couponView)
         //キーワードボタン
         val btnkeyword: ImageButton =findViewById(R.id.keywordView)
-//        //公式サイトボタン
-//        val btnofficial: ImageButton =findViewById(R.id.official)
+        //公式サイトボタン
+        val btnofficial: ImageButton =findViewById(R.id.official)
 //        //情報提供ボタン
 //        val btninfo: ImageButton =findViewById(R.id.info)
 //        //ツイッターボタン
@@ -70,16 +69,21 @@ class mypageScreen : AppCompatActivity() {
             startActivity(intent)
         }
 
-//        //公式サイトに遷移
+        //公式サイトに遷移
+        btnofficial.setOnClickListener {
+            val intent = Intent(this,official::class.java)
+            startActivity(intent)
+        }
+////        //公式サイトに遷移
 //        btnofficial.setOnClickListener {
 //            val  uri = "https://www.kutv.co.jp/colorful/"
 //            val intent = Intent(this,uri::class.java)
 //            startActivity(intent);
-//
-////                val url = "https://www.kutv.co.jp/colorful/"
-////                val karaful = Uri.parse(url)
-////                val intent = Intent(this,karaful::class.java)
-////                startActivity(intent)
+
+//                val url = "https://www.kutv.co.jp/colorful/"
+//                val karaful = Uri.parse(url)
+//                val intent = Intent(this,karaful::class.java)
+//                startActivity(intent)
 //
 ////            val urlStr = "https://www.kutv.co.jp/colorful/"
 ////            it.data = Uri.parse(urlStr)
