@@ -25,7 +25,7 @@
 
     <!--戻るボタン-->
     <ImageButton
-        android:id="@+id/returnButton"
+        android:id="@+id/backButton"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginStart="20dp"
@@ -302,7 +302,7 @@
 
     <!--キャンセルボタン-->
     <Button
-        android:id="@+id/cancelbutton"
+        android:id="@+id/cancelButton"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:backgroundTint="#6495ed"

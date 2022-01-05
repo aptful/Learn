@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ayabemio/AndroidStudioProjects/MyApplication12/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
+            "outputFile": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "/Users/ayabemio/.gradle/caches/transforms-3/0a2abf7e181c5770d82904112c96f8dd/transformed/material-1.4.0/res/values-pa/values-pa.xml",

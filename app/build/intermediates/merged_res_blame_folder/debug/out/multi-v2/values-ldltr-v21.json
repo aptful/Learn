@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ayabemio/AndroidStudioProjects/MyApplication12/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
                     "source": "/Users/ayabemio/.gradle/caches/transforms-3/f57567925e7fa33de7bf4ed4afc92d47/transformed/appcompat-1.4.0/res/values-ldltr-v21/values-ldltr-v21.xml",
