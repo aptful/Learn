@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff8dc" >
+
+    <!--作成者：小島-->
+
+    <!--帯-->
+    <!--アカウント内容確認-->
+    <TextView
+        android:id="@+id/keywordScreenText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="アカウント"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:textSize="30sp" />
+
+    <!--オレンジのライン-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:id="@+id/line_orange"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        android:background="#ff7f50"/>
+
+    <!--ホームボタン-->
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:background="@drawable/home"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="-80dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp" />
+
+    <!--戻るボタン-->
+    <ImageButton
+        android:id="@+id/buckButton"
+        android:background="@drawable/back_normal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@drawable/home" />
+
+
+    <!--メイン-->
+    <!--オレンジ：ID-->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="ID"
+        android:textSize="25sp"
+        android:textColor="#fff8dc"
+        android:gravity="center"
+        android:background="@drawable/back"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="50dp"/>
+
+    <!--利用者のID-->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="1230327"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/line"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-100dp"/>
+
+    <!--オレンジ：パスワード-->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="パスワード"
+        android:textSize="25sp"
+        android:textColor="#fff8dc"
+        android:gravity="center"
+        android:background="@drawable/back"
+        android:layout_marginStart="50dp"/>
+
+    <!--利用者のパスワード-->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="●●●●●●●●"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/line"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-100dp"/>
+
+
+    <!--オレンジ：生年月日-->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="生年月日"
+        android:textSize="25sp"
+        android:textColor="#fff8dc"
+        android:gravity="center"
+        android:background="@drawable/back"
+        android:layout_marginStart="50dp"/>
+
+    <!--利用者の生年月日-->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="2000年\n6月27日"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/line"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-100dp"/>
+
+
+
+
+</LinearLayout>

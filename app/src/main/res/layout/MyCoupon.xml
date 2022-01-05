@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff8dc" >
+
+    <!--作成者：小島-->
+
+    <!--帯-->
+    <!--クーポン-->
+    <TextView
+        android:id="@+id/keywordScreenText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="くーぽん"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:textSize="30sp" />
+
+    <!--オレンジのライン-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:id="@+id/line_orange"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        android:background="#ff7f50"/>
+
+    <!--ホームボタン-->
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:background="@drawable/home"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="-80dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"/>
+
+    <!--戻るボタン-->
+    <ImageButton
+        android:id="@+id/buckButton"
+        android:background="@drawable/back_normal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginStart="20dp"/>
+
+    <!--スクロール-->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="@drawable/line"
+                android:gravity="center_horizontal"
+                android:text="Aカフェ\n2022年2月10日まで有効\nトッピング無料"
+                android:textColor="#696969"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="245dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-75dp"
+                android:backgroundTint="#ff7f50"
+                android:text="利用する"
+                android:textColor="#fff8dc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/line"
+                android:gravity="center_horizontal"
+                android:text="Bパン\n2022年2月22日まで有効\nお会計から5%OFF"
+                android:textColor="#696969"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="245dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-75dp"
+                android:backgroundTint="#ff7f50"
+                android:text="利用する"
+                android:textColor="#fff8dc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/line"
+                android:gravity="center_horizontal"
+                android:text="c店\n2022年2月25日まで有効\nお会計から50円引き"
+                android:textColor="#696969"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="245dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-75dp"
+                android:backgroundTint="#ff7f50"
+                android:text="利用する"
+                android:textColor="#fff8dc"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/line"
+                android:gravity="center_horizontal"
+                android:text="D居酒屋\n2022年2月28日まで有効\nバニラアイス無料"
+                android:textColor="#696969"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="245dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-75dp"
+                android:backgroundTint="#ff7f50"
+                android:text="利用する"
+                android:textColor="#fff8dc"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

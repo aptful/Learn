@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff8dc"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--作成者：小島-->
+
+    <!--帯-->
+    <!--利用規約-->
+    <TextView
+        android:id="@+id/ruletitleText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="利用規約"
+        android:textColor="#696969"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!--オレンジのライン-->
+    <View
+        android:id="@+id/line_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#ff7f50"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--ホームボタン-->
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="-80dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/home"
+        app:srcCompat="@drawable/home" />
+
+    <!--戻るボタン-->
+    <ImageButton
+        android:id="@+id/buckButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/back_normal"
+        app:srcCompat="@drawable/home" />
+
+    <!--利用規約-->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/rule__1_" />
+
+</LinearLayout>
