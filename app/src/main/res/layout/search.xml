@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#fff8dc" >
+
+    <!--作成者：小島-->
+
+    <!--帯-->
+    <!--さーち-->
+    <TextView
+        android:id="@+id/keywordScreenText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="さーち"
+        android:textStyle="bold"
+        android:textColor="#696969"
+        android:textSize="30sp" />
+
+    <!--オレンジのライン-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:id="@+id/line_orange"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        android:background="#ff7f50"/>
+
+    <!--ホームボタン-->
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:background="@drawable/home"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="-80dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"/>
+
+    <!--戻るボタン-->
+    <ImageButton
+        android:id="@+id/buckButton"
+        android:background="@drawable/back_normal"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginStart="20dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--テイクアウトボタン-->
+            <Button
+                android:id="@+id/takeoutButton"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#ff7f50"
+                android:text="テイクアウト"
+                android:textSize="30sp"
+                android:gravity="left|center"
+                android:textColor="#fff8dc"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:stateListAnimator="@null"/>
+
+            <TextView
+                android:id="@+id/takeoutText"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="＞"
+                android:textColor="#fff8dc"
+                android:textSize="30sp"
+                android:layout_marginTop="-65dp"
+                android:layout_marginStart="120dp" />
+
+
+            <!--スイーツボタン-->
+            <Button
+                android:id="@+id/sweetsButton"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#ff7f50"
+                android:text="スイーツ"
+                android:textSize="30sp"
+                android:gravity=""
+                android:textColor="#fff8dc"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:stateListAnimator="@null"/>
+
+            <TextView
+                android:id="@+id/sweetsText"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="＞"
+                android:textColor="#fff8dc"
+                android:textSize="30sp"
+                android:layout_marginTop="-65dp"
+                android:layout_marginStart="120dp" />
+
+            <!--ドリンクボタン-->
+            <Button
+                android:id="@+id/drinkButton"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#ff7f50"
+                android:text="ドリンク"
+                android:textSize="30sp"
+                android:gravity=""
+                android:textColor="#fff8dc"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:stateListAnimator="@null"/>
+
+            <TextView
+                android:id="@+id/drinkText"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="＞"
+                android:textColor="#fff8dc"
+                android:textSize="30sp"
+                android:layout_marginTop="-65dp"
+                android:layout_marginStart="120dp" />
+
+
+            <!--カフェボタン-->
+            <Button
+                android:id="@+id/cafeButton"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#ff7f50"
+                android:text="カフェ"
+                android:textSize="30sp"
+                android:gravity=""
+                android:textColor="#fff8dc"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:stateListAnimator="@null"/>
+            <TextView
+                android:id="@+id/cafeText"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="＞"
+                android:textColor="#fff8dc"
+                android:textSize="30sp"
+                android:layout_marginTop="-65dp"
+                android:layout_marginStart="120dp" />
+
+
+            <!--手土産ボタン-->
+            <Button
+                android:id="@+id/temiyageButton"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#ff7f50"
+                android:text="手土産"
+                android:textSize="30sp"
+                android:gravity="left|center"
+                android:textColor="#fff8dc"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:stateListAnimator="@null"/>
+
+            <TextView
+                android:id="@+id/temiyageText"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="＞"
+                android:textColor="#fff8dc"
+                android:textSize="30sp"
+                android:layout_marginTop="-65dp"
+                android:layout_marginStart="120dp" />
+
+            <!--居酒屋ボタン-->
+            <Button
+                android:id="@+id/izakayaButton"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:backgroundTint="#ff7f50"
+                android:text="居酒屋"
+                android:textSize="30sp"
+                android:gravity="left|center"
+                android:textColor="#fff8dc"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:stateListAnimator="@null"/>
+
+            <TextView
+                android:id="@+id/izakayaText"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="＞"
+                android:textColor="#fff8dc"
+                android:textSize="30sp"
+                android:layout_marginTop="-65dp"
+                android:layout_marginStart="120dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
