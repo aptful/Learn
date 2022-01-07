@@ -13,6 +13,9 @@ UI置き場
 ### （例）color
 （例）/lyout/color
 
+## db
+データベース置き場
+
 ## app>src>main>res>drawable[xmlファイル作成時に使うファイル]
 ・back_flame_back_cream.xml
 	→背景：クリーム　枠：黒
