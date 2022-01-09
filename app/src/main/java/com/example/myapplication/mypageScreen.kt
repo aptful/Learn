@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
@@ -26,12 +27,12 @@ class mypageScreen : AppCompatActivity() {
         val btnkeyword: ImageButton =findViewById(R.id.keywordView)
         //公式サイトボタン
         val btnofficial: ImageButton =findViewById(R.id.official)
-//        //情報提供ボタン
-//        val btninfo: ImageButton =findViewById(R.id.info)
-//        //ツイッターボタン
-//        val btntwitter: ImageButton =findViewById(R.id.twitter)
-//        //インスタボタン
-//        val btninstagram: ImageButton =findViewById(R.id.instagram)
+        //情報提供ボタン
+        val btninfo: ImageButton =findViewById(R.id.info)
+        //ツイッターボタン
+        val btntwitter: ImageButton =findViewById(R.id.twitter)
+        //インスタボタン
+        val btninstagram: ImageButton =findViewById(R.id.instagram)
 
         //お知らせ一覧画面に遷移
         btnmegaphone.setOnClickListener {
@@ -71,25 +72,31 @@ class mypageScreen : AppCompatActivity() {
 
         //公式サイトに遷移
         btnofficial.setOnClickListener {
-            val intent = Intent(this,official::class.java)
+            val uri = Uri.parse("https://www.kutv.co.jp/colorful/")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
             startActivity(intent)
         }
-////        //公式サイトに遷移
-//        btnofficial.setOnClickListener {
-//            val  uri = "https://www.kutv.co.jp/colorful/"
-//            val intent = Intent(this,uri::class.java)
-//            startActivity(intent);
 
-//                val url = "https://www.kutv.co.jp/colorful/"
-//                val karaful = Uri.parse(url)
-//                val intent = Intent(this,karaful::class.java)
-//                startActivity(intent)
-//
-////            val urlStr = "https://www.kutv.co.jp/colorful/"
-////            it.data = Uri.parse(urlStr)
-////            val intent = Intent(this,extension3::class.java)
-////            startActivity(intent)
-//        }
+        //情報提供フォームに遷移
+        btninfo.setOnClickListener {
+            val uri = Uri.parse("https://www.kutv.co.jp/colorfulform/")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+
+        //Twitterに遷移
+        btntwitter.setOnClickListener {
+            val uri = Uri.parse("https://twitter.com/kutv_colorful")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+
+        //Instagramに遷移
+        btninstagram.setOnClickListener {
+            val uri = Uri.parse("https://www.instagram.com/kutv_colorful/")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
     }
 
 }
