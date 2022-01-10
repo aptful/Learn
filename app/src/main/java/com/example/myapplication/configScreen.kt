@@ -26,9 +26,26 @@ class configScreen : AppCompatActivity() {
 
         //アカウント内容確認画面に遷移
         btnnext.setOnClickListener {
-            val intent = Intent(this,::class.java)
+            val intent = Intent(this,checkAccountScreen::class.java)
             startActivity(intent)
         }
 
+        //利用規約ボタン
+        val btnrule : Button =findViewById(R.id.ruleButton)
+
+        //利用規約画面に遷移
+        btnrule.setOnClickListener {
+            val intent = Intent(this,ruleScreen::class.java)
+            startActivity(intent)
+        }
+
+        //退会ボタン
+        val btnsignout : Button =findViewById(R.id.signoutButton)
+
+        //退会確認画面に遷移
+        btnsignout.setOnClickListener {
+            val intent = Intent(this,deleteAccountScreen::class.java)
+            startActivity(intent)
+        }
     }
 }

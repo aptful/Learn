@@ -11,7 +11,7 @@ import android.widget.ImageView
 class ruleScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.option)
+        setContentView(R.layout.rulescreen)
 
         //ホームボタン
         val homeButton : ImageView =findViewById(R.id.homeButton)
@@ -21,14 +21,7 @@ class ruleScreen : AppCompatActivity() {
             val intent = Intent(this,mypageScreen::class.java)
             startActivity(intent)
         }
-        //アカウント内容確認ボタン
-        val btnnext : Button =findViewById(R.id.nextButton)
 
-        //アカウント内容確認画面に遷移
-        btnnext.setOnClickListener {
-            val intent = Intent(this,::class.java)
-            startActivity(intent)
-        }
 
     }
 }

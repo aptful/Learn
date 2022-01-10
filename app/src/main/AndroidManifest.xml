@@ -23,6 +23,9 @@
         <activity android:name="signupTwo"/>
         <activity android:name="signupThree"/>
         <activity android:name="configScreen"/>
+        <activity android:name=".checkAccountScreen"/>
+        <activity android:name=".ruleScreen"/>
+        <activity android:name=".deleteAccountScreen"/>
         <activity android:name="searchScreen"/>
         <activity android:name="favShopScreen"/>
         <activity android:name="couponScreen"/>

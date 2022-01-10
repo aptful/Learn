@@ -45,15 +45,15 @@
         android:layout_gravity="end"
         android:layout_marginEnd="10dp" />
 
-    <!--戻るボタン-->
-    <ImageButton
-        android:id="@+id/buckButton"
-        android:background="@drawable/back_normal"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="-60dp"
-        android:layout_marginStart="20dp"
-        app:srcCompat="@drawable/home" />
+<!--    &lt;!&ndash;戻るボタン&ndash;&gt;-->
+<!--    <ImageButton-->
+<!--        android:id="@+id/buckButton"-->
+<!--        android:background="@drawable/back_normal"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginTop="-60dp"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        app:srcCompat="@drawable/home" />-->
 
 
     <!--アカウント内容確認ボタン-->

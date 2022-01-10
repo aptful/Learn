@@ -11,7 +11,7 @@ import android.widget.ImageView
 class deleteAccountScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.option)
+        setContentView(R.layout.withdrawalshow)
 
         //ホームボタン
         val homeButton : ImageView =findViewById(R.id.homeButton)
@@ -21,12 +21,12 @@ class deleteAccountScreen : AppCompatActivity() {
             val intent = Intent(this,mypageScreen::class.java)
             startActivity(intent)
         }
-        //アカウント内容確認ボタン
-        val btnnext : Button =findViewById(R.id.nextButton)
+        //退会ボタン
+        val btnwithdrawal : Button =findViewById(R.id.withdrawalbutton)
 
-        //アカウント内容確認画面に遷移
-        btnnext.setOnClickListener {
-            val intent = Intent(this,::class.java)
+        //設定画面に遷移
+        btnwithdrawal.setOnClickListener {
+            val intent = Intent(this,configScreen::class.java)
             startActivity(intent)
         }
 
