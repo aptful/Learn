@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".keywordListScreen"
-    android:background="#fff8dc" >
+    android:background="#fff8dc"
+    tools:ignore="MissingDefaultResource">
 
     <!--作成者：小島-->
 

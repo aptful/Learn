@@ -11,7 +11,7 @@ import android.widget.ImageView
 class couponScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.newscouponscreen)
+        setContentView(R.layout.mycoupon)
 
         //ホームボタン
         val homeButton : ImageView =findViewById(R.id.homeButton)

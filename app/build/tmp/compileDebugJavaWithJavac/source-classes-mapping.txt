@@ -6,8 +6,8 @@ com/example/myapplication/databinding/OptionBinding.java
  com.example.myapplication.databinding.OptionBinding
 com/example/myapplication/databinding/KeywordeditscreenBinding.java
  com.example.myapplication.databinding.KeywordeditscreenBinding
-com/example/myapplication/databinding/MycouponBinding.java
- com.example.myapplication.databinding.MycouponBinding
+com/example/myapplication/databinding/CheckaccountBinding.java
+ com.example.myapplication.databinding.CheckaccountBinding
 com/example/myapplication/databinding/LoginBinding.java
  com.example.myapplication.databinding.LoginBinding
 com/example/myapplication/databinding/FavshopscreenBinding.java
@@ -32,13 +32,11 @@ com/example/myapplication/databinding/NewslistscreenBinding.java
  com.example.myapplication.databinding.NewslistscreenBinding
 com/example/myapplication/databinding/KeywordshopscreenBinding.java
  com.example.myapplication.databinding.KeywordshopscreenBinding
-com/example/myapplication/databinding/KeywordlistscreenBinding.java
- com.example.myapplication.databinding.KeywordlistscreenBinding
-com/example/myapplication/databinding/CheckaccountBinding.java
- com.example.myapplication.databinding.CheckaccountBinding
+com/example/myapplication/databinding/SearchBinding.java
+ com.example.myapplication.databinding.SearchBinding
 com/example/myapplication/databinding/NewskeywordscreenBinding.java
  com.example.myapplication.databinding.NewskeywordscreenBinding
 com/example/myapplication/databinding/RulescreenBinding.java
  com.example.myapplication.databinding.RulescreenBinding
-com/example/myapplication/databinding/SearchBinding.java
- com.example.myapplication.databinding.SearchBinding
+com/example/myapplication/databinding/MycouponBinding.java
+ com.example.myapplication.databinding.MycouponBinding

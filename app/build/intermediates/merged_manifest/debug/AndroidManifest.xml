@@ -32,6 +32,9 @@
         <activity android:name="com.example.myapplication.signupTwo" />
         <activity android:name="com.example.myapplication.signupThree" />
         <activity android:name="com.example.myapplication.configScreen" />
+        <activity android:name="com.example.myapplication.checkAccountScreen" />
+        <activity android:name="com.example.myapplication.ruleScreen" />
+        <activity android:name="com.example.myapplication.deleteAccountScreen" />
         <activity android:name="com.example.myapplication.searchScreen" />
         <activity android:name="com.example.myapplication.favShopScreen" />
         <activity android:name="com.example.myapplication.couponScreen" />

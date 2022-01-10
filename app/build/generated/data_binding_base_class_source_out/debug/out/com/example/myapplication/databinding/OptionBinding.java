@@ -28,9 +28,6 @@ public final class OptionBinding implements ViewBinding {
   public final TextView accountText;
 
   @NonNull
-  public final ImageButton buckButton;
-
-  @NonNull
   public final ImageButton homeButton;
 
   @NonNull
@@ -58,15 +55,13 @@ public final class OptionBinding implements ViewBinding {
   public final TextView signoutText;
 
   private OptionBinding(@NonNull LinearLayout rootView, @NonNull Button accountButton,
-      @NonNull TextView accountText, @NonNull ImageButton buckButton,
-      @NonNull ImageButton homeButton, @NonNull TextView keywordScreenText,
-      @NonNull View lineOrange, @NonNull Button logoutButton, @NonNull TextView logoutText,
-      @NonNull Button ruleButton, @NonNull TextView ruleText, @NonNull Button signoutButton,
-      @NonNull TextView signoutText) {
+      @NonNull TextView accountText, @NonNull ImageButton homeButton,
+      @NonNull TextView keywordScreenText, @NonNull View lineOrange, @NonNull Button logoutButton,
+      @NonNull TextView logoutText, @NonNull Button ruleButton, @NonNull TextView ruleText,
+      @NonNull Button signoutButton, @NonNull TextView signoutText) {
     this.rootView = rootView;
     this.accountButton = accountButton;
     this.accountText = accountText;
-    this.buckButton = buckButton;
     this.homeButton = homeButton;
     this.keywordScreenText = keywordScreenText;
     this.lineOrange = lineOrange;
@@ -114,12 +109,6 @@ public final class OptionBinding implements ViewBinding {
       id = R.id.accountText;
       TextView accountText = ViewBindings.findChildViewById(rootView, id);
       if (accountText == null) {
-        break missingId;
-      }
-
-      id = R.id.buckButton;
-      ImageButton buckButton = ViewBindings.findChildViewById(rootView, id);
-      if (buckButton == null) {
         break missingId;
       }
 
@@ -177,8 +166,8 @@ public final class OptionBinding implements ViewBinding {
         break missingId;
       }
 
-      return new OptionBinding((LinearLayout) rootView, accountButton, accountText, buckButton,
-          homeButton, keywordScreenText, lineOrange, logoutButton, logoutText, ruleButton, ruleText,
+      return new OptionBinding((LinearLayout) rootView, accountButton, accountText, homeButton,
+          keywordScreenText, lineOrange, logoutButton, logoutText, ruleButton, ruleText,
           signoutButton, signoutText);
     }
     String missingId = rootView.getResources().getResourceName(id);

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-42:12
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-45:12
 MERGED from [androidx.databinding:viewbinding:7.0.3] /Users/ayabemio/.gradle/caches/transforms-3/1cbaff9b5ab917ef7a8600f396f70ecf/transformed/jetified-viewbinding-7.0.3/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/ayabemio/.gradle/caches/transforms-3/b810fbd67bac4a05cbf88abe5cff703f/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/ayabemio/.gradle/caches/transforms-3/0a2abf7e181c5770d82904112c96f8dd/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
@@ -45,25 +45,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ayabemio/.gradle/c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/924db5bfe5c57b30b73f6f45c724441e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/42ffa41eed66a835645ab26fba929fd1/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ayabemio/.gradle/caches/transforms-3/4ec61633d6d3cdffce59747229c850df/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-45:12
+INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-42:12
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-45:12
 		INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-42:12
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:1-45:12
 		INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:5:5-40:19
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:5:5-43:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/ayabemio/.gradle/caches/transforms-3/0a2abf7e181c5770d82904112c96f8dd/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/ayabemio/.gradle/caches/transforms-3/0a2abf7e181c5770d82904112c96f8dd/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] /Users/ayabemio/.gradle/caches/transforms-3/cc253e1064e548dd1869e727f3d493ce/transformed/constraintlayout-2.1.2/AndroidManifest.xml:9:5-20
@@ -128,46 +128,58 @@ activity#com.example.myapplication.configScreen
 ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:25:9-48
 	android:name
 		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:25:19-46
+activity#com.example.myapplication.checkAccountScreen
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:26:9-55
+	android:name
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:26:19-53
+activity#com.example.myapplication.ruleScreen
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:27:9-47
+	android:name
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:27:19-45
+activity#com.example.myapplication.deleteAccountScreen
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:28:9-56
+	android:name
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:28:19-54
 activity#com.example.myapplication.searchScreen
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:26:9-48
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:29:9-48
 	android:name
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:26:19-46
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:29:19-46
 activity#com.example.myapplication.favShopScreen
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:27:9-49
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:30:9-49
 	android:name
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:27:19-47
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:30:19-47
 activity#com.example.myapplication.couponScreen
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:28:9-48
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:31:9-48
 	android:name
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:28:19-46
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:31:19-46
 activity#com.example.myapplication.keywordShopScreen
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:29:9-54
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:32:9-54
 	android:name
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:29:19-52
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:32:19-52
 activity#com.example.myapplication.keywordListScreen
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:30:9-53
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:33:9-53
 	android:name
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:30:19-51
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:33:19-51
 activity#com.example.myapplication.keywordEditScreen
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:31:9-54
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:34:9-54
 	android:name
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:31:19-52
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:34:19-52
 activity#com.example.myapplication.detailShopScreen
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:32:9-53
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:35:9-53
 	android:name
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:32:19-51
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:35:19-51
 activity#com.example.myapplication.newsListScreen
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:33:9-51
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:36:9-51
 	android:name
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:33:19-49
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:36:19-49
 activity#com.example.myapplication.newsCouponScreen
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:34:9-53
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:37:9-53
 	android:name
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:34:19-51
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:37:19-51
 activity#com.example.myapplication.newsKeywordScreen
-ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:35:9-54
+ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:38:9-54
 	android:name
-		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:35:19-52
+		ADDED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:38:19-52
 uses-sdk
 INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml

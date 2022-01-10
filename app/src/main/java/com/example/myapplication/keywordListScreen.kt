@@ -11,7 +11,7 @@ import android.widget.ImageView
 class keywordListScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.keywordAll)
+        setContentView(R.layout.keywordall)
 
         //編集ボタン
         val setButton : Button =findViewById(R.id.setButton)
@@ -32,10 +32,10 @@ class keywordListScreen : AppCompatActivity() {
         }
 
         //キーワードボタン
-        val takeoutButton : Button =findViewById(R.id.takeoutButton)
+        val btntakeout : Button =findViewById(R.id.takeoutButton)
 
         //キーワード該当するお店一覧画面に遷移
-        takeoutButton.setOnClickListener {
+        btntakeout.setOnClickListener {
             val intent = Intent(this,keywordShopScreen::class.java)
             startActivity(intent)
         }

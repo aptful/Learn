@@ -24,10 +24,6 @@
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/black_flame_back_orange.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_keywordlistscreen.xml.flat",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/keywordlistscreen.xml"
-    },
-    {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_coupon.PNG.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/coupon.PNG"
     },
@@ -36,16 +32,16 @@
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/blueborder.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_mycoupon.xml.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/mycoupon.xml"
     },
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_search.PNG.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/search.PNG"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_mycoupon.xml.flat",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/mycoupon.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",

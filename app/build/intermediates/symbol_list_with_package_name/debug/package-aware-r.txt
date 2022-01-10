@@ -2007,7 +2007,6 @@ id breadText
 id broaddayText
 id btnOK
 id buckButton
-id button
 id buttonPanel
 id cache_measures
 id cafeButton
@@ -2506,6 +2505,7 @@ id visible
 id visible_removing_fragment_view_tag
 id west
 id withText
+id withdrawalbutton
 id withinBounds
 id wrap
 id wrap_content
@@ -2604,7 +2604,6 @@ layout detailshopscreen
 layout favshopscreen
 layout keywordall
 layout keywordeditscreen
-layout keywordlistscreen
 layout keywordshopscreen
 layout login
 layout material_chip_input_combo
