@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
+    tools:context=".checkAccountScreen"
     android:background="#fff8dc" >
 
     <!--作成者：小島-->
@@ -65,7 +65,7 @@
         android:textSize="25sp"
         android:textColor="#fff8dc"
         android:gravity="center"
-        android:background="@drawable/back"
+        android:background="@drawable/black_flame_back_orange"
         android:layout_marginTop="80dp"
         android:layout_marginStart="50dp"/>
 
@@ -77,7 +77,7 @@
         android:textSize="25sp"
         android:textColor="@color/black"
         android:gravity="center"
-        android:background="@drawable/line"
+        android:background="@drawable/black_flame_back_cream"
         android:layout_marginStart="200dp"
         android:layout_marginTop="-100dp"/>
 
@@ -89,7 +89,7 @@
         android:textSize="25sp"
         android:textColor="#fff8dc"
         android:gravity="center"
-        android:background="@drawable/back"
+        android:background="@drawable/black_flame_back_orange"
         android:layout_marginStart="50dp"/>
 
     <!--利用者のパスワード-->
@@ -100,7 +100,7 @@
         android:textSize="18sp"
         android:textColor="@color/black"
         android:gravity="center"
-        android:background="@drawable/line"
+        android:background="@drawable/black_flame_back_cream"
         android:layout_marginStart="200dp"
         android:layout_marginTop="-100dp"/>
 
@@ -113,7 +113,7 @@
         android:textSize="25sp"
         android:textColor="#fff8dc"
         android:gravity="center"
-        android:background="@drawable/back"
+        android:background="@drawable/black_flame_back_orange"
         android:layout_marginStart="50dp"/>
 
     <!--利用者の生年月日-->
@@ -124,11 +124,9 @@
         android:textSize="25sp"
         android:textColor="@color/black"
         android:gravity="center"
-        android:background="@drawable/line"
+        android:background="@drawable/black_flame_back_cream"
         android:layout_marginStart="200dp"
         android:layout_marginTop="-100dp"/>
-
-
 
 
 </LinearLayout>

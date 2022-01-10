@@ -37,6 +37,9 @@ public final class KeywordshopscreenBinding implements ViewBinding {
   public final TextView accessText5;
 
   @NonNull
+  public final ImageView backButton;
+
+  @NonNull
   public final ImageView backgroundWhite1;
 
   @NonNull
@@ -85,9 +88,6 @@ public final class KeywordshopscreenBinding implements ViewBinding {
   public final ImageButton imageView3;
 
   @NonNull
-  public final ImageView imageView4;
-
-  @NonNull
   public final View lineOrange;
 
   @NonNull
@@ -113,13 +113,13 @@ public final class KeywordshopscreenBinding implements ViewBinding {
 
   private KeywordshopscreenBinding(@NonNull LinearLayout rootView, @NonNull TextView accessText1,
       @NonNull TextView accessText2, @NonNull TextView accessText3, @NonNull TextView accessText4,
-      @NonNull TextView accessText5, @NonNull ImageView backgroundWhite1,
-      @NonNull ImageView backgroundWhite2, @NonNull ImageView backgroundWhite3,
-      @NonNull ImageView backgroundWhite4, @NonNull ImageView backgroundWhite5,
-      @NonNull TextView dayText1, @NonNull TextView dayText2, @NonNull TextView dayText3,
-      @NonNull TextView dayText4, @NonNull TextView dayText5, @NonNull ImageView homepic1,
-      @NonNull ImageView homepic2, @NonNull ImageView homepic3, @NonNull ImageView homepic4,
-      @NonNull ImageView homepic5, @NonNull ImageButton imageView3, @NonNull ImageView imageView4,
+      @NonNull TextView accessText5, @NonNull ImageView backButton,
+      @NonNull ImageView backgroundWhite1, @NonNull ImageView backgroundWhite2,
+      @NonNull ImageView backgroundWhite3, @NonNull ImageView backgroundWhite4,
+      @NonNull ImageView backgroundWhite5, @NonNull TextView dayText1, @NonNull TextView dayText2,
+      @NonNull TextView dayText3, @NonNull TextView dayText4, @NonNull TextView dayText5,
+      @NonNull ImageView homepic1, @NonNull ImageView homepic2, @NonNull ImageView homepic3,
+      @NonNull ImageView homepic4, @NonNull ImageView homepic5, @NonNull ImageButton imageView3,
       @NonNull View lineOrange, @NonNull TextView shopScreen, @NonNull TextView shopText1,
       @NonNull TextView shopText2, @NonNull TextView shopText3, @NonNull TextView shopText4,
       @NonNull TextView shopText5, @NonNull TextView textView) {
@@ -129,6 +129,7 @@ public final class KeywordshopscreenBinding implements ViewBinding {
     this.accessText3 = accessText3;
     this.accessText4 = accessText4;
     this.accessText5 = accessText5;
+    this.backButton = backButton;
     this.backgroundWhite1 = backgroundWhite1;
     this.backgroundWhite2 = backgroundWhite2;
     this.backgroundWhite3 = backgroundWhite3;
@@ -145,7 +146,6 @@ public final class KeywordshopscreenBinding implements ViewBinding {
     this.homepic4 = homepic4;
     this.homepic5 = homepic5;
     this.imageView3 = imageView3;
-    this.imageView4 = imageView4;
     this.lineOrange = lineOrange;
     this.shopScreen = shopScreen;
     this.shopText1 = shopText1;
@@ -210,6 +210,12 @@ public final class KeywordshopscreenBinding implements ViewBinding {
       id = R.id.accessText5;
       TextView accessText5 = ViewBindings.findChildViewById(rootView, id);
       if (accessText5 == null) {
+        break missingId;
+      }
+
+      id = R.id.backButton;
+      ImageView backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
         break missingId;
       }
 
@@ -309,12 +315,6 @@ public final class KeywordshopscreenBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
-        break missingId;
-      }
-
       id = R.id.line_orange;
       View lineOrange = ViewBindings.findChildViewById(rootView, id);
       if (lineOrange == null) {
@@ -364,11 +364,10 @@ public final class KeywordshopscreenBinding implements ViewBinding {
       }
 
       return new KeywordshopscreenBinding((LinearLayout) rootView, accessText1, accessText2,
-          accessText3, accessText4, accessText5, backgroundWhite1, backgroundWhite2,
+          accessText3, accessText4, accessText5, backButton, backgroundWhite1, backgroundWhite2,
           backgroundWhite3, backgroundWhite4, backgroundWhite5, dayText1, dayText2, dayText3,
           dayText4, dayText5, homepic1, homepic2, homepic3, homepic4, homepic5, imageView3,
-          imageView4, lineOrange, shopScreen, shopText1, shopText2, shopText3, shopText4, shopText5,
-          textView);
+          lineOrange, shopScreen, shopText1, shopText2, shopText3, shopText4, shopText5, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

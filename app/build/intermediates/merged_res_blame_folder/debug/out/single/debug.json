@@ -4,6 +4,10 @@
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/twitter.PNG"
     },
     {
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_search.xml.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/search.xml"
+    },
+    {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_home3.png.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/home3.png"
     },
@@ -20,6 +24,10 @@
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/black_flame_back_orange.xml"
     },
     {
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_keywordlistscreen.xml.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/keywordlistscreen.xml"
+    },
+    {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_coupon.PNG.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/coupon.PNG"
     },
@@ -34,6 +42,10 @@
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_search.PNG.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/search.PNG"
+    },
+    {
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_mycoupon.xml.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/mycoupon.xml"
     },
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -76,12 +88,12 @@
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/login.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_signup2.xml.flat",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/signup2.xml"
-    },
-    {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_home1.png.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/home1.png"
+    },
+    {
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_signup2.xml.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/signup2.xml"
     },
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
@@ -92,8 +104,16 @@
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_checkaccount.xml.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/checkaccount.xml"
+    },
+    {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_images.png.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/images.png"
+    },
+    {
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_rule__1_.jpg.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/rule__1_.jpg"
     },
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_back_normal.jpg.flat",
@@ -106,6 +126,10 @@
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_home.png.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/home.png"
+    },
+    {
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_config.xml.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/config.xml"
     },
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_favshopscreen.xml.flat",
@@ -144,10 +168,6 @@
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/config.PNG"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_official.xml.flat",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/official.xml"
-    },
-    {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
     },
@@ -170,6 +190,10 @@
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_megaphone.PNG.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/megaphone.PNG"
+    },
+    {
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_rulescreen.xml.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/rulescreen.xml"
     },
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_frame2.png.flat",
@@ -208,16 +232,12 @@
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/edittext_flame.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_flame3.png.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/flame3.png"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_shoplist.xml.flat",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/shoplist.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -234,6 +254,10 @@
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_frame.png.flat",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/drawable/frame.png"
+    },
+    {
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/layout_keywordall.xml.flat",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/keywordall.xml"
     },
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_official.jpg.flat",

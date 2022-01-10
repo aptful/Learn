@@ -9,7 +9,7 @@
         android:targetSdkVersion="31" />
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
@@ -31,12 +31,17 @@
         <activity android:name="com.example.myapplication.signupOne" />
         <activity android:name="com.example.myapplication.signupTwo" />
         <activity android:name="com.example.myapplication.signupThree" />
-        <activity android:name="com.example.myapplication.newsListScreen" />
         <activity android:name="com.example.myapplication.configScreen" />
         <activity android:name="com.example.myapplication.searchScreen" />
         <activity android:name="com.example.myapplication.favShopScreen" />
         <activity android:name="com.example.myapplication.couponScreen" />
+        <activity android:name="com.example.myapplication.keywordShopScreen" />
         <activity android:name="com.example.myapplication.keywordListScreen" />
+        <activity android:name="com.example.myapplication.keywordEditScreen" />
+        <activity android:name="com.example.myapplication.detailShopScreen" />
+        <activity android:name="com.example.myapplication.newsListScreen" />
+        <activity android:name="com.example.myapplication.newsCouponScreen" />
+        <activity android:name="com.example.myapplication.newsKeywordScreen" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

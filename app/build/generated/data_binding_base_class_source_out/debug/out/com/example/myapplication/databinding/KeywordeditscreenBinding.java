@@ -58,10 +58,10 @@ public final class KeywordeditscreenBinding implements ViewBinding {
   public final TextView artText;
 
   @NonNull
-  public final TextView breadText;
+  public final ImageButton backButton;
 
   @NonNull
-  public final ImageButton buckButton;
+  public final TextView breadText;
 
   @NonNull
   public final TextView cafeText;
@@ -108,7 +108,7 @@ public final class KeywordeditscreenBinding implements ViewBinding {
       @NonNull TextView added5Button, @NonNull TextView added6Button,
       @NonNull TextView added7Button, @NonNull TextView added8Button,
       @NonNull TextView added9Button, @NonNull TextView addedButton, @NonNull TextView artText,
-      @NonNull TextView breadText, @NonNull ImageButton buckButton, @NonNull TextView cafeText,
+      @NonNull ImageButton backButton, @NonNull TextView breadText, @NonNull TextView cafeText,
       @NonNull Button completebutton, @NonNull TextView creativecuisineText,
       @NonNull TextView drinkText, @NonNull TextView fruitText, @NonNull ImageButton homeButton,
       @NonNull TextView izakayaText, @NonNull TextView keywordScreenText, @NonNull View lineOrange,
@@ -127,8 +127,8 @@ public final class KeywordeditscreenBinding implements ViewBinding {
     this.added9Button = added9Button;
     this.addedButton = addedButton;
     this.artText = artText;
+    this.backButton = backButton;
     this.breadText = breadText;
-    this.buckButton = buckButton;
     this.cafeText = cafeText;
     this.completebutton = completebutton;
     this.creativecuisineText = creativecuisineText;
@@ -243,15 +243,15 @@ public final class KeywordeditscreenBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.breadText;
-      TextView breadText = ViewBindings.findChildViewById(rootView, id);
-      if (breadText == null) {
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
         break missingId;
       }
 
-      id = R.id.buckButton;
-      ImageButton buckButton = ViewBindings.findChildViewById(rootView, id);
-      if (buckButton == null) {
+      id = R.id.breadText;
+      TextView breadText = ViewBindings.findChildViewById(rootView, id);
+      if (breadText == null) {
         break missingId;
       }
 
@@ -335,7 +335,7 @@ public final class KeywordeditscreenBinding implements ViewBinding {
 
       return new KeywordeditscreenBinding((LinearLayout) rootView, addButton, added10Button,
           added2Button, added3Button, added4Button, added5Button, added6Button, added7Button,
-          added8Button, added9Button, addedButton, artText, breadText, buckButton, cafeText,
+          added8Button, added9Button, addedButton, artText, backButton, breadText, cafeText,
           completebutton, creativecuisineText, drinkText, fruitText, homeButton, izakayaText,
           keywordScreenText, lineOrange, meatText, souvenirsText, sweetsText, takeoutText);
     }

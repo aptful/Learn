@@ -13,14 +13,34 @@
         <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2598958333333333" />
         <entry key="app/src/main/res/drawable/orange_circle.xml" value="0.2598958333333333" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.2598958333333333" />
+        <entry key="app/src/main/res/layout/MyCoupon.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/checkAccount.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/checkaccount.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/config.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/detailshopscreen.xml" value="0.21851851851851853" />
         <entry key="app/src/main/res/layout/favshopscreen.xml" value="0.21851851851851853" />
+        <entry key="app/src/main/res/layout/keywordAll.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/keywordEditScreen.xml" value="0.21851851851851853" />
+        <entry key="app/src/main/res/layout/keywordall.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/keywordeditscreen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/keywordlistscreen.xml" value="0.14270833333333333" />
+        <entry key="app/src/main/res/layout/keywordshopscreen.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/login.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/mycoupon.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/mypage.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/newscouponscreen.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/newskeywordscreen.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/newslistscreen.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/option.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/ruleScreen.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/rulescreen.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/search.xml" value="0.13697916666666668" />
+        <entry key="app/src/main/res/layout/signup1.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/signup2.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/signup3.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/sinup1.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/sinup3.xml" value="0.14270833333333333" />
+        <entry key="app/src/main/res/layout/withdrawalshow.xml" value="0.2453125" />
       </map>
     </option>
   </component>

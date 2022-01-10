@@ -1856,6 +1856,7 @@ drawable notify_panel_notification_icon_bg
 drawable official
 drawable orange_circle
 drawable rectangle
+drawable rule__1_
 drawable search
 drawable shop
 drawable test_custom_background
@@ -1867,6 +1868,7 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id ConfigText
 id FUNCTION
 id IDEdit
 id IDText
@@ -1981,6 +1983,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id backButton
 id backgroundWhite1
 id backgroundWhite2
 id backgroundWhite3
@@ -2002,15 +2005,16 @@ id bounceEnd
 id bounceStart
 id breadText
 id broaddayText
+id btnOK
 id buckButton
 id button
 id buttonPanel
 id cache_measures
+id cafeButton
 id cafeText
 id callMeasure
+id cancelButton
 id cancel_button
-id cancelbutton
-id canvelLabel
 id carryVelocity
 id center
 id center_horizontal
@@ -2099,6 +2103,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drinkButton
 id drinkText
 id dropdown_menu
 id easeIn
@@ -2186,6 +2191,7 @@ id item2
 id item3
 id item4
 id item_touch_helper_previous_elevation
+id izakayaButton
 id izakayaText
 id jumpToEnd
 id jumpToStart
@@ -2337,7 +2343,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id returnButton
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2348,6 +2353,7 @@ id row_index_key
 id rule
 id ruleButton
 id ruleText
+id ruletitleText
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2372,6 +2378,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id setButton
 id sharedValueSet
 id sharedValueUnset
 id shopScreen
@@ -2424,6 +2431,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id sweetsButton
 id sweetsText
 id tabMode
 id tag_accessibility_actions
@@ -2439,7 +2447,10 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id takeoutButton
 id takeoutText
+id temiyageButton
+id temiyageText
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2493,7 +2504,6 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
-id webview
 id west
 id withText
 id withinBounds
@@ -2572,6 +2582,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout checkaccount
+layout config
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2590,7 +2602,9 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout detailshopscreen
 layout favshopscreen
+layout keywordall
 layout keywordeditscreen
+layout keywordlistscreen
 layout keywordshopscreen
 layout login
 layout material_chip_input_combo
@@ -2636,6 +2650,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout mycoupon
 layout mypage
 layout newscouponscreen
 layout newskeywordscreen
@@ -2646,12 +2661,12 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-layout official
 layout option
+layout rulescreen
+layout search
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout shoplist
 layout signup1
 layout signup2
 layout signup3

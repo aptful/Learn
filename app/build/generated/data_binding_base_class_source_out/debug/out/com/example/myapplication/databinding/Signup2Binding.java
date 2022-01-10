@@ -55,13 +55,16 @@ public final class Signup2Binding implements ViewBinding {
   public final TextView artText;
 
   @NonNull
+  public final ImageButton backButton;
+
+  @NonNull
   public final TextView breadText;
 
   @NonNull
   public final TextView cafeText;
 
   @NonNull
-  public final Button cancelbutton;
+  public final Button cancelButton;
 
   @NonNull
   public final TextView creativecuisineText;
@@ -82,9 +85,6 @@ public final class Signup2Binding implements ViewBinding {
   public final Button nextButton;
 
   @NonNull
-  public final ImageButton returnButton;
-
-  @NonNull
   public final TextView sinupTwoLabel;
 
   @NonNull
@@ -101,11 +101,11 @@ public final class Signup2Binding implements ViewBinding {
       @NonNull TextView added4Button, @NonNull TextView added5Button,
       @NonNull TextView added6Button, @NonNull TextView added7Button,
       @NonNull TextView added8Button, @NonNull TextView added9Button, @NonNull TextView addedButton,
-      @NonNull TextView artText, @NonNull TextView breadText, @NonNull TextView cafeText,
-      @NonNull Button cancelbutton, @NonNull TextView creativecuisineText,
-      @NonNull TextView customizeText, @NonNull TextView drinkText, @NonNull TextView fruitText,
-      @NonNull TextView izakayaText, @NonNull Button nextButton, @NonNull ImageButton returnButton,
-      @NonNull TextView sinupTwoLabel, @NonNull TextView souvenirsText,
+      @NonNull TextView artText, @NonNull ImageButton backButton, @NonNull TextView breadText,
+      @NonNull TextView cafeText, @NonNull Button cancelButton,
+      @NonNull TextView creativecuisineText, @NonNull TextView customizeText,
+      @NonNull TextView drinkText, @NonNull TextView fruitText, @NonNull TextView izakayaText,
+      @NonNull Button nextButton, @NonNull TextView sinupTwoLabel, @NonNull TextView souvenirsText,
       @NonNull TextView sweetsText, @NonNull TextView takeoutText) {
     this.rootView = rootView;
     this.addButton = addButton;
@@ -119,16 +119,16 @@ public final class Signup2Binding implements ViewBinding {
     this.added9Button = added9Button;
     this.addedButton = addedButton;
     this.artText = artText;
+    this.backButton = backButton;
     this.breadText = breadText;
     this.cafeText = cafeText;
-    this.cancelbutton = cancelbutton;
+    this.cancelButton = cancelButton;
     this.creativecuisineText = creativecuisineText;
     this.customizeText = customizeText;
     this.drinkText = drinkText;
     this.fruitText = fruitText;
     this.izakayaText = izakayaText;
     this.nextButton = nextButton;
-    this.returnButton = returnButton;
     this.sinupTwoLabel = sinupTwoLabel;
     this.souvenirsText = souvenirsText;
     this.sweetsText = sweetsText;
@@ -228,6 +228,12 @@ public final class Signup2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
+        break missingId;
+      }
+
       id = R.id.breadText;
       TextView breadText = ViewBindings.findChildViewById(rootView, id);
       if (breadText == null) {
@@ -240,9 +246,9 @@ public final class Signup2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cancelbutton;
-      Button cancelbutton = ViewBindings.findChildViewById(rootView, id);
-      if (cancelbutton == null) {
+      id = R.id.cancelButton;
+      Button cancelButton = ViewBindings.findChildViewById(rootView, id);
+      if (cancelButton == null) {
         break missingId;
       }
 
@@ -282,12 +288,6 @@ public final class Signup2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.returnButton;
-      ImageButton returnButton = ViewBindings.findChildViewById(rootView, id);
-      if (returnButton == null) {
-        break missingId;
-      }
-
       id = R.id.sinupTwoLabel;
       TextView sinupTwoLabel = ViewBindings.findChildViewById(rootView, id);
       if (sinupTwoLabel == null) {
@@ -314,8 +314,8 @@ public final class Signup2Binding implements ViewBinding {
 
       return new Signup2Binding((LinearLayout) rootView, addButton, added2Button, added3Button,
           added4Button, added5Button, added6Button, added7Button, added8Button, added9Button,
-          addedButton, artText, breadText, cafeText, cancelbutton, creativecuisineText,
-          customizeText, drinkText, fruitText, izakayaText, nextButton, returnButton, sinupTwoLabel,
+          addedButton, artText, backButton, breadText, cafeText, cancelButton, creativecuisineText,
+          customizeText, drinkText, fruitText, izakayaText, nextButton, sinupTwoLabel,
           souvenirsText, sweetsText, takeoutText);
     }
     String missingId = rootView.getResources().getResourceName(id);

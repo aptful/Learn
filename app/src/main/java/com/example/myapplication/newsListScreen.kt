@@ -3,8 +3,8 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 
 //作成者：綾部
 
@@ -22,14 +22,23 @@ class newsListScreen : AppCompatActivity() {
             startActivity(intent)
         }
 
-//        //新規登録画面2ボタン
-//        val btnnext : Button =findViewById(R.id.nextButton)
-//
-//        //新規登録画面3に遷移
-//        btnnext.setOnClickListener {
-//            val intent = Intent(this,signupThree::class.java)
-//            startActivity(intent)
-//        }
+        //クーポンお知らせボタン
+        val btncoupon : TextView =findViewById(R.id.couponButton)
+
+        //クーポンお知らせ一覧画面に遷移
+        btncoupon.setOnClickListener {
+            val intent = Intent(this,newsCouponScreen::class.java)
+            startActivity(intent)
+        }
+
+        //キーワードお知らせボタン
+        val btnkeyword : TextView =findViewById(R.id.keywordButton)
+
+        //キーワードお知らせ一覧画面に遷移
+         btnkeyword.setOnClickListener {
+            val intent = Intent(this,newsKeywordScreen::class.java)
+            startActivity(intent)
+        }
 
     }
 }

@@ -32,10 +32,13 @@ public final class Signup1Binding implements ViewBinding {
   public final TextView attentionSinupText;
 
   @NonNull
+  public final ImageView backButton;
+
+  @NonNull
   public final TextView birthText;
 
   @NonNull
-  public final TextView canvelLabel;
+  public final Button cancelButton;
 
   @NonNull
   public final EditText dayEdit;
@@ -45,9 +48,6 @@ public final class Signup1Binding implements ViewBinding {
 
   @NonNull
   public final TextView id;
-
-  @NonNull
-  public final ImageView imageView4;
 
   @NonNull
   public final EditText monthEdit;
@@ -75,8 +75,8 @@ public final class Signup1Binding implements ViewBinding {
 
   private Signup1Binding(@NonNull LinearLayout rootView, @NonNull TextView IDText,
       @NonNull TextView IDcomentText, @NonNull TextView attentionSinupText,
-      @NonNull TextView birthText, @NonNull TextView canvelLabel, @NonNull EditText dayEdit,
-      @NonNull TextView dayText, @NonNull TextView id, @NonNull ImageView imageView4,
+      @NonNull ImageView backButton, @NonNull TextView birthText, @NonNull Button cancelButton,
+      @NonNull EditText dayEdit, @NonNull TextView dayText, @NonNull TextView id,
       @NonNull EditText monthEdit, @NonNull TextView monthText, @NonNull Button nextButton,
       @NonNull EditText passwordEdit, @NonNull TextView passwordText,
       @NonNull TextView sinupOneLabel, @NonNull EditText yearEdit, @NonNull TextView yearText) {
@@ -84,12 +84,12 @@ public final class Signup1Binding implements ViewBinding {
     this.IDText = IDText;
     this.IDcomentText = IDcomentText;
     this.attentionSinupText = attentionSinupText;
+    this.backButton = backButton;
     this.birthText = birthText;
-    this.canvelLabel = canvelLabel;
+    this.cancelButton = cancelButton;
     this.dayEdit = dayEdit;
     this.dayText = dayText;
     this.id = id;
-    this.imageView4 = imageView4;
     this.monthEdit = monthEdit;
     this.monthText = monthText;
     this.nextButton = nextButton;
@@ -145,15 +145,21 @@ public final class Signup1Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.backButton;
+      ImageView backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
+        break missingId;
+      }
+
       id = R.id.birthText;
       TextView birthText = ViewBindings.findChildViewById(rootView, id);
       if (birthText == null) {
         break missingId;
       }
 
-      id = R.id.canvelLabel;
-      TextView canvelLabel = ViewBindings.findChildViewById(rootView, id);
-      if (canvelLabel == null) {
+      id = R.id.cancelButton;
+      Button cancelButton = ViewBindings.findChildViewById(rootView, id);
+      if (cancelButton == null) {
         break missingId;
       }
 
@@ -172,12 +178,6 @@ public final class Signup1Binding implements ViewBinding {
       id = R.id.id;
       TextView id_ = ViewBindings.findChildViewById(rootView, id);
       if (id_ == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
         break missingId;
       }
 
@@ -230,7 +230,7 @@ public final class Signup1Binding implements ViewBinding {
       }
 
       return new Signup1Binding((LinearLayout) rootView, IDText, IDcomentText, attentionSinupText,
-          birthText, canvelLabel, dayEdit, dayText, id_, imageView4, monthEdit, monthText,
+          backButton, birthText, cancelButton, dayEdit, dayText, id_, monthEdit, monthText,
           nextButton, passwordEdit, passwordText, sinupOneLabel, yearEdit, yearText);
     }
     String missingId = rootView.getResources().getResourceName(id);

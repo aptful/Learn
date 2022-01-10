@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#fff8dc"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ruleScreen">
 
     <!--作成者：小島-->
 

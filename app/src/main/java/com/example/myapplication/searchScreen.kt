@@ -11,7 +11,16 @@ import android.widget.ImageView
 class searchScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.login)
+        setContentView(R.layout.search)
+
+        //キーワードボタン
+        val  btntakeout: Button =findViewById(R.id.takeoutButton)
+
+        //キーワードに該当するお店一覧画面遷移
+        btntakeout.setOnClickListener {
+            val intent = Intent(this,keywordShopScreen::class.java)
+            startActivity(intent)
+        }
 
         //ホームボタン
         val homeButton : ImageView =findViewById(R.id.homeButton)

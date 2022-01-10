@@ -21,14 +21,14 @@ class configScreen : AppCompatActivity() {
             val intent = Intent(this,mypageScreen::class.java)
             startActivity(intent)
         }
-//        //新規登録画面2ボタン
-//        val btnnext : Button =findViewById(R.id.nextButton)
-//
-//        //新規登録画面3に遷移
-//        btnnext.setOnClickListener {
-//            val intent = Intent(this,::class.java)
-//            startActivity(intent)
-//        }
+        //アカウント内容確認ボタン
+        val btnnext : Button =findViewById(R.id.nextButton)
+
+        //アカウント内容確認画面に遷移
+        btnnext.setOnClickListener {
+            val intent = Intent(this,::class.java)
+            startActivity(intent)
+        }
 
     }
 }

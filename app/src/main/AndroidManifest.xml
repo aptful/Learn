@@ -22,13 +22,19 @@
         <activity android:name="signupOne"/>
         <activity android:name="signupTwo"/>
         <activity android:name="signupThree"/>
-        <activity android:name="newsListScreen"/>
-        <activity android:name=".configScreen"/>
-        <activity android:name=".searchScreen"/>
-        <activity android:name=".favShopScreen"/>
-        <activity android:name=".couponScreen"/>
-        <activity android:name=".keywordListScreen"/>
-        <activity android:name=".official"/>
+        <activity android:name="configScreen"/>
+        <activity android:name="searchScreen"/>
+        <activity android:name="favShopScreen"/>
+        <activity android:name="couponScreen"/>
+        <activity android:name=".keywordShopScreen"/>
+        <activity android:name="keywordListScreen"/>
+        <activity android:name=".keywordEditScreen"/>
+        <activity android:name=".detailShopScreen"/>
+        <activity android:name=".newsListScreen"/>
+        <activity android:name=".newsCouponScreen"/>
+        <activity android:name=".newsKeywordScreen"/>
+
+
 
 
     </application>

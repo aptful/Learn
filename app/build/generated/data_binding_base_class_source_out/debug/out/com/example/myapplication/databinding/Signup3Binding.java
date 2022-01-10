@@ -28,25 +28,25 @@ public final class Signup3Binding implements ViewBinding {
   public final TextView IDSinupText;
 
   @NonNull
+  public final ImageView backButton;
+
+  @NonNull
   public final TextView birthdayEditSinupText;
 
   @NonNull
   public final TextView birthdaySinupText;
 
   @NonNull
-  public final Button cancelbutton;
+  public final Button btnOK;
 
   @NonNull
-  public final ImageView imageView4;
+  public final Button cancelButton;
 
   @NonNull
   public final TextView keywordText;
 
   @NonNull
   public final TextView looksinupText;
-
-  @NonNull
-  public final Button nextButton;
 
   @NonNull
   public final TextView passwordEditSinupText;
@@ -64,22 +64,22 @@ public final class Signup3Binding implements ViewBinding {
   public final TextView sinupOneLabel;
 
   private Signup3Binding(@NonNull LinearLayout rootView, @NonNull TextView IDEditSinupText,
-      @NonNull TextView IDSinupText, @NonNull TextView birthdayEditSinupText,
-      @NonNull TextView birthdaySinupText, @NonNull Button cancelbutton,
-      @NonNull ImageView imageView4, @NonNull TextView keywordText, @NonNull TextView looksinupText,
-      @NonNull Button nextButton, @NonNull TextView passwordEditSinupText,
+      @NonNull TextView IDSinupText, @NonNull ImageView backButton,
+      @NonNull TextView birthdayEditSinupText, @NonNull TextView birthdaySinupText,
+      @NonNull Button btnOK, @NonNull Button cancelButton, @NonNull TextView keywordText,
+      @NonNull TextView looksinupText, @NonNull TextView passwordEditSinupText,
       @NonNull TextView passwordSinupText, @NonNull TextView rule, @NonNull TextView ruleText,
       @NonNull TextView sinupOneLabel) {
     this.rootView = rootView;
     this.IDEditSinupText = IDEditSinupText;
     this.IDSinupText = IDSinupText;
+    this.backButton = backButton;
     this.birthdayEditSinupText = birthdayEditSinupText;
     this.birthdaySinupText = birthdaySinupText;
-    this.cancelbutton = cancelbutton;
-    this.imageView4 = imageView4;
+    this.btnOK = btnOK;
+    this.cancelButton = cancelButton;
     this.keywordText = keywordText;
     this.looksinupText = looksinupText;
-    this.nextButton = nextButton;
     this.passwordEditSinupText = passwordEditSinupText;
     this.passwordSinupText = passwordSinupText;
     this.rule = rule;
@@ -126,6 +126,12 @@ public final class Signup3Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.backButton;
+      ImageView backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
+        break missingId;
+      }
+
       id = R.id.birthday_edit__sinupText;
       TextView birthdayEditSinupText = ViewBindings.findChildViewById(rootView, id);
       if (birthdayEditSinupText == null) {
@@ -138,15 +144,15 @@ public final class Signup3Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cancelbutton;
-      Button cancelbutton = ViewBindings.findChildViewById(rootView, id);
-      if (cancelbutton == null) {
+      id = R.id.btnOK;
+      Button btnOK = ViewBindings.findChildViewById(rootView, id);
+      if (btnOK == null) {
         break missingId;
       }
 
-      id = R.id.imageView4;
-      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView4 == null) {
+      id = R.id.cancelButton;
+      Button cancelButton = ViewBindings.findChildViewById(rootView, id);
+      if (cancelButton == null) {
         break missingId;
       }
 
@@ -159,12 +165,6 @@ public final class Signup3Binding implements ViewBinding {
       id = R.id.looksinupText;
       TextView looksinupText = ViewBindings.findChildViewById(rootView, id);
       if (looksinupText == null) {
-        break missingId;
-      }
-
-      id = R.id.nextButton;
-      Button nextButton = ViewBindings.findChildViewById(rootView, id);
-      if (nextButton == null) {
         break missingId;
       }
 
@@ -198,10 +198,9 @@ public final class Signup3Binding implements ViewBinding {
         break missingId;
       }
 
-      return new Signup3Binding((LinearLayout) rootView, IDEditSinupText, IDSinupText,
-          birthdayEditSinupText, birthdaySinupText, cancelbutton, imageView4, keywordText,
-          looksinupText, nextButton, passwordEditSinupText, passwordSinupText, rule, ruleText,
-          sinupOneLabel);
+      return new Signup3Binding((LinearLayout) rootView, IDEditSinupText, IDSinupText, backButton,
+          birthdayEditSinupText, birthdaySinupText, btnOK, cancelButton, keywordText, looksinupText,
+          passwordEditSinupText, passwordSinupText, rule, ruleText, sinupOneLabel);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

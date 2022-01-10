@@ -11,7 +11,7 @@ import android.widget.ImageView
 class keywordListScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.keywordlistscreen)
+        setContentView(R.layout.keywordAll)
 
         //編集ボタン
         val setButton : Button =findViewById(R.id.setButton)
