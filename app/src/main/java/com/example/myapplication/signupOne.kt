@@ -23,9 +23,9 @@ class signupOne : AppCompatActivity() {
         val textDayEdit = findViewById<EditText>(R.id.dayEdit)          //誕生日入力欄
 
         //新規登録画面2に遷移
-            btnnext.setOnClickListener {
-                val intent = Intent(this, signupTwo::class.java)
-                if(textPasswordEdit.length() > 0 && textYearEdit.length() > 0 && textMonthEdit.length() > 0 && textDayEdit.length() > 0){
+        btnnext.setOnClickListener {
+            val intent = Intent(this, signupTwo::class.java)
+            if(textPasswordEdit.length() > 0 && textYearEdit.length() > 0 && textMonthEdit.length() > 0 && textDayEdit.length() > 0){
                 startActivity(intent)
             }
         }

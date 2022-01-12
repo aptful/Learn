@@ -1251,6 +1251,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1260,7 +1261,6 @@ color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color purple_200
-color purple_500
 color purple_700
 color radiobutton_themeable_attribute_color
 color ripple_material_dark
@@ -2249,6 +2249,8 @@ id line_orange
 id linear
 id listMode
 id list_item
+id loading
+id login
 id loginButton
 id logoutButton
 id logoutText
@@ -2357,6 +2359,7 @@ id parentRelative
 id parent_matrix
 id passEdit
 id passText
+id password
 id passwordEdit
 id passwordText
 id password_edit__sinupText
@@ -2532,6 +2535,7 @@ id up
 id useButton
 id useButton1
 id useLogo
+id username
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -2632,6 +2636,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout checkaccount
 layout config
 layout custom_dialog
@@ -2780,6 +2785,8 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_sign_in
+string action_sign_in_short
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -2796,8 +2803,12 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string id_label
+string invalid_password
+string invalid_username
 string item_view_role_description
 string keyword
+string login_failed
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2853,13 +2864,19 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string newcreate
+string password_label
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string prompt_id
+string prompt_password
 string search_menu_title
 string status_bar_notification_info_overflow
+string title_label
+string welcome
 string zxing_app_name
 string zxing_button_ok
 string zxing_msg_camera_framework_bug

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "outputFile": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/Users/ayabemio/.gradle/caches/transforms-3/eb80740f1dfca68fbba69852f8ce6331/transformed/material-1.4.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "source": "C:\\Users\\mssp_\\.gradle\\caches\\transforms-3\\eb80740f1dfca68fbba69852f8ce6331\\transformed\\material-1.4.0\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
