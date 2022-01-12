@@ -131,7 +131,7 @@
 
     <!--西暦-->
     <TextView
-        android:id="@+id/yearText"
+        android:id="@+id/seirekiText"
         android:layout_width="50dp"
         android:layout_height="30dp"
         android:layout_marginLeft="50dp"
@@ -160,26 +160,28 @@
         android:paddingLeft="5dp"
         />
 
-    <!--月-->
+
+
+    <!--年-->
     <TextView
-        android:id="@+id/monthText"
+        android:id="@+id/yearText"
         android:layout_width="26dp"
         android:layout_height="40dp"
-        android:layout_marginTop="-35dp"
         android:layout_marginLeft="158dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text2"
-        android:text="月"
-        android:textSize="20dp"
-        android:textColor="#696969"
+        android:layout_marginTop="-35dp"
         android:gravity="center_vertical"
         android:paddingLeft="5dp"
-        />
+        android:text="年"
+        android:textColor="#696969"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
     <!--月入力フォーム-->
     <EditText
         android:id="@+id/monthEdit"
-        android:layout_marginTop="-36dp"
+        android:layout_marginTop="-35dp"
         android:layout_marginLeft="185dp"
         android:layout_width="45dp"
         android:layout_height="30dp"
@@ -193,9 +195,11 @@
         android:paddingLeft="5dp"
         />
 
-    <!--日-->
+
+
+    <!--月-->
     <TextView
-        android:id="@+id/dayText"
+        android:id="@+id/monthText"
         android:layout_width="26dp"
         android:layout_height="40dp"
         android:layout_marginTop="-35dp"
@@ -203,7 +207,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text2"
-        android:text="日"
+        android:text="月"
         android:textSize="20dp"
         android:textColor="#696969"
         android:gravity="center_vertical"
@@ -223,6 +227,23 @@
         android:inputType="number"
         android:textColor="#696969"
         android:background="@drawable/edittext_flame"
+        android:paddingLeft="5dp"
+        />
+
+    <!--日-->
+    <TextView
+        android:id="@+id/dayText"
+        android:layout_width="26dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-35dp"
+        android:layout_marginLeft="300dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        android:text="日"
+        android:textSize="20dp"
+        android:textColor="#696969"
+        android:gravity="center_vertical"
         android:paddingLeft="5dp"
         />
 

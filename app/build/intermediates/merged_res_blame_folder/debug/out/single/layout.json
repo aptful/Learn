@@ -8,10 +8,6 @@
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/favshopscreen.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/keywordlistscreen.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/keywordlistscreen.xml"
-    },
-    {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/config.xml",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/config.xml"
     },
@@ -46,10 +42,6 @@
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/newscouponscreen.xml",
         "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/newscouponscreen.xml"
-    },
-    {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/official.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/official.xml"
     },
     {
         "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/option.xml",

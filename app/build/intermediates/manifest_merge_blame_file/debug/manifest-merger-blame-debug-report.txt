@@ -10,117 +10,235 @@
 9        android:targetSdkVersion="31" />
 9-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:5:5-43:19
-12        android:allowBackup="false"
-12-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:6:9-36
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] /Users/ayabemio/.gradle/caches/transforms-3/f151290c6ded99e73cc30cce4233ae32/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:9:9-54
-18        android:supportsRtl="false"
-18-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:10:9-36
-19        android:testOnly="true"
-20        android:theme="@style/Theme.MyApplication" >
-20-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:11:9-51
-21        <activity
-21-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:12:9-20:20
-22            android:name="com.example.myapplication.loginScreen"
-22-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:13:13-40
-23            android:exported="true" >
-23-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:14:13-36
-24            <intent-filter>
-24-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:15:13-19:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:16:17-69
-25-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:16:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:18:17-77
-27-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:18:27-74
-28            </intent-filter>
-29        </activity>
-30        <activity android:name="com.example.myapplication.mypageScreen" />
-30-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:21:9-48
-30-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:21:19-46
-31        <activity android:name="com.example.myapplication.signupOne" />
-31-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:22:9-45
-31-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:22:19-43
-32        <activity android:name="com.example.myapplication.signupTwo" />
-32-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:23:9-45
-32-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:23:19-43
-33        <activity android:name="com.example.myapplication.signupThree" />
-33-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:24:9-47
-33-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:24:19-45
-34        <activity android:name="com.example.myapplication.configScreen" />
-34-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:25:9-48
-34-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:25:19-46
-35        <activity android:name="com.example.myapplication.checkAccountScreen" />
-35-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:26:9-55
-35-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:26:19-53
-36        <activity android:name="com.example.myapplication.ruleScreen" />
-36-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:27:9-47
-36-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:27:19-45
-37        <activity android:name="com.example.myapplication.deleteAccountScreen" />
-37-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:28:9-56
-37-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:28:19-54
-38        <activity android:name="com.example.myapplication.searchScreen" />
-38-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:29:9-48
-38-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:29:19-46
-39        <activity android:name="com.example.myapplication.favShopScreen" />
-39-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:30:9-49
-39-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:30:19-47
-40        <activity android:name="com.example.myapplication.couponScreen" />
-40-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:31:9-48
-40-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:31:19-46
-41        <activity android:name="com.example.myapplication.keywordShopScreen" />
-41-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:32:9-54
-41-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:32:19-52
-42        <activity android:name="com.example.myapplication.keywordListScreen" />
-42-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:33:9-53
-42-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:33:19-51
-43        <activity android:name="com.example.myapplication.keywordEditScreen" />
-43-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:34:9-54
-43-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:34:19-52
-44        <activity android:name="com.example.myapplication.detailShopScreen" />
-44-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:35:9-53
-44-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:35:19-51
-45        <activity android:name="com.example.myapplication.newsListScreen" />
-45-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:36:9-51
-45-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:36:19-49
-46        <activity android:name="com.example.myapplication.newsCouponScreen" />
-46-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:37:9-53
-46-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:37:19-51
-47        <activity android:name="com.example.myapplication.newsKeywordScreen" />
-47-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:38:9-54
-47-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:38:19-52
-48
-49        <provider
-49-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-50            android:name="androidx.startup.InitializationProvider"
-50-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-51            android:authorities="com.example.myapplication.androidx-startup"
-51-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-52            android:exported="false" >
-52-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-53            <meta-data
-53-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-54-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-55                android:value="androidx.startup" />
-55-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-56            <meta-data
-56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ayabemio/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-57-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ayabemio/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-58                android:value="androidx.startup" />
-58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ayabemio/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-59        </provider>
-60    </application>
-61
-62</manifest>
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:5:5-64
+11-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.FLASHLIGHT" />
+12-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:6:5-68
+12-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:6:22-66
+13    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+13-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:24:5-66
+13-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:24:22-63
+14    <uses-feature
+14-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:28:5-30:36
+15        android:name="android.hardware.camera"
+15-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:29:9-47
+16        android:required="false" />
+16-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:30:9-33
+17    <uses-feature
+17-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:31:5-33:36
+18        android:name="android.hardware.camera.front"
+18-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:32:9-53
+19        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+19-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:33:9-33
+20    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+21    <uses-feature
+21-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:36:5-38:36
+22        android:name="android.hardware.camera.autofocus"
+22-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:37:9-57
+23        android:required="false" />
+23-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:38:9-33
+24    <uses-feature
+24-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:39:5-41:36
+25        android:name="android.hardware.camera.flash"
+25-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:40:9-53
+26        android:required="false" />
+26-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:41:9-33
+27    <uses-feature
+27-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:42:5-44:36
+28        android:name="android.hardware.screen.landscape"
+28-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:43:9-57
+29        android:required="false" />
+29-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:44:9-33
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:45:5-47:36
+31        android:name="android.hardware.wifi"
+31-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:46:9-45
+32        android:required="false" /> <!-- TODO make this not required again after android.hardware.camera.any is available -->
+32-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:47:9-33
+33    <!-- Donut-specific flags which allow us to run on any dpi screens. -->
+34    <supports-screens
+34-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:52:5-57:40
+35        android:anyDensity="true"
+35-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:53:9-34
+36        android:largeScreens="true"
+36-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:54:9-36
+37        android:normalScreens="true"
+37-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:55:9-37
+38        android:smallScreens="true"
+38-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:56:9-36
+39        android:xlargeScreens="true" />
+39-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:57:9-37
+40
+41    <application
+41-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:7:5-49:19
+42        android:allowBackup="false"
+42-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:8:9-36
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.7.0] /Users/ayabemio/.gradle/caches/transforms-3/f151290c6ded99e73cc30cce4233ae32/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:9:9-43
+46        android:label="@string/app_name"
+46-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:10:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:11:9-54
+48        android:supportsRtl="false"
+48-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:12:9-36
+49        android:testOnly="true"
+50        android:theme="@style/Theme.MyApplication" >
+50-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:13:9-51
+51        <activity
+51-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:14:9-22:20
+52            android:name="com.example.myapplication.loginScreen"
+52-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:15:13-40
+53            android:exported="true" >
+53-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:16:13-36
+54            <intent-filter>
+54-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:17:13-21:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:18:17-69
+55-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:18:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:20:17-77
+57-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:20:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity android:name="com.example.myapplication.keywordShopScreen" />
+60-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:23:9-54
+60-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:23:19-52
+61        <activity android:name="com.example.myapplication.mypageScreen" />
+61-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:24:9-48
+61-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:24:19-46
+62        <activity android:name="com.example.myapplication.signupOne" />
+62-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:25:9-45
+62-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:25:19-43
+63        <activity android:name="com.example.myapplication.signupTwo" />
+63-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:26:9-45
+63-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:26:19-43
+64        <activity android:name="com.example.myapplication.signupThree" />
+64-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:27:9-47
+64-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:27:19-45
+65        <activity android:name="com.example.myapplication.configScreen" />
+65-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:28:9-48
+65-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:28:19-46
+66        <activity android:name="com.example.myapplication.checkAccountScreen" />
+66-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:29:9-55
+66-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:29:19-53
+67        <activity android:name="com.example.myapplication.ruleScreen" />
+67-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:30:9-47
+67-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:30:19-45
+68        <activity android:name="com.example.myapplication.deleteAccountScreen" />
+68-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:31:9-56
+68-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:31:19-54
+69        <activity android:name="com.example.myapplication.searchScreen" />
+69-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:32:9-48
+69-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:32:19-46
+70        <activity android:name="com.example.myapplication.couponScreen" />
+70-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:34:9-48
+70-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:34:19-46
+71        <activity android:name="com.example.myapplication.keywordListScreen" />
+71-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:36:9-53
+71-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:36:19-51
+72        <activity android:name="com.example.myapplication.keywordEditScreen" />
+72-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:37:9-54
+72-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:37:19-52
+73        <activity android:name="com.example.myapplication.detailShopScreen" />
+73-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:38:9-53
+73-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:38:19-51
+74        <activity android:name="com.example.myapplication.newsListScreen" />
+74-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:39:9-51
+74-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:39:19-49
+75        <activity android:name="com.example.myapplication.newsCouponScreen" />
+75-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:40:9-53
+75-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:40:19-51
+76        <activity android:name="com.example.myapplication.newsKeywordScreen" />
+76-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:41:9-54
+76-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:41:19-52
+77        <activity android:name="com.example.myapplication.favShopScreen" />
+77-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:42:9-50
+77-->/Users/ayabemio/github/aptful_system/app/src/main/AndroidManifest.xml:42:19-48
+78        <activity
+78-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:60:9-66:63
+79            android:name="com.google.zxing.client.android.CaptureActivity"
+79-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:61:13-75
+80            android:clearTaskOnLaunch="true"
+80-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:62:13-45
+81            android:screenOrientation="sensorLandscape"
+81-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:63:13-56
+82            android:stateNotNeeded="true"
+82-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:64:13-42
+83            android:theme="@style/zxing_CaptureTheme"
+83-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:65:13-54
+84            android:windowSoftInputMode="stateAlwaysHidden" />
+84-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:66:13-60
+85        <activity
+85-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:67:9-71:45
+86            android:name="com.google.zxing.client.android.HelpActivity"
+86-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:68:13-72
+87            android:label="@string/zxing_menu_help"
+87-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:69:13-52
+88            android:screenOrientation="user"
+88-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:70:13-45
+89            android:stateNotNeeded="true" />
+89-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:71:13-42
+90        <activity
+90-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:72:9-74:48
+91            android:name="com.google.zxing.client.android.encode.EncodeActivity"
+91-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:73:13-81
+92            android:screenOrientation="user" />
+92-->[com.journeyapps:zxing-android-embedded:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/13d871547cabb51de5bbf9a8d28b0465/transformed/jetified-zxing-android-embedded-2.0.1/AndroidManifest.xml:74:13-45
+93        <activity
+93-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:61:9-68:63
+94            android:name="com.google.zxing.client.androidlegacy.CaptureActivity"
+94-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:62:13-81
+95            android:clearTaskOnLaunch="true"
+95-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:63:13-45
+96            android:configChanges="orientation|keyboardHidden"
+96-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:64:13-63
+97            android:screenOrientation="landscape"
+97-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:65:13-50
+98            android:stateNotNeeded="true"
+98-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:66:13-42
+99            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+99-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:67:13-71
+100            android:windowSoftInputMode="stateAlwaysHidden" />
+100-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:68:13-60
+101        <activity
+101-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:69:9-71:48
+102            android:name="com.google.zxing.client.androidlegacy.HelpActivity"
+102-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:70:13-78
+103            android:screenOrientation="user" />
+103-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:71:13-45
+104        <activity
+104-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:72:9-74:48
+105            android:name="com.google.zxing.client.androidlegacy.encode.EncodeActivity"
+105-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:73:13-87
+106            android:screenOrientation="user" />
+106-->[com.journeyapps:zxing-android-legacy:2.0.1] /Users/ayabemio/.gradle/caches/transforms-3/5059c78484f27b9e1245a57885070e9c/transformed/jetified-zxing-android-legacy-2.0.1/AndroidManifest.xml:74:13-45
+107
+108        <provider
+108-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+109            android:name="androidx.startup.InitializationProvider"
+109-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+110            android:authorities="com.example.myapplication.androidx-startup"
+110-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+111            android:exported="false" >
+111-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+112            <meta-data
+112-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+113                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+113-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+114                android:value="androidx.startup" />
+114-->[androidx.emoji2:emoji2:1.0.0] /Users/ayabemio/.gradle/caches/transforms-3/cb617eb54cd2cd0ae69b65f31e00fe95/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+115            <meta-data
+115-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ayabemio/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+116-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ayabemio/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+117                android:value="androidx.startup" />
+117-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/ayabemio/.gradle/caches/transforms-3/ae924bdef1f7e2531745028cd5061da5/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+118        </provider>
+119    </application>
+120
+121</manifest>
