@@ -40,7 +40,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
-            android:name="com.example.myapplication.main"
+            android:name="com.example.myapplication.loginScreen"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

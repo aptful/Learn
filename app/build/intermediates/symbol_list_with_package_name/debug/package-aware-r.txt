@@ -2253,7 +2253,6 @@ id loginButton
 id logoutButton
 id logoutText
 id looksinupText
-id main_tv
 id masked
 id match_constraint
 id match_parent
@@ -2372,6 +2371,7 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id qrbutton
 id radio
 id ratio
 id rectangles
@@ -2390,7 +2390,6 @@ id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
 id scale
-id scan_btn
 id screen
 id scroll
 id scrollIndicatorDown
@@ -2633,7 +2632,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_scan_qr
 layout checkaccount
 layout config
 layout custom_dialog

@@ -7,6 +7,8 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
+import com.google.zxing.integration.android.IntentIntegrator
 
 //作成者：綾部
 
@@ -16,39 +18,58 @@ class couponScreen : AppCompatActivity() {
         setContentView(R.layout.mycoupon)
 
         //ホームボタン
-        val homeButton : ImageView =findViewById(R.id.homeButton)
+        val homeButton: ImageView = findViewById(R.id.homeButton)
 
         //マイページ画面遷移
         homeButton.setOnClickListener {
-            val intent = Intent(this,mypageScreen::class.java)
+            val intent = Intent(this, mypageScreen::class.java)
             startActivity(intent)
         }
 
         //クーポン利用
-        val useBotton : Button = findViewById(R.id.useButton)
+        val useBotton: Button = findViewById(R.id.useButton)
 
         useBotton.setOnClickListener {
-            val coupon : TextView = findViewById(R.id.couponText)
+            val coupon: TextView = findViewById(R.id.couponText)
             coupon.setVisibility(View.GONE)
 
         }
 
-        val useBotton1 : Button = findViewById(R.id.useButton1)
+        val useBotton1: Button = findViewById(R.id.useButton1)
 
         useBotton1.setOnClickListener {
-            val coupon1 : TextView = findViewById(R.id.couponText1)
+            val coupon1: TextView = findViewById(R.id.couponText1)
             coupon1.setVisibility(View.GONE)
 
         }
 
-//        //新規登録画面2ボタン
-//        val btnnext : Button =findViewById(R.id.nextButton)
-//
-//        //新規登録画面3に遷移
-//        btnnext.setOnClickListener {
-//            val intent = Intent(this,::class.java)
-//            startActivity(intent)
-//        }
+        //qrコード
+        //スキャンボタン
+        val qrButton: Button = findViewById(R.id.qrbutton)
+        //スキャンボタンのクリックイベントを設定
+        qrButton.setOnClickListener {
+            val qrScan = IntentIntegrator(this)
+            qrScan.setOrientationLocked(false)
+            qrScan.setPrompt("QRコードを認識してください。")
+            qrScan.initiateScan()
+        }
+    }
 
+    override fun onActivityResult(
+        requestCode: Int,
+        resultCode: Int,
+        data: Intent?
+    ) {
+        val result =
+            IntentIntegrator.parseActivityResult(requestCode, resultCode, data)
+        if (result != null) {
+            if (result.contents == null) {
+                Toast.makeText(this, "Cancelled", Toast.LENGTH_LONG).show()
+            } else {
+                Toast.makeText(this, "Scanned: " + result.contents, Toast.LENGTH_LONG).show()
+            }
+        } else {
+            super.onActivityResult(requestCode, resultCode, data)
+        }
     }
 }
