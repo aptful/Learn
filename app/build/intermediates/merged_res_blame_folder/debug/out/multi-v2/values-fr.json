@@ -4,6 +4,23 @@
             "outputFile": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml",
             "map": [
                 {
+                    "source": "/Users/narumi/.gradle/caches/transforms-3/81dcaf447402d31ef5bc72d6e28a11f2/transformed/jetified-zxing-android-embedded-3.6.0/res/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,327",
+                        "endColumns": "58,46,165,108",
+                        "endOffsets": "109,156,322,431"
+                    },
+                    "to": {
+                        "startLines": "89,90,91,92",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7673,7732,7779,7945",
+                        "endColumns": "58,46,165,108",
+                        "endOffsets": "7727,7774,7940,8049"
+                    }
+                },
+                {
                     "source": "/Users/narumi/.gradle/caches/transforms-3/b5f9b856b96829664226d4dbdc9c5a22/transformed/core-1.7.0/res/values-fr/values-fr.xml",
                     "from": {
                         "startLines": "2",

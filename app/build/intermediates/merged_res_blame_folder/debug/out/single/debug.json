@@ -4,12 +4,12 @@
         "source": "/Users/narumi/github/aptful_system/app/src/main/res/drawable/rectangle.xml"
     },
     {
-        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_frame2.png.flat",
-        "source": "/Users/narumi/github/aptful_system/app/src/main/res/drawable/frame2.png"
-    },
-    {
         "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_keyword.PNG.flat",
         "source": "/Users/narumi/github/aptful_system/app/src/main/res/drawable/keyword.PNG"
+    },
+    {
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_frame2.png.flat",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/drawable/frame2.png"
     },
     {
         "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/merged_res/debug/layout_signup1.xml.flat",
@@ -182,6 +182,10 @@
     {
         "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/merged_res/debug/layout_withdrawalshow.xml.flat",
         "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/withdrawalshow.xml"
+    },
+    {
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/merged_res/debug/layout_activity_scan_qr.xml.flat",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/activity_scan_qr.xml"
     },
     {
         "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/merged_res/debug/drawable_border.xml.flat",

@@ -36,6 +36,10 @@
         "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/mycoupon.xml"
     },
     {
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_scan_qr.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/activity_scan_qr.xml"
+    },
+    {
         "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/signup2.xml",
         "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/signup2.xml"
     },
