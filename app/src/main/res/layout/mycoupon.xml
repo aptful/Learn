@@ -54,13 +54,25 @@
 <!--        android:layout_marginTop="-60dp"-->
 <!--        android:layout_marginStart="20dp"/>-->
 
+    <!--クーポン取得QRカメラ-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="80dp"
+        android:text="！クーポン取得！"
+        android:textColor="#fff8dc"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#6495ed" />
+
     <!--スクロール-->
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp">
+        android:layout_marginTop="30dp">
 
         <LinearLayout
             android:layout_width="match_parent"
