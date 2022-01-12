@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/Users/ayabemio/.gradle/caches/transforms-3/f57567925e7fa33de7bf4ed4afc92d47/transformed/appcompat-1.4.0/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/Users/narumi/.gradle/caches/transforms-3/2f509e5679dd7cedc8b6724d4893a880/transformed/appcompat-1.4.0/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

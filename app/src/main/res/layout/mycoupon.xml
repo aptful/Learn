@@ -68,6 +68,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/couponText1"
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
@@ -78,6 +79,7 @@
                 android:textSize="18sp" />
 
             <Button
+                android:id="@+id/useButton1"
                 android:layout_width="245dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center"
@@ -88,6 +90,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/couponText"
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
@@ -99,6 +102,7 @@
                 android:textSize="18sp" />
 
             <Button
+                android:id="@+id/useButton"
                 android:layout_width="245dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center"

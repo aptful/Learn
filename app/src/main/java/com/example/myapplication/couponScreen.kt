@@ -3,8 +3,10 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 
 //作成者：綾部
 
@@ -20,6 +22,23 @@ class couponScreen : AppCompatActivity() {
         homeButton.setOnClickListener {
             val intent = Intent(this,mypageScreen::class.java)
             startActivity(intent)
+        }
+
+        //クーポン利用
+        val useBotton : Button = findViewById(R.id.useButton)
+
+        useBotton.setOnClickListener {
+            val coupon : TextView = findViewById(R.id.couponText)
+            coupon.setVisibility(View.GONE)
+
+        }
+
+        val useBotton1 : Button = findViewById(R.id.useButton1)
+
+        useBotton1.setOnClickListener {
+            val coupon1 : TextView = findViewById(R.id.couponText1)
+            coupon1.setVisibility(View.GONE)
+
         }
 
 //        //新規登録画面2ボタン

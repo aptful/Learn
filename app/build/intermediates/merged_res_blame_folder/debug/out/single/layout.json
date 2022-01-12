@@ -1,82 +1,82 @@
 [
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/keywordeditscreen.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/keywordeditscreen.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/login.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/login.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/favshopscreen.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/favshopscreen.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/option.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/option.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/config.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/config.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/config.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/config.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mycoupon.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/mycoupon.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/keywordeditscreen.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/keywordeditscreen.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/keywordall.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/keywordall.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/checkaccount.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/checkaccount.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/signup3.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/signup3.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/withdrawalshow.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/withdrawalshow.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/newskeywordscreen.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/newskeywordscreen.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/newskeywordscreen.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/newskeywordscreen.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/withdrawalshow.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/withdrawalshow.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/newslistscreen.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/newslistscreen.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/newslistscreen.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/newslistscreen.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mycoupon.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/mycoupon.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/signup1.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/signup1.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/signup2.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/signup2.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/newscouponscreen.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/newscouponscreen.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/signup1.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/signup1.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/option.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/option.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mypage.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/mypage.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mypage.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/mypage.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/rulescreen.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/rulescreen.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/detailshopscreen.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/detailshopscreen.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/newscouponscreen.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/newscouponscreen.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/login.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/login.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/signup3.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/signup3.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/signup2.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/signup2.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/keywordall.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/keywordall.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/checkaccount.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/checkaccount.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/keywordshopscreen.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/keywordshopscreen.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/keywordshopscreen.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/keywordshopscreen.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/detailshopscreen.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/detailshopscreen.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/rulescreen.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/rulescreen.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/favshopscreen.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/favshopscreen.xml"
     },
     {
-        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/search.xml",
-        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/search.xml"
+        "merged": "/Users/narumi/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/search.xml",
+        "source": "/Users/narumi/github/aptful_system/app/src/main/res/layout/search.xml"
     }
 ]
