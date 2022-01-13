@@ -1,7 +1,9 @@
-com/example/myapplication/databinding/DetailshopscreenBinding.java
- com.example.myapplication.databinding.DetailshopscreenBinding
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
 com/example/myapplication/databinding/LoginscreenBinding.java
  com.example.myapplication.databinding.LoginscreenBinding
+com/example/myapplication/databinding/DetailshopscreenBinding.java
+ com.example.myapplication.databinding.DetailshopscreenBinding
 com/example/myapplication/databinding/MypageBinding.java
  com.example.myapplication.databinding.MypageBinding
 com/example/myapplication/databinding/OptionBinding.java
@@ -16,29 +18,27 @@ com/example/myapplication/databinding/FavshopscreenBinding.java
  com.example.myapplication.databinding.FavshopscreenBinding
 com/example/myapplication/databinding/Signup2Binding.java
  com.example.myapplication.databinding.Signup2Binding
-com/example/myapplication/databinding/Signup1Binding.java
- com.example.myapplication.databinding.Signup1Binding
 com/example/myapplication/databinding/WithdrawalshowBinding.java
  com.example.myapplication.databinding.WithdrawalshowBinding
 com/example/myapplication/databinding/Signup3Binding.java
  com.example.myapplication.databinding.Signup3Binding
-com/example/myapplication/databinding/ConfigBinding.java
- com.example.myapplication.databinding.ConfigBinding
+com/example/myapplication/databinding/Signup1Binding.java
+ com.example.myapplication.databinding.Signup1Binding
 com/example/myapplication/databinding/KeywordallBinding.java
  com.example.myapplication.databinding.KeywordallBinding
+com/example/myapplication/databinding/ConfigBinding.java
+ com.example.myapplication.databinding.ConfigBinding
 com/example/myapplication/databinding/NewscouponscreenBinding.java
  com.example.myapplication.databinding.NewscouponscreenBinding
-com/example/myapplication/BuildConfig.java
- com.example.myapplication.BuildConfig
 com/example/myapplication/databinding/NewslistscreenBinding.java
  com.example.myapplication.databinding.NewslistscreenBinding
 com/example/myapplication/databinding/KeywordshopscreenBinding.java
  com.example.myapplication.databinding.KeywordshopscreenBinding
 com/example/myapplication/databinding/SearchBinding.java
  com.example.myapplication.databinding.SearchBinding
-com/example/myapplication/databinding/NewskeywordscreenBinding.java
- com.example.myapplication.databinding.NewskeywordscreenBinding
 com/example/myapplication/databinding/RulescreenBinding.java
  com.example.myapplication.databinding.RulescreenBinding
+com/example/myapplication/databinding/NewskeywordscreenBinding.java
+ com.example.myapplication.databinding.NewskeywordscreenBinding
 com/example/myapplication/databinding/CheckaccountBinding.java
  com.example.myapplication.databinding.CheckaccountBinding
