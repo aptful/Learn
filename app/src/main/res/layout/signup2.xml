@@ -78,7 +78,7 @@
                 android:textSize="18sp" />
 
             <!--追加ボタン-->
-            <TextView
+            <Button
                 android:id="@+id/addButton"
                 android:layout_width="90dp"
                 android:layout_height="39dp"
