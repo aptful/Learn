@@ -14,20 +14,20 @@ import android.view.inputmethod.EditorInfo
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import com.example.myapplication.databinding.ActivityLoginBinding
+import com.example.myapplication.databinding.LoginscreenBinding
 
 //作成者：軽野
 
 class loginScreen : AppCompatActivity() {
 
     private lateinit var loginViewModel: LoginViewModel
-    private lateinit var binding: ActivityLoginBinding
+    private lateinit var binding: LoginscreenBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         //画面生成
         super.onCreate(savedInstanceState)
 
-        binding = ActivityLoginBinding.inflate(layoutInflater)
+        binding = LoginscreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         //1)ボタンの生成
@@ -125,14 +125,14 @@ class loginScreen : AppCompatActivity() {
     }
 
     private fun updateUiWithUser(model: LoggedInUserView) {
-        val welcome = getString(R.string.welcome)
+//        val welcome = getString(R.string.welcome)
         val displayName = model.displayName
         // TODO : initiate successful logged in experience
-        Toast.makeText(
-            applicationContext,
-            "$welcome $displayName",
-            Toast.LENGTH_LONG
-        ).show()
+//        Toast.makeText(
+//            applicationContext,
+//            "$welcome $displayName",
+//            Toast.LENGTH_LONG
+//        ).show()
     }
 
     private fun showLoginFailed(@StringRes errorString: Int) {

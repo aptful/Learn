@@ -92,9 +92,9 @@
 52        <activity android:name="com.example.myapplication.mypageScreen" />
 52-->C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:30:9-48
 52-->C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:30:19-46
-53        <activity android:name="com.example.myapplication.ui.login.signupOne" />
-53-->C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:31:9-55
-53-->C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:31:19-53
+53        <activity android:name="com.example.myapplication.signupOne" />
+53-->C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:31:9-45
+53-->C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:31:19-43
 54        <activity android:name="com.example.myapplication.signupTwo" />
 54-->C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:32:9-45
 54-->C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:32:19-43

@@ -64,6 +64,10 @@
         "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\withdrawalshow.xml"
     },
     {
+        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\loginscreen.xml",
+        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\loginscreen.xml"
+    },
+    {
         "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\detailshopscreen.xml",
         "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\detailshopscreen.xml"
     },

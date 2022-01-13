@@ -1,3 +1,5 @@
+com/example/myapplication/databinding/LoginscreenBinding.java
+ com.example.myapplication.databinding.LoginscreenBinding
 com/example/myapplication/databinding/DetailshopscreenBinding.java
  com.example.myapplication.databinding.DetailshopscreenBinding
 com/example/myapplication/databinding/MypageBinding.java
@@ -32,8 +34,6 @@ com/example/myapplication/databinding/NewslistscreenBinding.java
  com.example.myapplication.databinding.NewslistscreenBinding
 com/example/myapplication/databinding/KeywordshopscreenBinding.java
  com.example.myapplication.databinding.KeywordshopscreenBinding
-com/example/myapplication/databinding/ActivityLoginBinding.java
- com.example.myapplication.databinding.ActivityLoginBinding
 com/example/myapplication/databinding/SearchBinding.java
  com.example.myapplication.databinding.SearchBinding
 com/example/myapplication/databinding/RulescreenBinding.java
