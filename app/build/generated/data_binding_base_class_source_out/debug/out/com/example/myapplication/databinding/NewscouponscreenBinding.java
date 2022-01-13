@@ -4,6 +4,7 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -22,10 +23,10 @@ public final class NewscouponscreenBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView allButton;
+  public final Button allButton;
 
   @NonNull
-  public final TextView couponButton;
+  public final ImageButton couponButton;
 
   @NonNull
   public final TextView couponText;
@@ -64,7 +65,7 @@ public final class NewscouponscreenBinding implements ViewBinding {
   public final ImageView imageframe;
 
   @NonNull
-  public final TextView keywordButton;
+  public final Button keywordButton;
 
   @NonNull
   public final TextView keywordScreenText;
@@ -87,12 +88,12 @@ public final class NewscouponscreenBinding implements ViewBinding {
   @NonNull
   public final View orangeLine5;
 
-  private NewscouponscreenBinding(@NonNull LinearLayout rootView, @NonNull TextView allButton,
-      @NonNull TextView couponButton, @NonNull TextView couponText, @NonNull TextView couponText2,
-      @NonNull TextView couponText3, @NonNull TextView couponText4, @NonNull TextView couponText5,
-      @NonNull TextView effectText, @NonNull TextView effectText2, @NonNull TextView effectText3,
-      @NonNull TextView effectText4, @NonNull TextView effectText5, @NonNull ImageButton homeButton,
-      @NonNull ImageView imageframe, @NonNull TextView keywordButton,
+  private NewscouponscreenBinding(@NonNull LinearLayout rootView, @NonNull Button allButton,
+      @NonNull ImageButton couponButton, @NonNull TextView couponText,
+      @NonNull TextView couponText2, @NonNull TextView couponText3, @NonNull TextView couponText4,
+      @NonNull TextView couponText5, @NonNull TextView effectText, @NonNull TextView effectText2,
+      @NonNull TextView effectText3, @NonNull TextView effectText4, @NonNull TextView effectText5,
+      @NonNull ImageButton homeButton, @NonNull ImageView imageframe, @NonNull Button keywordButton,
       @NonNull TextView keywordScreenText, @NonNull View lineOrange, @NonNull View orangeLine,
       @NonNull View orangeLine2, @NonNull View orangeLine3, @NonNull View orangeLine4,
       @NonNull View orangeLine5) {
@@ -149,13 +150,13 @@ public final class NewscouponscreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.allButton;
-      TextView allButton = ViewBindings.findChildViewById(rootView, id);
+      Button allButton = ViewBindings.findChildViewById(rootView, id);
       if (allButton == null) {
         break missingId;
       }
 
       id = R.id.couponButton;
-      TextView couponButton = ViewBindings.findChildViewById(rootView, id);
+      ImageButton couponButton = ViewBindings.findChildViewById(rootView, id);
       if (couponButton == null) {
         break missingId;
       }
@@ -233,7 +234,7 @@ public final class NewscouponscreenBinding implements ViewBinding {
       }
 
       id = R.id.keywordButton;
-      TextView keywordButton = ViewBindings.findChildViewById(rootView, id);
+      Button keywordButton = ViewBindings.findChildViewById(rootView, id);
       if (keywordButton == null) {
         break missingId;
       }

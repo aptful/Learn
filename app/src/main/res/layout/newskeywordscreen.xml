@@ -79,7 +79,7 @@
         android:layout_height="39dp"
         android:layout_marginStart="280dp"
         android:layout_marginTop="-39dp"
-        android:background="@drawable/keyword"
+        android:background="@drawable/keyword_news"
         android:gravity="center"
         android:textSize="20sp" />
 
@@ -208,7 +208,7 @@
                 android:layout_marginStart="-340dp"
                 android:text="今話題の「マリトッツォ」が一風変わった・・・"
                 android:gravity="center"
-                ndroid:textColor="#fff8dc"
+                android:textColor="#fff8dc"
                 android:backgroundTint="#6495ed"
                 android:textSize="15sp" />
 

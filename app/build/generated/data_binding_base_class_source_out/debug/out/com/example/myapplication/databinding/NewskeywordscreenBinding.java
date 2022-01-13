@@ -4,6 +4,7 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -22,25 +23,25 @@ public final class NewskeywordscreenBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView allButton;
+  public final Button allButton;
 
   @NonNull
-  public final TextView contentsText1;
+  public final Button contentsText1;
 
   @NonNull
-  public final TextView contentsText2;
+  public final Button contentsText2;
 
   @NonNull
-  public final TextView contentsText3;
+  public final Button contentsText3;
 
   @NonNull
-  public final TextView contentsText4;
+  public final Button contentsText4;
 
   @NonNull
-  public final TextView contentsText5;
+  public final Button contentsText5;
 
   @NonNull
-  public final TextView couponButton;
+  public final Button couponButton;
 
   @NonNull
   public final ImageButton homeButton;
@@ -49,7 +50,7 @@ public final class NewskeywordscreenBinding implements ViewBinding {
   public final ImageView imageframe;
 
   @NonNull
-  public final TextView keywordButton;
+  public final ImageButton keywordButton;
 
   @NonNull
   public final TextView keywordScreenText;
@@ -87,12 +88,11 @@ public final class NewskeywordscreenBinding implements ViewBinding {
   @NonNull
   public final View orangeLine5;
 
-  private NewskeywordscreenBinding(@NonNull LinearLayout rootView, @NonNull TextView allButton,
-      @NonNull TextView contentsText1, @NonNull TextView contentsText2,
-      @NonNull TextView contentsText3, @NonNull TextView contentsText4,
-      @NonNull TextView contentsText5, @NonNull TextView couponButton,
+  private NewskeywordscreenBinding(@NonNull LinearLayout rootView, @NonNull Button allButton,
+      @NonNull Button contentsText1, @NonNull Button contentsText2, @NonNull Button contentsText3,
+      @NonNull Button contentsText4, @NonNull Button contentsText5, @NonNull Button couponButton,
       @NonNull ImageButton homeButton, @NonNull ImageView imageframe,
-      @NonNull TextView keywordButton, @NonNull TextView keywordScreenText,
+      @NonNull ImageButton keywordButton, @NonNull TextView keywordScreenText,
       @NonNull TextView keywordText1, @NonNull TextView keywordText2,
       @NonNull TextView keywordText3, @NonNull TextView keywordText4,
       @NonNull TextView keywordText5, @NonNull View lineOrange, @NonNull View orangeLine1,
@@ -151,43 +151,43 @@ public final class NewskeywordscreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.allButton;
-      TextView allButton = ViewBindings.findChildViewById(rootView, id);
+      Button allButton = ViewBindings.findChildViewById(rootView, id);
       if (allButton == null) {
         break missingId;
       }
 
       id = R.id.contentsText1;
-      TextView contentsText1 = ViewBindings.findChildViewById(rootView, id);
+      Button contentsText1 = ViewBindings.findChildViewById(rootView, id);
       if (contentsText1 == null) {
         break missingId;
       }
 
       id = R.id.contentsText2;
-      TextView contentsText2 = ViewBindings.findChildViewById(rootView, id);
+      Button contentsText2 = ViewBindings.findChildViewById(rootView, id);
       if (contentsText2 == null) {
         break missingId;
       }
 
       id = R.id.contentsText3;
-      TextView contentsText3 = ViewBindings.findChildViewById(rootView, id);
+      Button contentsText3 = ViewBindings.findChildViewById(rootView, id);
       if (contentsText3 == null) {
         break missingId;
       }
 
       id = R.id.contentsText4;
-      TextView contentsText4 = ViewBindings.findChildViewById(rootView, id);
+      Button contentsText4 = ViewBindings.findChildViewById(rootView, id);
       if (contentsText4 == null) {
         break missingId;
       }
 
       id = R.id.contentsText5;
-      TextView contentsText5 = ViewBindings.findChildViewById(rootView, id);
+      Button contentsText5 = ViewBindings.findChildViewById(rootView, id);
       if (contentsText5 == null) {
         break missingId;
       }
 
       id = R.id.couponButton;
-      TextView couponButton = ViewBindings.findChildViewById(rootView, id);
+      Button couponButton = ViewBindings.findChildViewById(rootView, id);
       if (couponButton == null) {
         break missingId;
       }
@@ -205,7 +205,7 @@ public final class NewskeywordscreenBinding implements ViewBinding {
       }
 
       id = R.id.keywordButton;
-      TextView keywordButton = ViewBindings.findChildViewById(rootView, id);
+      ImageButton keywordButton = ViewBindings.findChildViewById(rootView, id);
       if (keywordButton == null) {
         break missingId;
       }

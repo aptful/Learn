@@ -22,37 +22,37 @@ public final class KeywordeditscreenBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView addButton;
+  public final Button addButton;
 
   @NonNull
-  public final TextView added10Button;
+  public final ImageButton added10Button;
 
   @NonNull
-  public final TextView added2Button;
+  public final ImageButton added2Button;
 
   @NonNull
-  public final TextView added3Button;
+  public final ImageButton added3Button;
 
   @NonNull
-  public final TextView added4Button;
+  public final ImageButton added4Button;
 
   @NonNull
-  public final TextView added5Button;
+  public final ImageButton added5Button;
 
   @NonNull
-  public final TextView added6Button;
+  public final ImageButton added6Button;
 
   @NonNull
-  public final TextView added7Button;
+  public final ImageButton added7Button;
 
   @NonNull
-  public final TextView added8Button;
+  public final ImageButton added8Button;
 
   @NonNull
-  public final TextView added9Button;
+  public final ImageButton added9Button;
 
   @NonNull
-  public final TextView addedButton;
+  public final ImageButton addedButton;
 
   @NonNull
   public final TextView artText;
@@ -102,17 +102,18 @@ public final class KeywordeditscreenBinding implements ViewBinding {
   @NonNull
   public final TextView takeoutText;
 
-  private KeywordeditscreenBinding(@NonNull LinearLayout rootView, @NonNull TextView addButton,
-      @NonNull TextView added10Button, @NonNull TextView added2Button,
-      @NonNull TextView added3Button, @NonNull TextView added4Button,
-      @NonNull TextView added5Button, @NonNull TextView added6Button,
-      @NonNull TextView added7Button, @NonNull TextView added8Button,
-      @NonNull TextView added9Button, @NonNull TextView addedButton, @NonNull TextView artText,
-      @NonNull ImageButton backButton, @NonNull TextView breadText, @NonNull TextView cafeText,
-      @NonNull Button completebutton, @NonNull TextView creativecuisineText,
-      @NonNull TextView drinkText, @NonNull TextView fruitText, @NonNull ImageButton homeButton,
-      @NonNull TextView izakayaText, @NonNull TextView keywordScreenText, @NonNull View lineOrange,
-      @NonNull TextView meatText, @NonNull TextView souvenirsText, @NonNull TextView sweetsText,
+  private KeywordeditscreenBinding(@NonNull LinearLayout rootView, @NonNull Button addButton,
+      @NonNull ImageButton added10Button, @NonNull ImageButton added2Button,
+      @NonNull ImageButton added3Button, @NonNull ImageButton added4Button,
+      @NonNull ImageButton added5Button, @NonNull ImageButton added6Button,
+      @NonNull ImageButton added7Button, @NonNull ImageButton added8Button,
+      @NonNull ImageButton added9Button, @NonNull ImageButton addedButton,
+      @NonNull TextView artText, @NonNull ImageButton backButton, @NonNull TextView breadText,
+      @NonNull TextView cafeText, @NonNull Button completebutton,
+      @NonNull TextView creativecuisineText, @NonNull TextView drinkText,
+      @NonNull TextView fruitText, @NonNull ImageButton homeButton, @NonNull TextView izakayaText,
+      @NonNull TextView keywordScreenText, @NonNull View lineOrange, @NonNull TextView meatText,
+      @NonNull TextView souvenirsText, @NonNull TextView sweetsText,
       @NonNull TextView takeoutText) {
     this.rootView = rootView;
     this.addButton = addButton;
@@ -172,67 +173,67 @@ public final class KeywordeditscreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.addButton;
-      TextView addButton = ViewBindings.findChildViewById(rootView, id);
+      Button addButton = ViewBindings.findChildViewById(rootView, id);
       if (addButton == null) {
         break missingId;
       }
 
       id = R.id.added10Button;
-      TextView added10Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added10Button = ViewBindings.findChildViewById(rootView, id);
       if (added10Button == null) {
         break missingId;
       }
 
       id = R.id.added2Button;
-      TextView added2Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added2Button = ViewBindings.findChildViewById(rootView, id);
       if (added2Button == null) {
         break missingId;
       }
 
       id = R.id.added3Button;
-      TextView added3Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added3Button = ViewBindings.findChildViewById(rootView, id);
       if (added3Button == null) {
         break missingId;
       }
 
       id = R.id.added4Button;
-      TextView added4Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added4Button = ViewBindings.findChildViewById(rootView, id);
       if (added4Button == null) {
         break missingId;
       }
 
       id = R.id.added5Button;
-      TextView added5Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added5Button = ViewBindings.findChildViewById(rootView, id);
       if (added5Button == null) {
         break missingId;
       }
 
       id = R.id.added6Button;
-      TextView added6Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added6Button = ViewBindings.findChildViewById(rootView, id);
       if (added6Button == null) {
         break missingId;
       }
 
       id = R.id.added7Button;
-      TextView added7Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added7Button = ViewBindings.findChildViewById(rootView, id);
       if (added7Button == null) {
         break missingId;
       }
 
       id = R.id.added8Button;
-      TextView added8Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added8Button = ViewBindings.findChildViewById(rootView, id);
       if (added8Button == null) {
         break missingId;
       }
 
       id = R.id.added9Button;
-      TextView added9Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added9Button = ViewBindings.findChildViewById(rootView, id);
       if (added9Button == null) {
         break missingId;
       }
 
       id = R.id.addedButton;
-      TextView addedButton = ViewBindings.findChildViewById(rootView, id);
+      ImageButton addedButton = ViewBindings.findChildViewById(rootView, id);
       if (addedButton == null) {
         break missingId;
       }

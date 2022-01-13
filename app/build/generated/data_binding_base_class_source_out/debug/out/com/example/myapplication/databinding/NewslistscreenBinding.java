@@ -4,6 +4,7 @@ package com.example.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -22,13 +23,13 @@ public final class NewslistscreenBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView allButton;
+  public final ImageButton allButton;
 
   @NonNull
-  public final TextView contentsText;
+  public final Button contentsText;
 
   @NonNull
-  public final TextView couponButton;
+  public final Button couponButton;
 
   @NonNull
   public final TextView couponText;
@@ -61,7 +62,7 @@ public final class NewslistscreenBinding implements ViewBinding {
   public final ImageView imageframe;
 
   @NonNull
-  public final TextView keywordButton;
+  public final Button keywordButton;
 
   @NonNull
   public final TextView keywordScreenText;
@@ -87,12 +88,12 @@ public final class NewslistscreenBinding implements ViewBinding {
   @NonNull
   public final View orangeLine5;
 
-  private NewslistscreenBinding(@NonNull LinearLayout rootView, @NonNull TextView allButton,
-      @NonNull TextView contentsText, @NonNull TextView couponButton, @NonNull TextView couponText,
+  private NewslistscreenBinding(@NonNull LinearLayout rootView, @NonNull ImageButton allButton,
+      @NonNull Button contentsText, @NonNull Button couponButton, @NonNull TextView couponText,
       @NonNull TextView couponText2, @NonNull TextView couponText3, @NonNull TextView couponText4,
       @NonNull TextView effectText, @NonNull TextView effectText2, @NonNull TextView effectText3,
       @NonNull TextView effectText4, @NonNull ImageButton homeButton, @NonNull ImageView imageframe,
-      @NonNull TextView keywordButton, @NonNull TextView keywordScreenText,
+      @NonNull Button keywordButton, @NonNull TextView keywordScreenText,
       @NonNull TextView keywordText, @NonNull View lineOrange, @NonNull View orangeLine,
       @NonNull View orangeLine2, @NonNull View orangeLine3, @NonNull View orangeLine4,
       @NonNull View orangeLine5) {
@@ -149,19 +150,19 @@ public final class NewslistscreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.allButton;
-      TextView allButton = ViewBindings.findChildViewById(rootView, id);
+      ImageButton allButton = ViewBindings.findChildViewById(rootView, id);
       if (allButton == null) {
         break missingId;
       }
 
       id = R.id.contentsText;
-      TextView contentsText = ViewBindings.findChildViewById(rootView, id);
+      Button contentsText = ViewBindings.findChildViewById(rootView, id);
       if (contentsText == null) {
         break missingId;
       }
 
       id = R.id.couponButton;
-      TextView couponButton = ViewBindings.findChildViewById(rootView, id);
+      Button couponButton = ViewBindings.findChildViewById(rootView, id);
       if (couponButton == null) {
         break missingId;
       }
@@ -227,7 +228,7 @@ public final class NewslistscreenBinding implements ViewBinding {
       }
 
       id = R.id.keywordButton;
-      TextView keywordButton = ViewBindings.findChildViewById(rootView, id);
+      Button keywordButton = ViewBindings.findChildViewById(rootView, id);
       if (keywordButton == null) {
         break missingId;
       }
