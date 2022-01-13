@@ -8,6 +8,8 @@
     tools:context=".newsListScreen"
     android:background="#fff8dc" >
 
+    <!--久保田-->
+
     <!--帯-->
     <!--にゅーす-->
     <TextView
@@ -45,23 +47,21 @@
         app:srcCompat="@drawable/home" />
 
     <!--一覧ボタン-->
-    <TextView
+    <ImageButton
         android:id="@+id/allButton"
         android:layout_width="120dp"
         android:layout_height="39dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="19dp"
-        android:background="@drawable/border"
+        android:background="@drawable/all"
         android:gravity="center"
-        android:text="一覧"
-        android:textColor="#ff7f50"
         android:textSize="20sp" />
 
     <!--くーぽんボタン-->
-    <TextView
+    <Button
         android:id="@+id/couponButton"
         android:layout_width="120dp"
-        android:layout_height="39dp"
+        android:layout_height="45dp"
         android:layout_marginStart="150dp"
         android:layout_marginTop="-40dp"
         android:background="#ff7f50"
@@ -71,17 +71,17 @@
         android:textSize="20sp" />
 
     <!--きーわーどボタン-->
-    <TextView
+    <Button
         android:id="@+id/keywordButton"
         android:layout_width="120dp"
-        android:layout_height="39dp"
+        android:layout_height="45dp"
         android:layout_marginStart="280dp"
-        android:layout_marginTop="-39dp"
+        android:layout_marginTop="-45dp"
         android:background="#ff7f50"
         android:gravity="center"
         android:text="きーわーど"
         android:textColor="#fff8dc"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <!--お知らせフレーム-->
     <ImageView
@@ -231,17 +231,17 @@
         android:textColor="#696969"
         android:textSize="20sp" />
 
-    <!--クーポン効果-->
-    <TextView
+    <!--説明文-->
+    <Button
         android:id="@+id/contentsText"
         android:layout_width="300dp"
-        android:layout_height="30dp"
+        android:layout_height="45dp"
         android:layout_marginTop="390dp"
         android:layout_marginStart="-320dp"
         android:text="甘いチョコレートとバニラ・・・"
-        android:background="@drawable/blueborder"
         android:gravity="center"
-        android:textColor="#6495ed"
+        android:textColor="#fff8dc"
+        android:backgroundTint="#6495ed"
         android:textSize="15sp" />
 
 
