@@ -127,10 +127,10 @@ activity#com.example.myapplication.mypageScreen
 ADDED from C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:30:9-48
 	android:name
 		ADDED from C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:30:19-46
-activity#com.example.myapplication.ui.login.signupOne
-ADDED from C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:31:9-55
+activity#com.example.myapplication.signupOne
+ADDED from C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:31:9-45
 	android:name
-		ADDED from C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:31:19-53
+		ADDED from C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:31:19-43
 activity#com.example.myapplication.signupTwo
 ADDED from C:\Users\mssp_\github\aptful_system\app\src\main\AndroidManifest.xml:32:9-45
 	android:name

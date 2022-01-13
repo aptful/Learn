@@ -2635,7 +2635,6 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
-int layout activity_login 0x7f0b001c
 int layout checkaccount 0x7f0b001d
 int layout config 0x7f0b001e
 int layout custom_dialog 0x7f0b001f
@@ -2660,6 +2659,7 @@ int layout keywordall 0x7f0b0031
 int layout keywordeditscreen 0x7f0b0032
 int layout keywordshopscreen 0x7f0b0033
 int layout login 0x7f0b0034
+int layout loginscreen 0x7f0b0090
 int layout material_chip_input_combo 0x7f0b0035
 int layout material_clock_display 0x7f0b0036
 int layout material_clock_display_divider 0x7f0b0037
@@ -2875,7 +2875,6 @@ int string prompt_password 0x7f100072
 int string search_menu_title 0x7f100073
 int string status_bar_notification_info_overflow 0x7f100074
 int string title_label 0x7f100075
-int string welcome 0x7f100076
 int string zxing_app_name 0x7f100077
 int string zxing_button_ok 0x7f100078
 int string zxing_msg_camera_framework_bug 0x7f100079

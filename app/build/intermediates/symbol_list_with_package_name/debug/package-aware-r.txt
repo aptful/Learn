@@ -2636,7 +2636,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_login
 layout checkaccount
 layout config
 layout custom_dialog
@@ -2661,6 +2660,7 @@ layout keywordall
 layout keywordeditscreen
 layout keywordshopscreen
 layout login
+layout loginscreen
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2876,7 +2876,6 @@ string prompt_password
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_label
-string welcome
 string zxing_app_name
 string zxing_button_ok
 string zxing_msg_camera_framework_bug
