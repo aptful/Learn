@@ -24,7 +24,7 @@ private class CouponDBHelper(context: Context, databaseName:String,
     //sqlの実行
     //可変長，固定長の指定の仕方がわかりません...
     override fun onCreate(database: SQLiteDatabase?) {
-        database?.execSQL("create table if not exists CouponTable (coupon_id integer primary key not null, shop_id integer not null)");
+        database?.execSQL("create table if not exists CouponTable (coupon_id integer primary key not null, shop_id integer not null, broadcast date not null, use_end date not null, coupon_effect text not null)");
     }
 
     //更新
@@ -54,7 +54,7 @@ class CouponActivity : AppCompatActivity() {
     private var arrayListBitmap: ArrayList<Bitmap> = arrayListOf()
 
     //insert
-    private fun insertData(coupon_id: String, shop_id: String) {
+    private fun insertData(coupon_id: String, shop_id: String,broadcast:String,use_end:String,coupon_effect:String) {
         try {
             val dbHelper = CouponDBHelper(applicationContext, dbName, null, dbVersion);
             val database = dbHelper.writableDatabase
@@ -62,6 +62,9 @@ class CouponActivity : AppCompatActivity() {
             val values = ContentValues()    // 挿入するデータはContentValuesに格納
             values.put("5500", coupon_id)
             values.put("1001", shop_id)
+            values.put("1001", broadcast)
+            values.put("1001", use_end)
+            values.put("1001", coupon_effect)
             val byteArrayOutputStream = ByteArrayOutputStream();    //データがバイト配列に書き込まれる出力ストリームを実装
             val bytes = byteArrayOutputStream.toByteArray()
             values.put("image", bytes)
@@ -105,7 +108,7 @@ class CouponActivity : AppCompatActivity() {
             val database = dbHelper.readableDatabase
 
             val sql =
-                "select coupon_id, shop_id from $tableName where type in (1, 2) order by coupon_id"
+                "select coupon_id, shop_id, broadcast, use_end, coupon_effect from $tableName where type in (1, 2) order by coupon_id"
 
             val cursor = database.rawQuery(sql, null)   //rawQueryで呼び出した実行結果がCursorに格納される
             if (cursor.count > 0) {
