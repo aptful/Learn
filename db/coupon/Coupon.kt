@@ -62,9 +62,9 @@ class CouponActivity : AppCompatActivity() {
             val values = ContentValues()    // 挿入するデータはContentValuesに格納
             values.put("5500", coupon_id)
             values.put("1001", shop_id)
-            values.put("1001", broadcast)
-            values.put("1001", use_end)
-            values.put("1001", coupon_effect)
+            values.put("2021"+"10"+"21", broadcast)
+            values.put("2021"+"11"+"4", use_end)
+            values.put("コーヒー1杯無料", coupon_effect)
             val byteArrayOutputStream = ByteArrayOutputStream();    //データがバイト配列に書き込まれる出力ストリームを実装
             val bytes = byteArrayOutputStream.toByteArray()
             values.put("image", bytes)
