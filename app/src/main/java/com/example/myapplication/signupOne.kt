@@ -15,7 +15,6 @@ class signupOne : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signup1)
 
-
         val btnnext :Button =findViewById(R.id.nextButton)      //新規登録画面1の次へ
         val textPasswordEdit = findViewById<EditText>(R.id.passwordEdit)    //パスワード入力欄
         val textYearEdit = findViewById<EditText>(R.id.yearEdit)        //誕生年入力欄
@@ -26,6 +25,7 @@ class signupOne : AppCompatActivity() {
         btnnext.setOnClickListener {
             val intent = Intent(this, signupTwo::class.java)
             if(textPasswordEdit.length() > 0 && textYearEdit.length() > 0 && textMonthEdit.length() > 0 && textDayEdit.length() > 0){
+                intent.putExtra("pass",textPasswordEdit.text.toString())
                 startActivity(intent)
             }
         }
