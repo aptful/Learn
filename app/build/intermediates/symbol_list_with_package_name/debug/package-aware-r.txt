@@ -1797,6 +1797,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable added
+drawable all
 drawable avd_hide_password
 drawable avd_show_password
 drawable back_normal
@@ -1815,6 +1817,7 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable config
 drawable coupon
+drawable coupon_news
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -1842,6 +1845,7 @@ drawable info
 drawable instagram
 drawable key
 drawable keyword
+drawable keyword_news
 drawable line
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp

@@ -1,90 +1,86 @@
 [
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\newscouponscreen.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\newscouponscreen.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/keywordeditscreen.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/keywordeditscreen.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\mycoupon.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\mycoupon.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/favshopscreen.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/favshopscreen.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/config.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/config.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\favshopscreen.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\favshopscreen.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mycoupon.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/mycoupon.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\keywordall.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\keywordall.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/loginscreen.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/loginscreen.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\mypage.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\mypage.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/keywordall.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/keywordall.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\keywordeditscreen.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\keywordeditscreen.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/signup3.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/signup3.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\checkaccount.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\checkaccount.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/newskeywordscreen.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/newskeywordscreen.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup2.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\signup2.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/withdrawalshow.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/withdrawalshow.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\option.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\option.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/newslistscreen.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/newslistscreen.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\config.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\config.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/signup1.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/signup1.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\keywordshopscreen.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\keywordshopscreen.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/newscouponscreen.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/newscouponscreen.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup1.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\signup1.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/option.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/option.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\newskeywordscreen.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\newskeywordscreen.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/mypage.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/mypage.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\rulescreen.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\rulescreen.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/detailshopscreen.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/detailshopscreen.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\withdrawalshow.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\withdrawalshow.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/login.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/login.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\loginscreen.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\loginscreen.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/signup2.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/signup2.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\detailshopscreen.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\detailshopscreen.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/checkaccount.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/checkaccount.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\login.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\login.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/keywordshopscreen.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/keywordshopscreen.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\signup3.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\signup3.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/rulescreen.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/rulescreen.xml"
     },
     {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\search.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\search.xml"
-    },
-    {
-        "merged": "C:\\Users\\mssp_\\github\\aptful_system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\newslistscreen.xml",
-        "source": "C:\\Users\\mssp_\\github\\aptful_system\\app\\src\\main\\res\\layout\\newslistscreen.xml"
+        "merged": "/Users/ayabemio/github/aptful_system/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/search.xml",
+        "source": "/Users/ayabemio/github/aptful_system/app/src/main/res/layout/search.xml"
     }
 ]
