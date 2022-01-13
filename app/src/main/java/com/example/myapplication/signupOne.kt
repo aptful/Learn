@@ -25,7 +25,7 @@ class signupOne : AppCompatActivity() {
         btnnext.setOnClickListener {
             val intent = Intent(this, signupTwo::class.java)
             if(textPasswordEdit.length() > 0 && textYearEdit.length() > 0 && textMonthEdit.length() > 0 && textDayEdit.length() > 0){
-                intent.putExtra("pass",textPasswordEdit.text.toString())
+//                intent.putExtra("pass",textPasswordEdit.text.toString())
                 startActivity(intent)
             }
         }

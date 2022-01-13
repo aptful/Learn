@@ -13,10 +13,10 @@ class signupThree : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signup3)
-        val pass :TextView = findViewById(R.id.password_edit_signupText)
+//        val pass :TextView = findViewById(R.id.password_edit_signupText)
 
-        val editpass = intent.getStringExtra("pass")    //値の受け取り
-        pass.text = editpass    //テキストに表示
+//        val editpass = intent.getStringExtra("pass")    //値の受け取り
+//        pass.text = editpass    //テキストに表示
         //完了ボタン
         val btnOK : Button =findViewById(R.id.btnOK)
 
