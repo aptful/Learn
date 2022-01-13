@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import com.google.zxing.integration.android.IntentIntegrator
 
 //作成者：綾部
@@ -30,18 +31,21 @@ class couponScreen : AppCompatActivity() {
         val useBotton: Button = findViewById(R.id.useButton)
 
         useBotton.setOnClickListener {
-            val coupon: TextView = findViewById(R.id.couponText)
-            coupon.setVisibility(View.GONE)
+            AlertDialog.Builder(this)
+                .setTitle("このクーポンを本当に利用しますか?")
+                .setMessage("「利用する」ボタンをタップするとこのクーポンが削除されます")
+
+                .setPositiveButton("利用する"){ dialog, which ->
+                    val coupon: TextView = findViewById(R.id.couponText)
+                    coupon.setVisibility(View.GONE)
+                }
+                .setNegativeButton("取り消す"){ dialog, which ->
+
+                }
+                .show()
 
         }
 
-        val useBotton1: Button = findViewById(R.id.useButton1)
-
-        useBotton1.setOnClickListener {
-            val coupon1: TextView = findViewById(R.id.couponText1)
-            coupon1.setVisibility(View.GONE)
-
-        }
 
         //qrコード
         //スキャンボタン
