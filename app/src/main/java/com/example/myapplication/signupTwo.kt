@@ -13,6 +13,10 @@ class signupTwo : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signup2)
 
+        //【追加】ボタン
+
+
+
         //新規登録画面2ボタン
         val btnnext : Button =findViewById(R.id.nextButton)
 

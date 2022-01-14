@@ -71,7 +71,7 @@
 41-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:14:9-51
 42        <activity
 42-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:20:9-28:20
-43            android:name="com.example.myapplication.loginScreen"
+43            android:name="com.example.myapplication.signupThree"
 43-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:21:13-40
 44            android:exported="true" >
 44-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:22:13-36
@@ -98,86 +98,83 @@
 54        <activity android:name="com.example.myapplication.signupTwo" />
 54-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:32:9-45
 54-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:32:19-43
-55        <activity android:name="com.example.myapplication.signupThree" />
-55-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:33:9-47
-55-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:33:19-45
-56        <activity android:name="com.example.myapplication.configScreen" />
-56-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:34:9-48
-56-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:34:19-46
-57        <activity android:name="com.example.myapplication.checkAccountScreen" />
-57-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:35:9-55
-57-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:35:19-53
-58        <activity android:name="com.example.myapplication.ruleScreen" />
-58-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:36:9-47
-58-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:36:19-45
-59        <activity android:name="com.example.myapplication.deleteAccountScreen" />
-59-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:37:9-56
-59-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:37:19-54
-60        <activity android:name="com.example.myapplication.searchScreen" />
-60-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:38:9-48
-60-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:38:19-46
-61        <activity android:name="com.example.myapplication.couponScreen" />
-61-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:40:9-48
-61-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:40:19-46
-62        <activity android:name="com.example.myapplication.keywordListScreen" />
-62-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:42:9-53
-62-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:42:19-51
-63        <activity android:name="com.example.myapplication.keywordEditScreen" />
-63-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:43:9-54
-63-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:43:19-52
-64        <activity android:name="com.example.myapplication.detailShopScreen" />
-64-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:44:9-53
-64-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:44:19-51
-65        <activity android:name="com.example.myapplication.newsListScreen" />
-65-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:45:9-51
-65-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:45:19-49
-66        <activity android:name="com.example.myapplication.newsCouponScreen" />
-66-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:46:9-53
-66-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:46:19-51
-67        <activity android:name="com.example.myapplication.newsKeywordScreen" />
-67-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:47:9-54
-67-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:47:19-52
-68        <activity android:name="com.example.myapplication.favShopScreen" />
-68-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:48:9-50
-68-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:48:19-48
-69
-70        <!-- QRコード -->
-71        <activity
-71-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:52:9-55:49
-72            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-72-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:53:13-74
-73            android:clearTaskOnLaunch="true"
-73-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/84577a933af6210f2a63aaa04ea9adde/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
-74            android:screenOrientation="fullSensor"
-74-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:54:13-51
-75            android:stateNotNeeded="true"
-75-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/84577a933af6210f2a63aaa04ea9adde/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
-76            android:theme="@style/zxing_CaptureTheme"
-76-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/84577a933af6210f2a63aaa04ea9adde/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
-77            android:windowSoftInputMode="stateAlwaysHidden" />
-77-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/84577a933af6210f2a63aaa04ea9adde/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
-78
-79        <provider
-79-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-80            android:name="androidx.startup.InitializationProvider"
-80-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-81            android:authorities="com.example.myapplication.androidx-startup"
-81-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-82            android:exported="false" >
-82-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-83            <meta-data
-83-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-84-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-85                android:value="androidx.startup" />
-85-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-86            <meta-data
-86-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/c8f90db82e157d7f3c5debcb17b576c8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-87-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/c8f90db82e157d7f3c5debcb17b576c8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-88                android:value="androidx.startup" />
-88-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/c8f90db82e157d7f3c5debcb17b576c8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-89        </provider>
-90    </application>
-91
-92</manifest>
+55        <activity android:name="com.example.myapplication.configScreen" />
+55-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:34:9-48
+55-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:34:19-46
+56        <activity android:name="com.example.myapplication.checkAccountScreen" />
+56-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:35:9-55
+56-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:35:19-53
+57        <activity android:name="com.example.myapplication.ruleScreen" />
+57-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:36:9-47
+57-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:36:19-45
+58        <activity android:name="com.example.myapplication.deleteAccountScreen" />
+58-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:37:9-56
+58-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:37:19-54
+59        <activity android:name="com.example.myapplication.searchScreen" />
+59-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:38:9-48
+59-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:38:19-46
+60        <activity android:name="com.example.myapplication.couponScreen" />
+60-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:40:9-48
+60-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:40:19-46
+61        <activity android:name="com.example.myapplication.keywordListScreen" />
+61-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:42:9-53
+61-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:42:19-51
+62        <activity android:name="com.example.myapplication.keywordEditScreen" />
+62-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:43:9-54
+62-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:43:19-52
+63        <activity android:name="com.example.myapplication.detailShopScreen" />
+63-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:44:9-53
+63-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:44:19-51
+64        <activity android:name="com.example.myapplication.newsListScreen" />
+64-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:45:9-51
+64-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:45:19-49
+65        <activity android:name="com.example.myapplication.newsCouponScreen" />
+65-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:46:9-53
+65-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:46:19-51
+66        <activity android:name="com.example.myapplication.newsKeywordScreen" />
+66-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:47:9-54
+66-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:47:19-52
+67        <activity android:name="com.example.myapplication.favShopScreen" />
+67-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:48:9-50
+67-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:48:19-48
+68
+69        <!-- QRコード -->
+70        <activity
+70-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:52:9-55:49
+71            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+71-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:53:13-74
+72            android:clearTaskOnLaunch="true"
+72-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/84577a933af6210f2a63aaa04ea9adde/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+73            android:screenOrientation="fullSensor"
+73-->/Users/iguchi_hitomi/aptful/aptful_system/app/src/main/AndroidManifest.xml:54:13-51
+74            android:stateNotNeeded="true"
+74-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/84577a933af6210f2a63aaa04ea9adde/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+75            android:theme="@style/zxing_CaptureTheme"
+75-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/84577a933af6210f2a63aaa04ea9adde/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+76            android:windowSoftInputMode="stateAlwaysHidden" />
+76-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/84577a933af6210f2a63aaa04ea9adde/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+80            android:authorities="com.example.myapplication.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.0.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/8423aceeeeb7b7008623f7d8c435e4eb/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/c8f90db82e157d7f3c5debcb17b576c8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/c8f90db82e157d7f3c5debcb17b576c8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/iguchi_hitomi/.gradle/caches/transforms-3/c8f90db82e157d7f3c5debcb17b576c8/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+88        </provider>
+89    </application>
+90
+91</manifest>

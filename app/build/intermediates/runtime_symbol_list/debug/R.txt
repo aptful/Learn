@@ -1796,6 +1796,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f070052
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f070053
 int drawable abc_textfield_search_material 0x7f070054
 int drawable abc_vector_test 0x7f070055
+int drawable add 0x7f0700b5
 int drawable added 0x7f070056
 int drawable all 0x7f070057
 int drawable avd_hide_password 0x7f070058
@@ -2050,6 +2051,7 @@ int id center_horizontal 0x7f08009b
 int id center_vertical 0x7f08009c
 int id chain 0x7f08009d
 int id chains 0x7f08009e
+int id checkBox 0x7f0802aa
 int id checkbox 0x7f08009f
 int id checked 0x7f0800a0
 int id chip 0x7f0800a1

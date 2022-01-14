@@ -22,7 +22,7 @@ public final class Signup2Binding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button addButton;
+  public final ImageButton addButton;
 
   @NonNull
   public final ImageButton added2Button;
@@ -96,7 +96,7 @@ public final class Signup2Binding implements ViewBinding {
   @NonNull
   public final TextView takeoutText;
 
-  private Signup2Binding(@NonNull LinearLayout rootView, @NonNull Button addButton,
+  private Signup2Binding(@NonNull LinearLayout rootView, @NonNull ImageButton addButton,
       @NonNull ImageButton added2Button, @NonNull ImageButton added3Button,
       @NonNull ImageButton added4Button, @NonNull ImageButton added5Button,
       @NonNull ImageButton added6Button, @NonNull ImageButton added7Button,
@@ -163,7 +163,7 @@ public final class Signup2Binding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.addButton;
-      Button addButton = ViewBindings.findChildViewById(rootView, id);
+      ImageButton addButton = ViewBindings.findChildViewById(rootView, id);
       if (addButton == null) {
         break missingId;
       }

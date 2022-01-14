@@ -40,7 +40,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
         <activity
-            android:name="com.example.myapplication.loginScreen"
+            android:name="com.example.myapplication.signupThree"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,7 +52,6 @@
         <activity android:name="com.example.myapplication.mypageScreen" />
         <activity android:name="com.example.myapplication.signupOne" />
         <activity android:name="com.example.myapplication.signupTwo" />
-        <activity android:name="com.example.myapplication.signupThree" />
         <activity android:name="com.example.myapplication.configScreen" />
         <activity android:name="com.example.myapplication.checkAccountScreen" />
         <activity android:name="com.example.myapplication.ruleScreen" />
