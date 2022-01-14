@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.TextView
 
@@ -14,18 +13,17 @@ class signupThree : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signup3)
+//        val pass :TextView = findViewById(R.id.password_edit_signupText)
 
-
+//        val editpass = intent.getStringExtra("pass")    //値の受け取り
+//        pass.text = editpass    //テキストに表示
         //完了ボタン
         val btnOK : Button =findViewById(R.id.btnOK)
 
         //マイページ画面に遷移
         btnOK.setOnClickListener {
             val intent = Intent(this,mypageScreen::class.java)
-            val checkBox = findViewById<CheckBox>(R.id.checkbox)    //チェックボックス
-            if(checkBox.isChecked == true) {
-                startActivity(intent)
-            }
+            startActivity(intent)
         }
 
         //戻るボタン

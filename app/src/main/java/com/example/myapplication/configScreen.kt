@@ -22,7 +22,7 @@ class configScreen : AppCompatActivity() {
             startActivity(intent)
         }
         //アカウント内容確認ボタン
-        val btnnext : Button =findViewById(R.id.nextButton)
+        val btnnext : Button =findViewById(R.id.accountButton)
 
         //アカウント内容確認画面に遷移
         btnnext.setOnClickListener {
