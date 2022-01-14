@@ -1797,6 +1797,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add
 drawable added
 drawable all
 drawable avd_hide_password
@@ -2051,6 +2052,7 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id checkBox
 id checkbox
 id checked
 id chip
@@ -2086,11 +2088,14 @@ id cos
 id counterclockwise
 id couponButton
 id couponText
-id couponText1
 id couponText2
 id couponText3
 id couponText4
 id couponText5
+id couponText_a
+id couponText_b
+id couponText_c
+id couponText_d
 id couponView
 id createButton
 id creativecuisineText
@@ -2436,10 +2441,10 @@ id showHome
 id showTitle
 id signoutButton
 id signoutText
-id signupOneLabel
+id signupThreeLabel
+id signupTwoLabel
+id sigupOneLabel
 id sin
-id sinupOneLabel
-id sinupTwoLabel
 id skipCollapsed
 id skipped
 id slide
@@ -2537,8 +2542,10 @@ id unchecked
 id uniform
 id unlabeled
 id up
-id useButton
-id useButton1
+id useButton_a
+id useButton_b
+id useButton_c
+id useButton_d
 id useLogo
 id username
 id vertical_only
@@ -2811,6 +2818,7 @@ string icon_content_description
 string id_label
 string invalid_password
 string invalid_username
+string invalid_usernamelength
 string item_view_role_description
 string keyword
 string login_failed

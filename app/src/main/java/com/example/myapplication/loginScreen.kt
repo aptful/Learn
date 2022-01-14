@@ -38,6 +38,7 @@ class loginScreen : AppCompatActivity() {
         val btncreate: Button = findViewById(R.id.createButton)
 
 
+
         //新規登録画面1に遷移
         btncreate.setOnClickListener {
             val intent = Intent(this, signupOne::class.java)
@@ -75,6 +76,8 @@ class loginScreen : AppCompatActivity() {
             }
             if (loginResult.success != null) {
                 updateUiWithUser(loginResult.success)
+                val intent = Intent(this, mypageScreen::class.java)
+                startActivity(intent)
             }
 
             //なくてもあってもいけるぽい
@@ -84,10 +87,8 @@ class loginScreen : AppCompatActivity() {
             //finish()
 
             //マイページに遷移
-            btnlogin.setOnClickListener {
-                val intent = Intent(this, mypageScreen::class.java)
-                startActivity(intent)
-            }
+            //btnlogin.setOnClickListener {
+            //}
 
         })
 
@@ -126,11 +127,12 @@ class loginScreen : AppCompatActivity() {
 
     private fun updateUiWithUser(model: LoggedInUserView) {
         val welcome = getString(R.string.welcome)
-        val displayName = model.displayName
+        //val displayName = model.displayName
         // TODO : initiate successful logged in experience
         Toast.makeText(
             applicationContext,
-            "$welcome $displayName",
+            //"$welcome $displayName",
+            "$welcome",
             Toast.LENGTH_LONG
         ).show()
     }

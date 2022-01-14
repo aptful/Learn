@@ -22,7 +22,7 @@ public final class Signup2Binding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button addButton;
+  public final ImageButton addButton;
 
   @NonNull
   public final ImageButton added2Button;
@@ -85,7 +85,7 @@ public final class Signup2Binding implements ViewBinding {
   public final Button nextButton;
 
   @NonNull
-  public final TextView sinupTwoLabel;
+  public final TextView signupTwoLabel;
 
   @NonNull
   public final TextView souvenirsText;
@@ -96,7 +96,7 @@ public final class Signup2Binding implements ViewBinding {
   @NonNull
   public final TextView takeoutText;
 
-  private Signup2Binding(@NonNull LinearLayout rootView, @NonNull Button addButton,
+  private Signup2Binding(@NonNull LinearLayout rootView, @NonNull ImageButton addButton,
       @NonNull ImageButton added2Button, @NonNull ImageButton added3Button,
       @NonNull ImageButton added4Button, @NonNull ImageButton added5Button,
       @NonNull ImageButton added6Button, @NonNull ImageButton added7Button,
@@ -105,7 +105,7 @@ public final class Signup2Binding implements ViewBinding {
       @NonNull TextView breadText, @NonNull TextView cafeText, @NonNull Button cancelButton,
       @NonNull TextView creativecuisineText, @NonNull TextView customizeText,
       @NonNull TextView drinkText, @NonNull TextView fruitText, @NonNull TextView izakayaText,
-      @NonNull Button nextButton, @NonNull TextView sinupTwoLabel, @NonNull TextView souvenirsText,
+      @NonNull Button nextButton, @NonNull TextView signupTwoLabel, @NonNull TextView souvenirsText,
       @NonNull TextView sweetsText, @NonNull TextView takeoutText) {
     this.rootView = rootView;
     this.addButton = addButton;
@@ -129,7 +129,7 @@ public final class Signup2Binding implements ViewBinding {
     this.fruitText = fruitText;
     this.izakayaText = izakayaText;
     this.nextButton = nextButton;
-    this.sinupTwoLabel = sinupTwoLabel;
+    this.signupTwoLabel = signupTwoLabel;
     this.souvenirsText = souvenirsText;
     this.sweetsText = sweetsText;
     this.takeoutText = takeoutText;
@@ -163,7 +163,7 @@ public final class Signup2Binding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.addButton;
-      Button addButton = ViewBindings.findChildViewById(rootView, id);
+      ImageButton addButton = ViewBindings.findChildViewById(rootView, id);
       if (addButton == null) {
         break missingId;
       }
@@ -288,9 +288,9 @@ public final class Signup2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.sinupTwoLabel;
-      TextView sinupTwoLabel = ViewBindings.findChildViewById(rootView, id);
-      if (sinupTwoLabel == null) {
+      id = R.id.signupTwoLabel;
+      TextView signupTwoLabel = ViewBindings.findChildViewById(rootView, id);
+      if (signupTwoLabel == null) {
         break missingId;
       }
 
@@ -315,7 +315,7 @@ public final class Signup2Binding implements ViewBinding {
       return new Signup2Binding((LinearLayout) rootView, addButton, added2Button, added3Button,
           added4Button, added5Button, added6Button, added7Button, added8Button, added9Button,
           addedButton, artText, backButton, breadText, cafeText, cancelButton, creativecuisineText,
-          customizeText, drinkText, fruitText, izakayaText, nextButton, sinupTwoLabel,
+          customizeText, drinkText, fruitText, izakayaText, nextButton, signupTwoLabel,
           souvenirsText, sweetsText, takeoutText);
     }
     String missingId = rootView.getResources().getResourceName(id);

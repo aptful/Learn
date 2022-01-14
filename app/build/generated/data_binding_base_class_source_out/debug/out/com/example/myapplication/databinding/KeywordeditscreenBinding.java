@@ -22,7 +22,7 @@ public final class KeywordeditscreenBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button addButton;
+  public final ImageButton addButton;
 
   @NonNull
   public final ImageButton added10Button;
@@ -102,7 +102,7 @@ public final class KeywordeditscreenBinding implements ViewBinding {
   @NonNull
   public final TextView takeoutText;
 
-  private KeywordeditscreenBinding(@NonNull LinearLayout rootView, @NonNull Button addButton,
+  private KeywordeditscreenBinding(@NonNull LinearLayout rootView, @NonNull ImageButton addButton,
       @NonNull ImageButton added10Button, @NonNull ImageButton added2Button,
       @NonNull ImageButton added3Button, @NonNull ImageButton added4Button,
       @NonNull ImageButton added5Button, @NonNull ImageButton added6Button,
@@ -173,7 +173,7 @@ public final class KeywordeditscreenBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.addButton;
-      Button addButton = ViewBindings.findChildViewById(rootView, id);
+      ImageButton addButton = ViewBindings.findChildViewById(rootView, id);
       if (addButton == null) {
         break missingId;
       }
