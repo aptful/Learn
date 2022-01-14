@@ -103,12 +103,12 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/narumi/.gradle/cache
 		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:9:9-36
 	android:theme
 		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:14:9-51
-activity#com.example.myapplication.main
+activity#com.example.myapplication.loginScreen
 ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:20:9-28:20
 	android:exported
 		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:21:13-33
+		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:21:13-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN

@@ -1,7 +1,7 @@
-com/example/myapplication/BuildConfig.java
- com.example.myapplication.BuildConfig
 com/example/myapplication/databinding/DetailshopscreenBinding.java
  com.example.myapplication.databinding.DetailshopscreenBinding
+com/example/myapplication/databinding/LoginscreenBinding.java
+ com.example.myapplication.databinding.LoginscreenBinding
 com/example/myapplication/databinding/MypageBinding.java
  com.example.myapplication.databinding.MypageBinding
 com/example/myapplication/databinding/OptionBinding.java
@@ -10,8 +10,6 @@ com/example/myapplication/databinding/KeywordeditscreenBinding.java
  com.example.myapplication.databinding.KeywordeditscreenBinding
 com/example/myapplication/databinding/MycouponBinding.java
  com.example.myapplication.databinding.MycouponBinding
-com/example/myapplication/databinding/ActivityScanQrBinding.java
- com.example.myapplication.databinding.ActivityScanQrBinding
 com/example/myapplication/databinding/LoginBinding.java
  com.example.myapplication.databinding.LoginBinding
 com/example/myapplication/databinding/FavshopscreenBinding.java
@@ -30,6 +28,8 @@ com/example/myapplication/databinding/KeywordallBinding.java
  com.example.myapplication.databinding.KeywordallBinding
 com/example/myapplication/databinding/NewscouponscreenBinding.java
  com.example.myapplication.databinding.NewscouponscreenBinding
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
 com/example/myapplication/databinding/NewslistscreenBinding.java
  com.example.myapplication.databinding.NewslistscreenBinding
 com/example/myapplication/databinding/KeywordshopscreenBinding.java

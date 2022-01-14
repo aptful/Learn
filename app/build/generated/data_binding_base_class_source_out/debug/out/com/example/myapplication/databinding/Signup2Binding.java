@@ -22,34 +22,34 @@ public final class Signup2Binding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final TextView addButton;
+  public final ImageButton addButton;
 
   @NonNull
-  public final TextView added2Button;
+  public final ImageButton added2Button;
 
   @NonNull
-  public final TextView added3Button;
+  public final ImageButton added3Button;
 
   @NonNull
-  public final TextView added4Button;
+  public final ImageButton added4Button;
 
   @NonNull
-  public final TextView added5Button;
+  public final ImageButton added5Button;
 
   @NonNull
-  public final TextView added6Button;
+  public final ImageButton added6Button;
 
   @NonNull
-  public final TextView added7Button;
+  public final ImageButton added7Button;
 
   @NonNull
-  public final TextView added8Button;
+  public final ImageButton added8Button;
 
   @NonNull
-  public final TextView added9Button;
+  public final ImageButton added9Button;
 
   @NonNull
-  public final TextView addedButton;
+  public final ImageButton addedButton;
 
   @NonNull
   public final TextView artText;
@@ -85,7 +85,7 @@ public final class Signup2Binding implements ViewBinding {
   public final Button nextButton;
 
   @NonNull
-  public final TextView sinupTwoLabel;
+  public final TextView signupTwoLabel;
 
   @NonNull
   public final TextView souvenirsText;
@@ -96,16 +96,16 @@ public final class Signup2Binding implements ViewBinding {
   @NonNull
   public final TextView takeoutText;
 
-  private Signup2Binding(@NonNull LinearLayout rootView, @NonNull TextView addButton,
-      @NonNull TextView added2Button, @NonNull TextView added3Button,
-      @NonNull TextView added4Button, @NonNull TextView added5Button,
-      @NonNull TextView added6Button, @NonNull TextView added7Button,
-      @NonNull TextView added8Button, @NonNull TextView added9Button, @NonNull TextView addedButton,
-      @NonNull TextView artText, @NonNull ImageButton backButton, @NonNull TextView breadText,
-      @NonNull TextView cafeText, @NonNull Button cancelButton,
+  private Signup2Binding(@NonNull LinearLayout rootView, @NonNull ImageButton addButton,
+      @NonNull ImageButton added2Button, @NonNull ImageButton added3Button,
+      @NonNull ImageButton added4Button, @NonNull ImageButton added5Button,
+      @NonNull ImageButton added6Button, @NonNull ImageButton added7Button,
+      @NonNull ImageButton added8Button, @NonNull ImageButton added9Button,
+      @NonNull ImageButton addedButton, @NonNull TextView artText, @NonNull ImageButton backButton,
+      @NonNull TextView breadText, @NonNull TextView cafeText, @NonNull Button cancelButton,
       @NonNull TextView creativecuisineText, @NonNull TextView customizeText,
       @NonNull TextView drinkText, @NonNull TextView fruitText, @NonNull TextView izakayaText,
-      @NonNull Button nextButton, @NonNull TextView sinupTwoLabel, @NonNull TextView souvenirsText,
+      @NonNull Button nextButton, @NonNull TextView signupTwoLabel, @NonNull TextView souvenirsText,
       @NonNull TextView sweetsText, @NonNull TextView takeoutText) {
     this.rootView = rootView;
     this.addButton = addButton;
@@ -129,7 +129,7 @@ public final class Signup2Binding implements ViewBinding {
     this.fruitText = fruitText;
     this.izakayaText = izakayaText;
     this.nextButton = nextButton;
-    this.sinupTwoLabel = sinupTwoLabel;
+    this.signupTwoLabel = signupTwoLabel;
     this.souvenirsText = souvenirsText;
     this.sweetsText = sweetsText;
     this.takeoutText = takeoutText;
@@ -163,61 +163,61 @@ public final class Signup2Binding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.addButton;
-      TextView addButton = ViewBindings.findChildViewById(rootView, id);
+      ImageButton addButton = ViewBindings.findChildViewById(rootView, id);
       if (addButton == null) {
         break missingId;
       }
 
       id = R.id.added2Button;
-      TextView added2Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added2Button = ViewBindings.findChildViewById(rootView, id);
       if (added2Button == null) {
         break missingId;
       }
 
       id = R.id.added3Button;
-      TextView added3Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added3Button = ViewBindings.findChildViewById(rootView, id);
       if (added3Button == null) {
         break missingId;
       }
 
       id = R.id.added4Button;
-      TextView added4Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added4Button = ViewBindings.findChildViewById(rootView, id);
       if (added4Button == null) {
         break missingId;
       }
 
       id = R.id.added5Button;
-      TextView added5Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added5Button = ViewBindings.findChildViewById(rootView, id);
       if (added5Button == null) {
         break missingId;
       }
 
       id = R.id.added6Button;
-      TextView added6Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added6Button = ViewBindings.findChildViewById(rootView, id);
       if (added6Button == null) {
         break missingId;
       }
 
       id = R.id.added7Button;
-      TextView added7Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added7Button = ViewBindings.findChildViewById(rootView, id);
       if (added7Button == null) {
         break missingId;
       }
 
       id = R.id.added8Button;
-      TextView added8Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added8Button = ViewBindings.findChildViewById(rootView, id);
       if (added8Button == null) {
         break missingId;
       }
 
       id = R.id.added9Button;
-      TextView added9Button = ViewBindings.findChildViewById(rootView, id);
+      ImageButton added9Button = ViewBindings.findChildViewById(rootView, id);
       if (added9Button == null) {
         break missingId;
       }
 
       id = R.id.addedButton;
-      TextView addedButton = ViewBindings.findChildViewById(rootView, id);
+      ImageButton addedButton = ViewBindings.findChildViewById(rootView, id);
       if (addedButton == null) {
         break missingId;
       }
@@ -288,9 +288,9 @@ public final class Signup2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.sinupTwoLabel;
-      TextView sinupTwoLabel = ViewBindings.findChildViewById(rootView, id);
-      if (sinupTwoLabel == null) {
+      id = R.id.signupTwoLabel;
+      TextView signupTwoLabel = ViewBindings.findChildViewById(rootView, id);
+      if (signupTwoLabel == null) {
         break missingId;
       }
 
@@ -315,7 +315,7 @@ public final class Signup2Binding implements ViewBinding {
       return new Signup2Binding((LinearLayout) rootView, addButton, added2Button, added3Button,
           added4Button, added5Button, added6Button, added7Button, added8Button, added9Button,
           addedButton, artText, backButton, breadText, cafeText, cancelButton, creativecuisineText,
-          customizeText, drinkText, fruitText, izakayaText, nextButton, sinupTwoLabel,
+          customizeText, drinkText, fruitText, izakayaText, nextButton, signupTwoLabel,
           souvenirsText, sweetsText, takeoutText);
     }
     String missingId = rootView.getResources().getResourceName(id);

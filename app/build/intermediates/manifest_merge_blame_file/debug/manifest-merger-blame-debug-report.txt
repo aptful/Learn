@@ -71,8 +71,8 @@
 41-->/Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:14:9-51
 42        <activity
 42-->/Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:20:9-28:20
-43            android:name="com.example.myapplication.main"
-43-->/Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:21:13-33
+43            android:name="com.example.myapplication.loginScreen"
+43-->/Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:21:13-40
 44            android:exported="true" >
 44-->/Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:22:13-36
 45            <intent-filter>

@@ -3,15 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20625" />
-        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20625" />
-        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.20625" />
-        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/detailshopscreen.xml" value="0.25" />
-        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/mycoupon.xml" value="0.25" />
-        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/signup1.xml" value="0.19010416666666666" />
-        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/signup2.xml" value="0.19010416666666666" />
-        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/signup3.xml" value="0.19010416666666666" />
-        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20625" />
         <entry key="app/src/main/res/drawable/black_flame_back_orange.xml" value="0.11770833333333333" />
         <entry key="app/src/main/res/drawable/blueborder.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/border.xml" value="0.11770833333333333" />
@@ -33,21 +24,22 @@
         <entry key="app/src/main/res/layout/keywordAll.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/keywordEditScreen.xml" value="0.21851851851851853" />
         <entry key="app/src/main/res/layout/keywordall.xml" value="0.2453125" />
-        <entry key="app/src/main/res/layout/keywordeditscreen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/keywordeditscreen.xml" value="0.17530864197530865" />
         <entry key="app/src/main/res/layout/keywordlistscreen.xml" value="0.14270833333333333" />
         <entry key="app/src/main/res/layout/keywordshopscreen.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/login.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/loginscreen.xml" value="0.10677083333333333" />
         <entry key="app/src/main/res/layout/mycoupon.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/mypage.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/newscouponscreen.xml" value="0.2453125" />
-        <entry key="app/src/main/res/layout/newskeywordscreen.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/newskeywordscreen.xml" value="0.24942263279445728" />
         <entry key="app/src/main/res/layout/newslistscreen.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/option.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/ruleScreen.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/rulescreen.xml" value="0.5" />
         <entry key="app/src/main/res/layout/search.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/signup1.xml" value="0.2453125" />
-        <entry key="app/src/main/res/layout/signup2.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/signup2.xml" value="0.17574257425742573" />
         <entry key="app/src/main/res/layout/signup3.xml" value="0.2453125" />
         <entry key="app/src/main/res/layout/sinup1.xml" value="0.16770833333333332" />
         <entry key="app/src/main/res/layout/sinup3.xml" value="0.14270833333333333" />

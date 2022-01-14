@@ -45,10 +45,10 @@
         app:srcCompat="@drawable/home" />
 
     <!--一覧ボタン-->
-    <TextView
+    <Button
         android:id="@+id/allButton"
         android:layout_width="120dp"
-        android:layout_height="39dp"
+        android:layout_height="45dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="19dp"
         android:gravity="center"
@@ -58,30 +58,28 @@
         android:textSize="20sp" />
 
     <!--くーぽんボタン-->
-    <TextView
+    <ImageButton
         android:id="@+id/couponButton"
         android:layout_width="120dp"
         android:layout_height="39dp"
         android:layout_marginStart="150dp"
         android:layout_marginTop="-40dp"
-        android:background="@drawable/border"
+        android:background="@drawable/coupon_news"
         android:gravity="center"
-        android:text="くーぽん"
-        android:textColor="#ff7f50"
         android:textSize="20sp" />
 
     <!--きーわーどボタン-->
-    <TextView
+    <Button
         android:id="@+id/keywordButton"
         android:layout_width="120dp"
-        android:layout_height="39dp"
+        android:layout_height="45dp"
         android:layout_marginStart="280dp"
-        android:layout_marginTop="-39dp"
+        android:layout_marginTop="-44dp"
         android:background="#ff7f50"
         android:gravity="center"
         android:text="きーわーど"
         android:textColor="#fff8dc"
-        android:textSize="20sp" />
+        android:textSize="15sp" />
 
     <!--お知らせフレーム-->
     <ImageView

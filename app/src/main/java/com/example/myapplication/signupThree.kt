@@ -4,14 +4,17 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.CheckBox
 import android.widget.ImageView
+import android.widget.TextView
 
-//作成者：綾部
+//作成者：綾部，井口
 
 class signupThree : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signup3)
+
 
         //完了ボタン
         val btnOK : Button =findViewById(R.id.btnOK)
@@ -19,7 +22,10 @@ class signupThree : AppCompatActivity() {
         //マイページ画面に遷移
         btnOK.setOnClickListener {
             val intent = Intent(this,mypageScreen::class.java)
-            startActivity(intent)
+            val checkBox = findViewById<CheckBox>(R.id.checkbox)    //チェックボックス
+            if(checkBox.isChecked == true) {
+                startActivity(intent)
+            }
         }
 
         //戻るボタン

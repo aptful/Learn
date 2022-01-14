@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
 
@@ -13,12 +14,14 @@ class signupTwo : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signup2)
 
+        //【追加】ボタン
+
         //新規登録画面2ボタン
         val btnnext : Button =findViewById(R.id.nextButton)
 
         //新規登録画面3に遷移
         btnnext.setOnClickListener {
-            val intent = Intent(this,signupThree::class.java)
+            val intent = Intent(this, signupThree::class.java)
             startActivity(intent)
         }
 
