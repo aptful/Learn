@@ -13,7 +13,7 @@
     <!--帯-->
     <!--    新規登録画面（3/3）の文字-->
     <TextView
-        android:id="@+id/signupThreeLabel"
+        android:id="@+id/signupOneLabel"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -198,7 +198,7 @@
         android:text=" 利用規約に同意する" />
 
     <Button
-        android:id="@+id/rulrButton"
+        android:id="@+id/cancelButton"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
