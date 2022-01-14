@@ -65,7 +65,7 @@ public final class Signup3Binding implements ViewBinding {
   public final Button rulrButton;
 
   @NonNull
-  public final TextView signupOneLabel;
+  public final TextView signupThreeLabel;
 
   private Signup3Binding(@NonNull LinearLayout rootView, @NonNull TextView IDEditSignupText,
       @NonNull TextView IDSignupText, @NonNull ImageView backButton,
@@ -73,7 +73,7 @@ public final class Signup3Binding implements ViewBinding {
       @NonNull Button btnOK, @NonNull CheckBox checkBox, @NonNull ImageView imageView,
       @NonNull TextView keywordText, @NonNull TextView looksignupText,
       @NonNull TextView passwordEditSignupText, @NonNull TextView passwordSignupText,
-      @NonNull TextView ruleText, @NonNull Button rulrButton, @NonNull TextView signupOneLabel) {
+      @NonNull TextView ruleText, @NonNull Button rulrButton, @NonNull TextView signupThreeLabel) {
     this.rootView = rootView;
     this.IDEditSignupText = IDEditSignupText;
     this.IDSignupText = IDSignupText;
@@ -89,7 +89,7 @@ public final class Signup3Binding implements ViewBinding {
     this.passwordSignupText = passwordSignupText;
     this.ruleText = ruleText;
     this.rulrButton = rulrButton;
-    this.signupOneLabel = signupOneLabel;
+    this.signupThreeLabel = signupThreeLabel;
   }
 
   @Override
@@ -203,16 +203,16 @@ public final class Signup3Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.signupOneLabel;
-      TextView signupOneLabel = ViewBindings.findChildViewById(rootView, id);
-      if (signupOneLabel == null) {
+      id = R.id.signupThreeLabel;
+      TextView signupThreeLabel = ViewBindings.findChildViewById(rootView, id);
+      if (signupThreeLabel == null) {
         break missingId;
       }
 
       return new Signup3Binding((LinearLayout) rootView, IDEditSignupText, IDSignupText, backButton,
           birthdayEditSignupText, birthdaySinupText, btnOK, checkBox, imageView, keywordText,
           looksignupText, passwordEditSignupText, passwordSignupText, ruleText, rulrButton,
-          signupOneLabel);
+          signupThreeLabel);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

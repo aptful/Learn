@@ -82,10 +82,10 @@ public final class Signup2Binding implements ViewBinding {
   public final TextView izakayaText;
 
   @NonNull
-  public final Button nextButton;
+  public final Button nextButton2;
 
   @NonNull
-  public final TextView sinupTwoLabel;
+  public final TextView signupTwoLabel;
 
   @NonNull
   public final TextView souvenirsText;
@@ -105,8 +105,9 @@ public final class Signup2Binding implements ViewBinding {
       @NonNull TextView breadText, @NonNull TextView cafeText, @NonNull Button cancelButton,
       @NonNull TextView creativecuisineText, @NonNull TextView customizeText,
       @NonNull TextView drinkText, @NonNull TextView fruitText, @NonNull TextView izakayaText,
-      @NonNull Button nextButton, @NonNull TextView sinupTwoLabel, @NonNull TextView souvenirsText,
-      @NonNull TextView sweetsText, @NonNull TextView takeoutText) {
+      @NonNull Button nextButton2, @NonNull TextView signupTwoLabel,
+      @NonNull TextView souvenirsText, @NonNull TextView sweetsText,
+      @NonNull TextView takeoutText) {
     this.rootView = rootView;
     this.addButton = addButton;
     this.added2Button = added2Button;
@@ -128,8 +129,8 @@ public final class Signup2Binding implements ViewBinding {
     this.drinkText = drinkText;
     this.fruitText = fruitText;
     this.izakayaText = izakayaText;
-    this.nextButton = nextButton;
-    this.sinupTwoLabel = sinupTwoLabel;
+    this.nextButton2 = nextButton2;
+    this.signupTwoLabel = signupTwoLabel;
     this.souvenirsText = souvenirsText;
     this.sweetsText = sweetsText;
     this.takeoutText = takeoutText;
@@ -282,15 +283,15 @@ public final class Signup2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.nextButton;
-      Button nextButton = ViewBindings.findChildViewById(rootView, id);
-      if (nextButton == null) {
+      id = R.id.nextButton2;
+      Button nextButton2 = ViewBindings.findChildViewById(rootView, id);
+      if (nextButton2 == null) {
         break missingId;
       }
 
-      id = R.id.sinupTwoLabel;
-      TextView sinupTwoLabel = ViewBindings.findChildViewById(rootView, id);
-      if (sinupTwoLabel == null) {
+      id = R.id.signupTwoLabel;
+      TextView signupTwoLabel = ViewBindings.findChildViewById(rootView, id);
+      if (signupTwoLabel == null) {
         break missingId;
       }
 
@@ -315,7 +316,7 @@ public final class Signup2Binding implements ViewBinding {
       return new Signup2Binding((LinearLayout) rootView, addButton, added2Button, added3Button,
           added4Button, added5Button, added6Button, added7Button, added8Button, added9Button,
           addedButton, artText, backButton, breadText, cafeText, cancelButton, creativecuisineText,
-          customizeText, drinkText, fruitText, izakayaText, nextButton, sinupTwoLabel,
+          customizeText, drinkText, fruitText, izakayaText, nextButton2, signupTwoLabel,
           souvenirsText, sweetsText, takeoutText);
     }
     String missingId = rootView.getResources().getResourceName(id);

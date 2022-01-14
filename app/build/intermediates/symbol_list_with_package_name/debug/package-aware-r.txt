@@ -2333,6 +2333,7 @@ id never
 id neverCompleteToEnd
 id neverCompleteToStart
 id nextButton
+id nextButton2
 id noScroll
 id noState
 id none
@@ -2438,10 +2439,10 @@ id showHome
 id showTitle
 id signoutButton
 id signoutText
-id signupOneLabel
+id signupThreeLabel
+id signupTwoLabel
+id sigupOneLabel
 id sin
-id sinupOneLabel
-id sinupTwoLabel
 id skipCollapsed
 id skipped
 id slide

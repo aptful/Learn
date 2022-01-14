@@ -2332,6 +2332,7 @@ int id never 0x7f0801b3
 int id neverCompleteToEnd 0x7f0801b4
 int id neverCompleteToStart 0x7f0801b5
 int id nextButton 0x7f0801b6
+int id nextButton2 0x7f0802ae
 int id noScroll 0x7f0801b7
 int id noState 0x7f0801b8
 int id none 0x7f0801b9
@@ -2437,10 +2438,10 @@ int id showHome 0x7f08021c
 int id showTitle 0x7f08021d
 int id signoutButton 0x7f08021e
 int id signoutText 0x7f08021f
-int id signupOneLabel 0x7f080220
+int id signupThreeLabel 0x7f0802ad
+int id signupTwoLabel 0x7f0802ab
+int id sigupOneLabel 0x7f0802ac
 int id sin 0x7f080221
-int id sinupOneLabel 0x7f080222
-int id sinupTwoLabel 0x7f080223
 int id skipCollapsed 0x7f080224
 int id skipped 0x7f080225
 int id slide 0x7f080226
