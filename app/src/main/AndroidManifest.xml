@@ -7,7 +7,7 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/aptful_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
@@ -18,7 +18,7 @@
 
 
         <activity
-            android:name=".loginScreen"
+            android:name=".signupThree"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,7 +30,7 @@
         <activity android:name="mypageScreen"/>
         <activity android:name="signupOne"/>
         <activity android:name="signupTwo"/>
-        <activity android:name="signupThree"/>
+<!--        <activity android:name="signupThree"/>-->
         <activity android:name="configScreen"/>
         <activity android:name=".checkAccountScreen"/>
         <activity android:name=".ruleScreen"/>
