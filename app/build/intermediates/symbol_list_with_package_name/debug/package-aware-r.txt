@@ -2088,11 +2088,14 @@ id cos
 id counterclockwise
 id couponButton
 id couponText
-id couponText1
 id couponText2
 id couponText3
 id couponText4
 id couponText5
+id couponText_a
+id couponText_b
+id couponText_c
+id couponText_d
 id couponView
 id createButton
 id creativecuisineText
@@ -2333,7 +2336,6 @@ id never
 id neverCompleteToEnd
 id neverCompleteToStart
 id nextButton
-id nextButton2
 id noScroll
 id noState
 id none
@@ -2540,8 +2542,10 @@ id unchecked
 id uniform
 id unlabeled
 id up
-id useButton
-id useButton1
+id useButton_a
+id useButton_b
+id useButton_c
+id useButton_d
 id useLogo
 id username
 id vertical_only

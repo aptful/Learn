@@ -82,7 +82,7 @@ public final class Signup2Binding implements ViewBinding {
   public final TextView izakayaText;
 
   @NonNull
-  public final Button nextButton2;
+  public final Button nextButton;
 
   @NonNull
   public final TextView signupTwoLabel;
@@ -105,9 +105,8 @@ public final class Signup2Binding implements ViewBinding {
       @NonNull TextView breadText, @NonNull TextView cafeText, @NonNull Button cancelButton,
       @NonNull TextView creativecuisineText, @NonNull TextView customizeText,
       @NonNull TextView drinkText, @NonNull TextView fruitText, @NonNull TextView izakayaText,
-      @NonNull Button nextButton2, @NonNull TextView signupTwoLabel,
-      @NonNull TextView souvenirsText, @NonNull TextView sweetsText,
-      @NonNull TextView takeoutText) {
+      @NonNull Button nextButton, @NonNull TextView signupTwoLabel, @NonNull TextView souvenirsText,
+      @NonNull TextView sweetsText, @NonNull TextView takeoutText) {
     this.rootView = rootView;
     this.addButton = addButton;
     this.added2Button = added2Button;
@@ -129,7 +128,7 @@ public final class Signup2Binding implements ViewBinding {
     this.drinkText = drinkText;
     this.fruitText = fruitText;
     this.izakayaText = izakayaText;
-    this.nextButton2 = nextButton2;
+    this.nextButton = nextButton;
     this.signupTwoLabel = signupTwoLabel;
     this.souvenirsText = souvenirsText;
     this.sweetsText = sweetsText;
@@ -283,9 +282,9 @@ public final class Signup2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.nextButton2;
-      Button nextButton2 = ViewBindings.findChildViewById(rootView, id);
-      if (nextButton2 == null) {
+      id = R.id.nextButton;
+      Button nextButton = ViewBindings.findChildViewById(rootView, id);
+      if (nextButton == null) {
         break missingId;
       }
 
@@ -316,7 +315,7 @@ public final class Signup2Binding implements ViewBinding {
       return new Signup2Binding((LinearLayout) rootView, addButton, added2Button, added3Button,
           added4Button, added5Button, added6Button, added7Button, added8Button, added9Button,
           addedButton, artText, backButton, breadText, cafeText, cancelButton, creativecuisineText,
-          customizeText, drinkText, fruitText, izakayaText, nextButton2, signupTwoLabel,
+          customizeText, drinkText, fruitText, izakayaText, nextButton, signupTwoLabel,
           souvenirsText, sweetsText, takeoutText);
     }
     String missingId = rootView.getResources().getResourceName(id);

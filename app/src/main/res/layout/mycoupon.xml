@@ -80,7 +80,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/couponText1"
+                android:id="@+id/couponText_a"
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
@@ -91,7 +91,7 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/useButton1"
+                android:id="@+id/useButton_a"
                 android:layout_width="245dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center"
@@ -102,7 +102,7 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/couponText"
+                android:id="@+id/couponText_b"
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
@@ -114,7 +114,7 @@
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/useButton"
+                android:id="@+id/useButton_b"
                 android:layout_width="245dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center"
@@ -125,17 +125,19 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/couponText_c"
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="50dp"
                 android:background="@drawable/black_flame_back_cream"
                 android:gravity="center_horizontal"
-                android:text="c店\n2022年2月25日まで有効\nお会計から50円引き"
+                android:text="C店\n2022年2月25日まで有効\nお会計から50円引き"
                 android:textColor="#696969"
                 android:textSize="18sp" />
 
             <Button
+                android:id="@+id/useButton_c"
                 android:layout_width="245dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center"
@@ -146,6 +148,7 @@
                 android:textSize="20sp" />
 
             <TextView
+                android:id="@+id/couponText_d"
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
@@ -157,6 +160,7 @@
                 android:textSize="18sp" />
 
             <Button
+                android:id="@+id/useButton_d"
                 android:layout_width="245dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center"

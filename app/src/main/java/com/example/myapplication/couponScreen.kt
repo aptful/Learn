@@ -27,17 +27,74 @@ class couponScreen : AppCompatActivity() {
             startActivity(intent)
         }
 
-        //クーポン利用
-        val useBotton: Button = findViewById(R.id.useButton)
+        //クーポン利用_a
+        val useBottonA: Button = findViewById(R.id.useButton_a)
 
-        useBotton.setOnClickListener {
+        useBottonA.setOnClickListener {
             AlertDialog.Builder(this)
                 .setTitle("このクーポンを本当に利用しますか?")
                 .setMessage("「利用する」ボタンをタップするとこのクーポンが削除されます")
 
                 .setPositiveButton("利用する"){ dialog, which ->
-                    val coupon: TextView = findViewById(R.id.couponText)
-                    coupon.setVisibility(View.GONE)
+                    val couponA: TextView = findViewById(R.id.couponText_a)
+                    couponA.setVisibility(View.GONE)
+                }
+                .setNegativeButton("取り消す"){ dialog, which ->
+
+                }
+                .show()
+
+        }
+
+        //クーポン利用_b
+        val useBottonB: Button = findViewById(R.id.useButton_b)
+
+        useBottonB.setOnClickListener {
+            AlertDialog.Builder(this)
+                .setTitle("このクーポンを本当に利用しますか?")
+                .setMessage("「利用する」ボタンをタップするとこのクーポンが削除されます")
+
+                .setPositiveButton("利用する"){ dialog, which ->
+                    val couponB: TextView = findViewById(R.id.couponText_b)
+                    couponB.setVisibility(View.GONE)
+                }
+                .setNegativeButton("取り消す"){ dialog, which ->
+
+                }
+                .show()
+
+        }
+
+        //クーポン利用_c
+        val useBottonC: Button = findViewById(R.id.useButton_c)
+
+        useBottonC.setOnClickListener {
+            AlertDialog.Builder(this)
+                .setTitle("このクーポンを本当に利用しますか?")
+                .setMessage("「利用する」ボタンをタップするとこのクーポンが削除されます")
+
+                .setPositiveButton("利用する"){ dialog, which ->
+                    val couponC: TextView = findViewById(R.id.couponText_c)
+                    couponC.setVisibility(View.GONE)
+                }
+                .setNegativeButton("取り消す"){ dialog, which ->
+
+                }
+                .show()
+
+        }
+
+        //クーポン利用_d
+        val useBottonD: Button = findViewById(R.id.useButton_d)
+
+        useBottonD.setOnClickListener {
+            AlertDialog.Builder(this)
+                .setTitle("このクーポンを本当に利用しますか?")
+                .setMessage("「利用する」ボタンをタップするとこのクーポンが削除されます")
+
+                .setPositiveButton("利用する"){ dialog, which ->
+                    val couponD: TextView = findViewById(R.id.couponText_d)
+                    couponD.setVisibility(View.GONE)
                 }
                 .setNegativeButton("取り消す"){ dialog, which ->
 
