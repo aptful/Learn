@@ -1,3 +1,5 @@
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
 com/example/myapplication/databinding/LoginscreenBinding.java
  com.example.myapplication.databinding.LoginscreenBinding
 com/example/myapplication/databinding/DetailshopscreenBinding.java
@@ -28,8 +30,6 @@ com/example/myapplication/databinding/ConfigBinding.java
  com.example.myapplication.databinding.ConfigBinding
 com/example/myapplication/databinding/NewscouponscreenBinding.java
  com.example.myapplication.databinding.NewscouponscreenBinding
-com/example/myapplication/BuildConfig.java
- com.example.myapplication.BuildConfig
 com/example/myapplication/databinding/NewslistscreenBinding.java
  com.example.myapplication.databinding.NewslistscreenBinding
 com/example/myapplication/databinding/KeywordshopscreenBinding.java

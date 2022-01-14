@@ -2818,6 +2818,7 @@ string icon_content_description
 string id_label
 string invalid_password
 string invalid_username
+string invalid_usernamelength
 string item_view_role_description
 string keyword
 string login_failed

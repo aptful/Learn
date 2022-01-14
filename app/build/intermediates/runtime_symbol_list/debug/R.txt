@@ -2817,6 +2817,7 @@ int string icon_content_description 0x7f10002c
 int string id_label 0x7f10002d
 int string invalid_password 0x7f10002e
 int string invalid_username 0x7f10002f
+int string invalid_usernamelength 0x7f10007b
 int string item_view_role_description 0x7f100030
 int string keyword 0x7f100031
 int string login_failed 0x7f100032
