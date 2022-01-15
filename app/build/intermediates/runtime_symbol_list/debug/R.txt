@@ -1910,7 +1910,6 @@ int id Keypic3 0x7f08000d
 int id Lineaicon 0x7f08000e
 int id META 0x7f08000f
 int id NO_DEBUG 0x7f080010
-int id PasswordText 0x7f080011
 int id SHIFT 0x7f080012
 int id SHOW_ALL 0x7f080013
 int id SHOW_PATH 0x7f080014
@@ -1919,6 +1918,7 @@ int id SYM 0x7f080016
 int id TOP_END 0x7f080017
 int id TOP_START 0x7f080018
 int id Text1 0x7f0802af
+int id Timeday 0x7f0802b1
 int id accelerate 0x7f080019
 int id accessText1 0x7f08001a
 int id accessText2 0x7f08001b
@@ -1995,6 +1995,7 @@ int id added7Button 0x7f080061
 int id added8Button 0x7f080062
 int id added9Button 0x7f080063
 int id addedButton 0x7f080064
+int id address 0x7f0802b2
 int id alertTitle 0x7f080065
 int id aligned 0x7f080066
 int id all 0x7f080067
@@ -2071,6 +2072,7 @@ int id closest 0x7f0800ad
 int id collapseActionView 0x7f0800ae
 int id completebutton 0x7f0800af
 int id configImage 0x7f0800b0
+int id configText 0x7f0802b3
 int id confirm_button 0x7f0800b1
 int id constraint 0x7f0800b2
 int id container 0x7f0800b3
@@ -2383,7 +2385,7 @@ int id position 0x7f0801e6
 int id postLayout 0x7f0801e7
 int id progress_circular 0x7f0801e8
 int id progress_horizontal 0x7f0801e9
-int id qrbutton 0x7f0801ea
+int id qrButton 0x7f0802b4
 int id radio 0x7f0801eb
 int id ratio 0x7f0801ec
 int id rectangles 0x7f0801ed
@@ -2408,6 +2410,7 @@ int id scrollIndicatorUp 0x7f0801ff
 int id scrollView 0x7f080200
 int id scrollable 0x7f080201
 int id searchImage 0x7f080202
+int id searchText 0x7f0802b5
 int id search_badge 0x7f080203
 int id search_bar 0x7f080204
 int id search_button 0x7f080205
@@ -2442,7 +2445,6 @@ int id signoutButton 0x7f080221
 int id signoutText 0x7f080222
 int id signupOneLabel 0x7f080223
 int id signupTwoLabel 0x7f080224
-int id sigupOneLabel 0x7f080225
 int id sin 0x7f080226
 int id skipCollapsed 0x7f080227
 int id skipped 0x7f080228
@@ -2495,6 +2497,7 @@ int id tag_unhandled_key_listeners 0x7f080256
 int id tag_window_insets_animation_callback 0x7f080257
 int id takeoutButton 0x7f080258
 int id takeoutText 0x7f080259
+int id tellphone 0x7f0802b6
 int id temiyageButton 0x7f08025a
 int id temiyageText 0x7f08025b
 int id test_checkbox_android_button_tint 0x7f08025c
@@ -2508,7 +2511,6 @@ int id textSpacerNoButtons 0x7f080263
 int id textSpacerNoTitle 0x7f080264
 int id textStart 0x7f080265
 int id textTop 0x7f080266
-int id textView 0x7f080267
 int id text_id 0x7f080268
 int id text_input_end_icon 0x7f080269
 int id text_input_error_icon 0x7f08026a
@@ -2557,7 +2559,8 @@ int id visible 0x7f080294
 int id visible_removing_fragment_view_tag 0x7f080295
 int id west 0x7f080296
 int id withText 0x7f080297
-int id withdrawalbutton 0x7f080298
+int id withdrawalButton 0x7f0802b7
+int id withdrawalshowText 0x7f0802b8
 int id withinBounds 0x7f080299
 int id wrap 0x7f08029a
 int id wrap_content 0x7f08029b

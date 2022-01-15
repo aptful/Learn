@@ -34,6 +34,12 @@ public final class DetailshopscreenBinding implements ViewBinding {
   public final TextView Lineaicon;
 
   @NonNull
+  public final TextView Timeday;
+
+  @NonNull
+  public final TextView address;
+
+  @NonNull
   public final ImageView backButton;
 
   @NonNull
@@ -88,33 +94,29 @@ public final class DetailshopscreenBinding implements ViewBinding {
   public final TextView shopScreen;
 
   @NonNull
-  public final TextView shopText1;
-
-  @NonNull
-  public final TextView shopText2;
-
-  @NonNull
-  public final TextView shopText3;
-
-  @NonNull
   public final TextView shopnameText;
+
+  @NonNull
+  public final TextView tellphone;
 
   private DetailshopscreenBinding(@NonNull LinearLayout rootView, @NonNull ImageView Keypic1,
       @NonNull ImageView Keypic2, @NonNull ImageView Keypic3, @NonNull TextView Lineaicon,
-      @NonNull ImageView backButton, @NonNull TextView broaddayText,
-      @NonNull TextView explanationText1, @NonNull TextView explanationText2,
-      @NonNull TextView explanationText3, @NonNull TextView explanationText4,
-      @NonNull TextView explanationText5, @NonNull TextView heart, @NonNull ImageButton homeButton,
-      @NonNull ImageView imageView, @NonNull TextView keyText1, @NonNull TextView keyText2,
-      @NonNull TextView keyText3, @NonNull View lineOrange, @NonNull TextView orangecircle1,
-      @NonNull TextView orangecircle2, @NonNull TextView orangecircle3,
-      @NonNull TextView shopScreen, @NonNull TextView shopText1, @NonNull TextView shopText2,
-      @NonNull TextView shopText3, @NonNull TextView shopnameText) {
+      @NonNull TextView Timeday, @NonNull TextView address, @NonNull ImageView backButton,
+      @NonNull TextView broaddayText, @NonNull TextView explanationText1,
+      @NonNull TextView explanationText2, @NonNull TextView explanationText3,
+      @NonNull TextView explanationText4, @NonNull TextView explanationText5,
+      @NonNull TextView heart, @NonNull ImageButton homeButton, @NonNull ImageView imageView,
+      @NonNull TextView keyText1, @NonNull TextView keyText2, @NonNull TextView keyText3,
+      @NonNull View lineOrange, @NonNull TextView orangecircle1, @NonNull TextView orangecircle2,
+      @NonNull TextView orangecircle3, @NonNull TextView shopScreen, @NonNull TextView shopnameText,
+      @NonNull TextView tellphone) {
     this.rootView = rootView;
     this.Keypic1 = Keypic1;
     this.Keypic2 = Keypic2;
     this.Keypic3 = Keypic3;
     this.Lineaicon = Lineaicon;
+    this.Timeday = Timeday;
+    this.address = address;
     this.backButton = backButton;
     this.broaddayText = broaddayText;
     this.explanationText1 = explanationText1;
@@ -133,10 +135,8 @@ public final class DetailshopscreenBinding implements ViewBinding {
     this.orangecircle2 = orangecircle2;
     this.orangecircle3 = orangecircle3;
     this.shopScreen = shopScreen;
-    this.shopText1 = shopText1;
-    this.shopText2 = shopText2;
-    this.shopText3 = shopText3;
     this.shopnameText = shopnameText;
+    this.tellphone = tellphone;
   }
 
   @Override
@@ -187,6 +187,18 @@ public final class DetailshopscreenBinding implements ViewBinding {
       id = R.id.Lineaicon;
       TextView Lineaicon = ViewBindings.findChildViewById(rootView, id);
       if (Lineaicon == null) {
+        break missingId;
+      }
+
+      id = R.id.Timeday;
+      TextView Timeday = ViewBindings.findChildViewById(rootView, id);
+      if (Timeday == null) {
+        break missingId;
+      }
+
+      id = R.id.address;
+      TextView address = ViewBindings.findChildViewById(rootView, id);
+      if (address == null) {
         break missingId;
       }
 
@@ -298,35 +310,23 @@ public final class DetailshopscreenBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.shopText1;
-      TextView shopText1 = ViewBindings.findChildViewById(rootView, id);
-      if (shopText1 == null) {
-        break missingId;
-      }
-
-      id = R.id.shopText2;
-      TextView shopText2 = ViewBindings.findChildViewById(rootView, id);
-      if (shopText2 == null) {
-        break missingId;
-      }
-
-      id = R.id.shopText3;
-      TextView shopText3 = ViewBindings.findChildViewById(rootView, id);
-      if (shopText3 == null) {
-        break missingId;
-      }
-
       id = R.id.shopnameText;
       TextView shopnameText = ViewBindings.findChildViewById(rootView, id);
       if (shopnameText == null) {
         break missingId;
       }
 
+      id = R.id.tellphone;
+      TextView tellphone = ViewBindings.findChildViewById(rootView, id);
+      if (tellphone == null) {
+        break missingId;
+      }
+
       return new DetailshopscreenBinding((LinearLayout) rootView, Keypic1, Keypic2, Keypic3,
-          Lineaicon, backButton, broaddayText, explanationText1, explanationText2, explanationText3,
-          explanationText4, explanationText5, heart, homeButton, imageView, keyText1, keyText2,
-          keyText3, lineOrange, orangecircle1, orangecircle2, orangecircle3, shopScreen, shopText1,
-          shopText2, shopText3, shopnameText);
+          Lineaicon, Timeday, address, backButton, broaddayText, explanationText1, explanationText2,
+          explanationText3, explanationText4, explanationText5, heart, homeButton, imageView,
+          keyText1, keyText2, keyText3, lineOrange, orangecircle1, orangecircle2, orangecircle3,
+          shopScreen, shopnameText, tellphone);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

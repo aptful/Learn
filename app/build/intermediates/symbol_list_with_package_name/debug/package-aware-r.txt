@@ -1911,7 +1911,6 @@ id Keypic3
 id Lineaicon
 id META
 id NO_DEBUG
-id PasswordText
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1920,6 +1919,7 @@ id SYM
 id TOP_END
 id TOP_START
 id Text1
+id Timeday
 id accelerate
 id accessText1
 id accessText2
@@ -1996,6 +1996,7 @@ id added7Button
 id added8Button
 id added9Button
 id addedButton
+id address
 id alertTitle
 id aligned
 id all
@@ -2072,6 +2073,7 @@ id closest
 id collapseActionView
 id completebutton
 id configImage
+id configText
 id confirm_button
 id constraint
 id container
@@ -2384,7 +2386,7 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
-id qrbutton
+id qrButton
 id radio
 id ratio
 id rectangles
@@ -2409,6 +2411,7 @@ id scrollIndicatorUp
 id scrollView
 id scrollable
 id searchImage
+id searchText
 id search_badge
 id search_bar
 id search_button
@@ -2443,7 +2446,6 @@ id signoutButton
 id signoutText
 id signupOneLabel
 id signupTwoLabel
-id sigupOneLabel
 id sin
 id skipCollapsed
 id skipped
@@ -2496,6 +2498,7 @@ id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id takeoutButton
 id takeoutText
+id tellphone
 id temiyageButton
 id temiyageText
 id test_checkbox_android_button_tint
@@ -2509,7 +2512,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_id
 id text_input_end_icon
 id text_input_error_icon
@@ -2558,7 +2560,8 @@ id visible
 id visible_removing_fragment_view_tag
 id west
 id withText
-id withdrawalbutton
+id withdrawalButton
+id withdrawalshowText
 id withinBounds
 id wrap
 id wrap_content

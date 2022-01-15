@@ -17,19 +17,19 @@ class signupTwo : AppCompatActivity() {
         //【追加】ボタン
 
         //新規登録画面2ボタン
-        val btnnext : Button = findViewById(R.id.nextButton)
+        val nextButton : Button = findViewById(R.id.nextButton)
 
         //新規登録画面3に遷移
-        btnnext.setOnClickListener {
+        nextButton.setOnClickListener {
             val intent = Intent(this, signupThree::class.java)
             startActivity(intent)
         }
 
         //戻るボタン
-        val nextButton : ImageView = findViewById(R.id.backButton)
+        val backButton : ImageView = findViewById(R.id.backButton)
 
         //新規登録画面1に遷移
-        nextButton.setOnClickListener {
+        backButton.setOnClickListener {
             val intent = Intent(this,signupOne::class.java)
             startActivity(intent)
         }

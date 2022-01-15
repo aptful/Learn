@@ -1,5 +1,3 @@
-com/example/myapplication/BuildConfig.java
- com.example.myapplication.BuildConfig
 com/example/myapplication/databinding/DetailshopscreenBinding.java
  com.example.myapplication.databinding.DetailshopscreenBinding
 com/example/myapplication/databinding/LoginscreenBinding.java
@@ -30,8 +28,10 @@ com/example/myapplication/databinding/KeywordallBinding.java
  com.example.myapplication.databinding.KeywordallBinding
 com/example/myapplication/databinding/NewscouponscreenBinding.java
  com.example.myapplication.databinding.NewscouponscreenBinding
-com/example/myapplication/databinding/CheckaccountBinding.java
- com.example.myapplication.databinding.CheckaccountBinding
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/databinding/NewslistscreenBinding.java
+ com.example.myapplication.databinding.NewslistscreenBinding
 com/example/myapplication/databinding/KeywordshopscreenBinding.java
  com.example.myapplication.databinding.KeywordshopscreenBinding
 com/example/myapplication/databinding/SearchBinding.java
@@ -40,5 +40,5 @@ com/example/myapplication/databinding/NewskeywordscreenBinding.java
  com.example.myapplication.databinding.NewskeywordscreenBinding
 com/example/myapplication/databinding/RulescreenBinding.java
  com.example.myapplication.databinding.RulescreenBinding
-com/example/myapplication/databinding/NewslistscreenBinding.java
- com.example.myapplication.databinding.NewslistscreenBinding
+com/example/myapplication/databinding/CheckaccountBinding.java
+ com.example.myapplication.databinding.CheckaccountBinding

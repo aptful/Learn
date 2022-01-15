@@ -20,9 +20,9 @@ class signupThree : AppCompatActivity() {
         //完了ボタン
         val completeButton : Button =findViewById(R.id.btnOK)
 
-        //マイページ画面に遷移
+        //ログイン画面に遷移
         completeButton.setOnClickListener {
-            val intent = Intent(this,mypageScreen::class.java)
+            val intent = Intent(this,loginScreen::class.java)
             startActivity(intent)
         }
 

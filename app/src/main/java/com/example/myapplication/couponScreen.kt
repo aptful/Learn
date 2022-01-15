@@ -106,7 +106,7 @@ class couponScreen : AppCompatActivity() {
 
         //qrコード
         //スキャンボタン
-        val qrButton: Button = findViewById(R.id.qrbutton)
+        val qrButton: Button = findViewById(R.id.qrButton)
         //スキャンボタンのクリックイベントを設定
         qrButton.setOnClickListener {
             val qrScan = IntentIntegrator(this)

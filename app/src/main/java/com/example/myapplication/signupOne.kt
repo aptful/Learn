@@ -15,14 +15,14 @@ class signupOne : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.signup1)
 
-        val btnnext :Button =findViewById(R.id.nextButton)      //新規登録画面1の次へ
+        val nextButton :Button =findViewById(R.id.nextButton)      //新規登録画面1の次へ
         val textPasswordEdit = findViewById<EditText>(R.id.passwordEdit)    //パスワード入力欄
         val textYearEdit = findViewById<EditText>(R.id.yearEdit)        //誕生年入力欄
         val textMonthEdit = findViewById<EditText>(R.id.monthEdit)      //誕生月入力欄
         val textDayEdit = findViewById<EditText>(R.id.dayEdit)          //誕生日入力欄
 
         //新規登録画面2に遷移
-        btnnext.setOnClickListener {
+        nextButton.setOnClickListener {
             val intent = Intent(this, signupTwo::class.java)
             if(textPasswordEdit.length() > 0 && textYearEdit.length() > 0 && textMonthEdit.length() > 0 && textDayEdit.length() > 0){
 
@@ -31,10 +31,10 @@ class signupOne : AppCompatActivity() {
         }
 
         //戻るボタン
-        val nextButton :ImageView = findViewById(R.id.backButton)
+        val backButton :ImageView = findViewById(R.id.backButton)
 
         //ログイン画面に遷移
-        nextButton.setOnClickListener {
+        backButton.setOnClickListener {
             val intent = Intent(this,loginScreen::class.java)
             startActivity(intent)
         }
