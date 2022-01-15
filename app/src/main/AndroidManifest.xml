@@ -18,7 +18,7 @@
 
 
         <activity
-            android:name=".newsKeywordScreen"
+            android:name=".loginScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".loginScreen"/>
+<!--        <activity android:name=".loginScreen"/>-->
         <activity android:name=".keywordShopScreen"/>
         <activity android:name="mypageScreen"/>
         <activity android:name="signupOne"/>
@@ -43,7 +43,7 @@
         <activity android:name=".detailShopScreen"/>
         <activity android:name=".newsListScreen"/>
         <activity android:name=".newsCouponScreen"/>
-<!--        <activity android:name=".newsKeywordScreen"/>-->
+        <activity android:name=".newsKeywordScreen"/>
         <activity android:name=".favShopScreen"/>
 
 
