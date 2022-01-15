@@ -18,7 +18,7 @@ class keywordShopScreen : AppCompatActivity() {
 
         //キーワード一覧画面に遷移
         backButton.setOnClickListener {
-            val intent = Intent(this,keywordListScreen::class.java)
+            val intent = Intent(this,searchScreen::class.java)
             startActivity(intent)
         }
 

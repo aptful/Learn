@@ -8,10 +8,12 @@
     tools:context=".newsCouponScreen"
     android:background="#fff8dc" >
 
+    <!--久保田-->
+
     <!--帯-->
     <!--にゅーす-->
     <TextView
-        android:id="@+id/keywordScreenText"
+        android:id="@+id/newsText"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"

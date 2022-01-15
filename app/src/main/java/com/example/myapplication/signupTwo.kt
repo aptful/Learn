@@ -28,9 +28,9 @@ class signupTwo : AppCompatActivity() {
         //戻るボタン
         val backButton : ImageView =findViewById(R.id.backButton)
 
-        //新規登録画面2に遷移
+        //新規登録画面1に遷移
         backButton.setOnClickListener {
-            val intent = Intent(this,loginScreen::class.java)
+            val intent = Intent(this,signupOne::class.java)
             startActivity(intent)
         }
 

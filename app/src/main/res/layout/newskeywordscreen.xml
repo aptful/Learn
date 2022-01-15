@@ -13,7 +13,7 @@
     <!--帯-->
     <!--にゅーす-->
     <TextView
-        android:id="@+id/keywordScreenText"
+        android:id="@+id/newsText"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -94,9 +94,9 @@
 
     <ScrollView
         android:layout_width="365dp"
-        android:layout_height="500dp"
+        android:layout_height="470dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="-520dp">
+        android:layout_marginTop="-490dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -219,8 +219,8 @@
                 android:id="@+id/orangeLine3"
                 android:layout_width="330dp"
                 android:layout_height="2dp"
-                android:layout_marginTop="330dp"
-                android:layout_marginStart="-350dp"
+                android:layout_marginTop="340dp"
+                android:layout_marginStart="-330dp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -235,7 +235,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:layout_marginTop="340dp"
-                android:layout_marginStart="-300dp"
+                android:layout_marginStart="-320dp"
                 android:text="9/10 \ 「パン」を含む番組が　\n
        \ \ \ \放送されました"
                 android:textColor="#696969"
@@ -247,7 +247,7 @@
                 android:layout_width="300dp"
                 android:layout_height="45dp"
                 android:layout_marginTop="400dp"
-                android:layout_marginStart="-290dp"
+                android:layout_marginStart="-310dp"
                 android:text="野菜をたっぷり使ったサンドウィッチ・・・"
                 android:gravity="center"
                 android:textColor="#fff8dc"
@@ -261,7 +261,7 @@
                 android:id="@+id/orangeLine4"
                 android:layout_width="330dp"
                 android:layout_height="2dp"
-                android:layout_marginTop="440dp"
+                android:layout_marginTop="450dp"
                 android:layout_marginStart="-310dp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -272,38 +272,39 @@
                 />
 
             <!--キーワード-->
+
+            <!--説明-->
             <TextView
                 android:id="@+id/keywordText5"
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
-                android:layout_marginTop="450dp"
                 android:layout_marginStart="-320dp"
+                android:layout_marginTop="450dp"
                 android:text="9/1 「ドリンク」「カフェ」\n \ \ \ \ \ \ \ を含む番組が放送されました"
                 android:textColor="#696969"
                 android:textSize="20sp" />
 
-            <!--説明-->
+
+            <!--オレンジのライン-->
+
             <Button
                 android:id="@+id/contentsText5"
                 android:layout_width="300dp"
                 android:layout_height="45dp"
+                android:layout_marginStart="-280dp"
                 android:layout_marginTop="510dp"
-                android:layout_marginStart="-300dp"
-                android:text="次に流行するかもしれない・・・"
-                android:gravity="center"
-                android:textColor="#fff8dc"
                 android:backgroundTint="#6495ed"
+                android:gravity="center"
+                android:text="次に流行するかもしれない・・・"
+                android:textColor="#fff8dc"
                 android:textSize="15sp" />
 
-
-
-            <!--オレンジのライン-->
             <View
                 android:id="@+id/orangeLine5"
                 android:layout_width="330dp"
                 android:layout_height="2dp"
                 android:layout_marginTop="550dp"
-                android:layout_marginStart="-310dp"
+                android:layout_marginStart="-300dp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

@@ -70,6 +70,9 @@ public final class KeywordshopscreenBinding implements ViewBinding {
   public final TextView dayText5;
 
   @NonNull
+  public final ImageButton homeButton;
+
+  @NonNull
   public final ImageView homepic1;
 
   @NonNull
@@ -83,9 +86,6 @@ public final class KeywordshopscreenBinding implements ViewBinding {
 
   @NonNull
   public final ImageView homepic5;
-
-  @NonNull
-  public final ImageButton imageView3;
 
   @NonNull
   public final View lineOrange;
@@ -118,8 +118,8 @@ public final class KeywordshopscreenBinding implements ViewBinding {
       @NonNull ImageView backgroundWhite3, @NonNull ImageView backgroundWhite4,
       @NonNull ImageView backgroundWhite5, @NonNull TextView dayText1, @NonNull TextView dayText2,
       @NonNull TextView dayText3, @NonNull TextView dayText4, @NonNull TextView dayText5,
-      @NonNull ImageView homepic1, @NonNull ImageView homepic2, @NonNull ImageView homepic3,
-      @NonNull ImageView homepic4, @NonNull ImageView homepic5, @NonNull ImageButton imageView3,
+      @NonNull ImageButton homeButton, @NonNull ImageView homepic1, @NonNull ImageView homepic2,
+      @NonNull ImageView homepic3, @NonNull ImageView homepic4, @NonNull ImageView homepic5,
       @NonNull View lineOrange, @NonNull TextView shopScreen, @NonNull TextView shopText1,
       @NonNull TextView shopText2, @NonNull TextView shopText3, @NonNull TextView shopText4,
       @NonNull TextView shopText5, @NonNull TextView textView) {
@@ -140,12 +140,12 @@ public final class KeywordshopscreenBinding implements ViewBinding {
     this.dayText3 = dayText3;
     this.dayText4 = dayText4;
     this.dayText5 = dayText5;
+    this.homeButton = homeButton;
     this.homepic1 = homepic1;
     this.homepic2 = homepic2;
     this.homepic3 = homepic3;
     this.homepic4 = homepic4;
     this.homepic5 = homepic5;
-    this.imageView3 = imageView3;
     this.lineOrange = lineOrange;
     this.shopScreen = shopScreen;
     this.shopText1 = shopText1;
@@ -279,6 +279,12 @@ public final class KeywordshopscreenBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.homeButton;
+      ImageButton homeButton = ViewBindings.findChildViewById(rootView, id);
+      if (homeButton == null) {
+        break missingId;
+      }
+
       id = R.id.homepic1;
       ImageView homepic1 = ViewBindings.findChildViewById(rootView, id);
       if (homepic1 == null) {
@@ -306,12 +312,6 @@ public final class KeywordshopscreenBinding implements ViewBinding {
       id = R.id.homepic5;
       ImageView homepic5 = ViewBindings.findChildViewById(rootView, id);
       if (homepic5 == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView3;
-      ImageButton imageView3 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView3 == null) {
         break missingId;
       }
 
@@ -366,7 +366,7 @@ public final class KeywordshopscreenBinding implements ViewBinding {
       return new KeywordshopscreenBinding((LinearLayout) rootView, accessText1, accessText2,
           accessText3, accessText4, accessText5, backButton, backgroundWhite1, backgroundWhite2,
           backgroundWhite3, backgroundWhite4, backgroundWhite5, dayText1, dayText2, dayText3,
-          dayText4, dayText5, homepic1, homepic2, homepic3, homepic4, homepic5, imageView3,
+          dayText4, dayText5, homeButton, homepic1, homepic2, homepic3, homepic4, homepic5,
           lineOrange, shopScreen, shopText1, shopText2, shopText3, shopText4, shopText5, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);

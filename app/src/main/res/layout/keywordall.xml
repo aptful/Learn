@@ -47,17 +47,6 @@
         android:layout_marginEnd="10dp"
         app:srcCompat="@drawable/home" />
 
-    <!--戻るボタン-->
-    <ImageButton
-        android:id="@+id/buckButton"
-        android:background="@drawable/back_normal"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="-60dp"
-        android:layout_marginStart="20dp"
-        app:srcCompat="@drawable/home" />
-
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -21,7 +21,16 @@ class checkAccountScreen : AppCompatActivity() {
             val intent = Intent(this,mypageScreen::class.java)
             startActivity(intent)
         }
-       
+
+        //戻るボタン
+        val buckButton : ImageView =findViewById(R.id.buckButton)
+
+        //設定画面に遷移
+        buckButton.setOnClickListener {
+            val intent = Intent(this,configScreen::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
