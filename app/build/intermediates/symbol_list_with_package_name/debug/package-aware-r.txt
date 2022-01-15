@@ -1800,6 +1800,7 @@ drawable abc_vector_test
 drawable add
 drawable added
 drawable all
+drawable aptful_icon
 drawable avd_hide_password
 drawable avd_show_password
 drawable back_normal
@@ -1918,6 +1919,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id Text1
 id accelerate
 id accessText1
 id accessText2
@@ -2214,8 +2216,6 @@ id ignore
 id ignoreRequest
 id image
 id imageView
-id imageView3
-id imageView4
 id imageframe
 id immediateStop
 id included
@@ -2335,6 +2335,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id newsText
 id nextButton
 id noScroll
 id noState
@@ -2397,7 +2398,6 @@ id row_index_key
 id ruleButton
 id ruleText
 id ruletitleText
-id rulrButton
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2441,7 +2441,7 @@ id showHome
 id showTitle
 id signoutButton
 id signoutText
-id signupThreeLabel
+id signupOneLabel
 id signupTwoLabel
 id sigupOneLabel
 id sin

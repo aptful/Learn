@@ -307,7 +307,7 @@
         android:id="@+id/completebutton"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="-5dp"
+        android:layout_marginTop="35dp"
         android:backgroundTint="#6495ed"
         android:text="完了"
         android:textColor="#fff8dc"
