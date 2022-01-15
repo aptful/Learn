@@ -65,13 +65,13 @@ public final class NewslistscreenBinding implements ViewBinding {
   public final Button keywordButton;
 
   @NonNull
-  public final TextView keywordScreenText;
-
-  @NonNull
   public final TextView keywordText;
 
   @NonNull
   public final View lineOrange;
+
+  @NonNull
+  public final TextView newsText;
 
   @NonNull
   public final View orangeLine;
@@ -93,10 +93,9 @@ public final class NewslistscreenBinding implements ViewBinding {
       @NonNull TextView couponText2, @NonNull TextView couponText3, @NonNull TextView couponText4,
       @NonNull TextView effectText, @NonNull TextView effectText2, @NonNull TextView effectText3,
       @NonNull TextView effectText4, @NonNull ImageButton homeButton, @NonNull ImageView imageframe,
-      @NonNull Button keywordButton, @NonNull TextView keywordScreenText,
-      @NonNull TextView keywordText, @NonNull View lineOrange, @NonNull View orangeLine,
-      @NonNull View orangeLine2, @NonNull View orangeLine3, @NonNull View orangeLine4,
-      @NonNull View orangeLine5) {
+      @NonNull Button keywordButton, @NonNull TextView keywordText, @NonNull View lineOrange,
+      @NonNull TextView newsText, @NonNull View orangeLine, @NonNull View orangeLine2,
+      @NonNull View orangeLine3, @NonNull View orangeLine4, @NonNull View orangeLine5) {
     this.rootView = rootView;
     this.allButton = allButton;
     this.contentsText = contentsText;
@@ -112,9 +111,9 @@ public final class NewslistscreenBinding implements ViewBinding {
     this.homeButton = homeButton;
     this.imageframe = imageframe;
     this.keywordButton = keywordButton;
-    this.keywordScreenText = keywordScreenText;
     this.keywordText = keywordText;
     this.lineOrange = lineOrange;
+    this.newsText = newsText;
     this.orangeLine = orangeLine;
     this.orangeLine2 = orangeLine2;
     this.orangeLine3 = orangeLine3;
@@ -233,12 +232,6 @@ public final class NewslistscreenBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.keywordScreenText;
-      TextView keywordScreenText = ViewBindings.findChildViewById(rootView, id);
-      if (keywordScreenText == null) {
-        break missingId;
-      }
-
       id = R.id.keywordText;
       TextView keywordText = ViewBindings.findChildViewById(rootView, id);
       if (keywordText == null) {
@@ -248,6 +241,12 @@ public final class NewslistscreenBinding implements ViewBinding {
       id = R.id.line_orange;
       View lineOrange = ViewBindings.findChildViewById(rootView, id);
       if (lineOrange == null) {
+        break missingId;
+      }
+
+      id = R.id.newsText;
+      TextView newsText = ViewBindings.findChildViewById(rootView, id);
+      if (newsText == null) {
         break missingId;
       }
 
@@ -283,8 +282,8 @@ public final class NewslistscreenBinding implements ViewBinding {
 
       return new NewslistscreenBinding((LinearLayout) rootView, allButton, contentsText,
           couponButton, couponText, couponText2, couponText3, couponText4, effectText, effectText2,
-          effectText3, effectText4, homeButton, imageframe, keywordButton, keywordScreenText,
-          keywordText, lineOrange, orangeLine, orangeLine2, orangeLine3, orangeLine4, orangeLine5);
+          effectText3, effectText4, homeButton, imageframe, keywordButton, keywordText, lineOrange,
+          newsText, orangeLine, orangeLine2, orangeLine3, orangeLine4, orangeLine5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

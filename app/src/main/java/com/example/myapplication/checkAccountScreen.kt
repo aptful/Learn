@@ -14,7 +14,7 @@ class checkAccountScreen : AppCompatActivity() {
         setContentView(R.layout.checkaccount)
 
         //ホームボタン
-        val homeButton : ImageView =findViewById(R.id.homeButton)
+        val homeButton : ImageView = findViewById(R.id.homeButton)
 
         //マイページ画面遷移
         homeButton.setOnClickListener {

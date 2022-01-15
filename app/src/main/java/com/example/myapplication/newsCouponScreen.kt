@@ -24,19 +24,19 @@ class newsCouponScreen : AppCompatActivity() {
         }
 
         //一覧お知らせボタン
-        val btnlist: TextView = findViewById(R.id.allButton)
+        val listButton: TextView = findViewById(R.id.allButton)
 
         //お知らせ一覧画面に遷移
-        btnlist.setOnClickListener {
+        listButton.setOnClickListener {
             val intent = Intent(this, newsListScreen::class.java)
             startActivity(intent)
         }
 
         //キーワードお知らせボタン
-        val btnkeyword: TextView = findViewById(R.id.keywordButton)
+        val keywordButton: TextView = findViewById(R.id.keywordButton)
 
         //キーワードお知らせ一覧画面に遷移
-        btnkeyword.setOnClickListener {
+        keywordButton.setOnClickListener {
             val intent = Intent(this, newsKeywordScreen::class.java)
             startActivity(intent)
         }

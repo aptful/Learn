@@ -17,7 +17,7 @@ class deleteAccountScreen : AppCompatActivity() {
         setContentView(R.layout.withdrawalshow)
 
         //戻るボタン
-        val backButton : ImageView =findViewById(R.id.backButton)
+        val backButton : ImageView = findViewById(R.id.backButton)
 
         //新規登録画面2に遷移
         backButton.setOnClickListener {
@@ -26,7 +26,7 @@ class deleteAccountScreen : AppCompatActivity() {
         }
 
         //ホームボタン
-        val homeButton : ImageView =findViewById(R.id.homeButton)
+        val homeButton : ImageView = findViewById(R.id.homeButton)
 
         //マイページ画面遷移
         homeButton.setOnClickListener {
@@ -34,10 +34,10 @@ class deleteAccountScreen : AppCompatActivity() {
             startActivity(intent)
         }
         //退会ボタン
-        val btnwithdrawal : Button =findViewById(R.id.withdrawalbutton)
+        val deleteButton : Button = findViewById(R.id.withdrawalButton)
 
         //退会確認ポップアップ
-        btnwithdrawal.setOnClickListener {
+        deleteButton.setOnClickListener {
             AlertDialog.Builder(this)
                 .setTitle("退会するとこのアカウントは削除されます")
                 .setMessage("本当によろしいですか?")

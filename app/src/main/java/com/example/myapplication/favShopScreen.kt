@@ -14,7 +14,7 @@ class favShopScreen : AppCompatActivity() {
         setContentView(R.layout.favshopscreen)
 
         //ホームボタン
-        val homeButton : ImageView =findViewById(R.id.homeButton)
+        val homeButton : ImageView = findViewById(R.id.homeButton)
 
         //マイページ画面遷移
         homeButton.setOnClickListener {
@@ -23,7 +23,7 @@ class favShopScreen : AppCompatActivity() {
         }
 
         //ひとつ目のお店ボタン
-        val homepic1 : ImageView =findViewById(R.id.homepic1)
+        val homepic1 : ImageView = findViewById(R.id.homepic1)
 
         //そのお店の情報詳細画面遷移
         homepic1.setOnClickListener {
@@ -32,7 +32,7 @@ class favShopScreen : AppCompatActivity() {
         }
 
         //ふたつ目のお店ボタン
-        val homepic2 : ImageView =findViewById(R.id.homepic2)
+        val homepic2 : ImageView = findViewById(R.id.homepic2)
 
         //そのお店の情報詳細画面遷移
         homepic2.setOnClickListener {
@@ -41,7 +41,7 @@ class favShopScreen : AppCompatActivity() {
         }
 
         //みっつ目のお店ボタン
-        val homepic3 : ImageView =findViewById(R.id.homepic3)
+        val homepic3 : ImageView = findViewById(R.id.homepic3)
 
         //そのお店の情報詳細画面遷移
         homepic3.setOnClickListener {
@@ -50,7 +50,7 @@ class favShopScreen : AppCompatActivity() {
         }
 
         //よっつ目のお店ボタン
-        val homepic4 : ImageView =findViewById(R.id.homepic4)
+        val homepic4 : ImageView = findViewById(R.id.homepic4)
 
         //そのお店の情報詳細画面遷移
         homepic4.setOnClickListener {
@@ -59,7 +59,7 @@ class favShopScreen : AppCompatActivity() {
         }
 
         //いつつ目のお店ボタン
-        val homepic5 : ImageView =findViewById(R.id.homepic5)
+        val homepic5 : ImageView = findViewById(R.id.homepic5)
 
         //そのお店の情報詳細画面遷移
         homepic5.setOnClickListener {

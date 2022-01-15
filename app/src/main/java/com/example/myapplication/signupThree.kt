@@ -18,16 +18,16 @@ class signupThree : AppCompatActivity() {
 //        val editpass = intent.getStringExtra("pass")    //値の受け取り
 //        pass.text = editpass    //テキストに表示
         //完了ボタン
-        val btnOK : Button =findViewById(R.id.btnOK)
+        val completeButton : Button =findViewById(R.id.btnOK)
 
-        //マイページ画面に遷移
-        btnOK.setOnClickListener {
-            val intent = Intent(this,mypageScreen::class.java)
+        //ログイン画面に遷移
+        completeButton.setOnClickListener {
+            val intent = Intent(this,loginScreen::class.java)
             startActivity(intent)
         }
 
         //戻るボタン
-        val backButton : ImageView =findViewById(R.id.backButton)
+        val backButton : ImageView = findViewById(R.id.backButton)
 
         //新規登録画面2に遷移
         backButton.setOnClickListener {
@@ -36,9 +36,9 @@ class signupThree : AppCompatActivity() {
         }
 
         //キャンセルボタン
-        val cancelButton : Button =findViewById(R.id.cancelButton)
+        val cancelButton : Button = findViewById(R.id.cancelButton)
 
-        //ホーム画面に遷移
+        //ログイン画面に遷移
         cancelButton.setOnClickListener {
             val intent = Intent(this,loginScreen::class.java)
             startActivity(intent)

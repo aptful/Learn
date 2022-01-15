@@ -35,12 +35,12 @@ class loginScreen : AppCompatActivity() {
         val btnlogin: Button = findViewById(R.id.login)
 
         //新規登録ボタン
-        val btncreate: Button = findViewById(R.id.createButton)
+        val loginButton: Button = findViewById(R.id.createButton)
 
 
 
         //新規登録画面1に遷移
-        btncreate.setOnClickListener {
+        loginButton.setOnClickListener {
             val intent = Intent(this, signupOne::class.java)
             startActivity(intent)
         }

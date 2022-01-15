@@ -13,7 +13,7 @@
     <!--帯-->
     <!--クーポン-->
     <TextView
-        android:id="@+id/keywordScreenText"
+        android:id="@+id/couponText"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -56,7 +56,7 @@
 
     <!--クーポン取得QRカメラ-->
     <Button
-        android:id="@+id/qrbutton"
+        android:id="@+id/qrButton"
         android:layout_width="250dp"
         android:layout_height="80dp"
         android:text="！クーポン取得！"

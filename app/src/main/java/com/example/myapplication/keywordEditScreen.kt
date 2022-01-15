@@ -14,16 +14,16 @@ class keywordEditScreen : AppCompatActivity() {
         setContentView(R.layout.keywordeditscreen)
 
         //完了ボタン
-        val completebutton : Button =findViewById(R.id.completebutton)
+        val completeButton : Button = findViewById(R.id.completebutton)
 
         //キーワード一覧画面に遷移
-        completebutton.setOnClickListener {
+        completeButton.setOnClickListener {
             val intent = Intent(this,keywordListScreen::class.java)
             startActivity(intent)
         }
 
         //戻るボタン
-        val backButton : ImageView =findViewById(R.id.backButton)
+        val backButton : ImageView = findViewById(R.id.backButton)
 
         //キーワード一覧画面に遷移
         backButton.setOnClickListener {
@@ -33,7 +33,7 @@ class keywordEditScreen : AppCompatActivity() {
 
 
         //ホームボタン
-        val homeButton : ImageView =findViewById(R.id.homeButton)
+        val homeButton : ImageView = findViewById(R.id.homeButton)
 
         //マイページ画面遷移
         homeButton.setOnClickListener {

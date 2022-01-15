@@ -13,7 +13,7 @@
     <!--帯-->
     <!--アカウント内容確認-->
     <TextView
-        android:id="@+id/keywordScreenText"
+        android:id="@+id/accountText"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"

@@ -14,7 +14,7 @@ class configScreen : AppCompatActivity() {
         setContentView(R.layout.option)
 
         //ホームボタン
-        val homeButton : ImageView =findViewById(R.id.homeButton)
+        val homeButton : ImageView = findViewById(R.id.homeButton)
 
         //マイページ画面遷移
         homeButton.setOnClickListener {
@@ -22,28 +22,28 @@ class configScreen : AppCompatActivity() {
             startActivity(intent)
         }
         //アカウント内容確認ボタン
-        val btnnext : Button =findViewById(R.id.accountButton)
+        val nextButton : Button = findViewById(R.id.accountButton)
 
         //アカウント内容確認画面に遷移
-        btnnext.setOnClickListener {
+        nextButton.setOnClickListener {
             val intent = Intent(this,checkAccountScreen::class.java)
             startActivity(intent)
         }
 
         //利用規約ボタン
-        val btnrule : Button =findViewById(R.id.ruleButton)
+        val ruleButton : Button = findViewById(R.id.ruleButton)
 
         //利用規約画面に遷移
-        btnrule.setOnClickListener {
+        ruleButton.setOnClickListener {
             val intent = Intent(this,ruleScreen::class.java)
             startActivity(intent)
         }
 
         //退会ボタン
-        val btnsignout : Button =findViewById(R.id.signoutButton)
+        val signoutButton : Button = findViewById(R.id.signoutButton)
 
         //退会確認画面に遷移
-        btnsignout.setOnClickListener {
+        signoutButton.setOnClickListener {
             val intent = Intent(this,deleteAccountScreen::class.java)
             startActivity(intent)
         }

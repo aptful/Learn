@@ -13,7 +13,7 @@
     <!--帯-->
     <!--退会-->
     <TextView
-        android:id="@+id/keywordScreenText"
+        android:id="@+id/withdrawalshowText"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"
@@ -87,7 +87,7 @@
 
     <!--パスワードtext-->
     <TextView
-        android:id="@+id/PasswordText"
+        android:id="@+id/passwordText"
         android:layout_width="150dp"
         android:layout_height="30dp"
         android:layout_marginLeft="70dp"
@@ -118,7 +118,7 @@
 
     <!--退会ボタン-->
     <Button
-        android:id="@+id/withdrawalbutton"
+        android:id="@+id/withdrawalButton"
         android:layout_width="180dp"
         android:layout_height="60dp"
         android:layout_marginTop="50dp"

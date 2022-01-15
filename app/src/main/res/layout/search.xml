@@ -13,7 +13,7 @@
     <!--帯-->
     <!--さーち-->
     <TextView
-        android:id="@+id/keywordScreenText"
+        android:id="@+id/searchText"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_gravity="center"

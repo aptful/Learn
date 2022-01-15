@@ -231,7 +231,7 @@
 
     <!--住所-->
     <TextView
-        android:id="@+id/shopText1"
+        android:id="@+id/address"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:text="住所：高知県高知市"
@@ -252,7 +252,7 @@
 
     <!--営業時間，定休日-->
     <TextView
-        android:id="@+id/shopText2"
+        android:id="@+id/Timeday"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:text="営業時間：11:00〜17:00\n定休日：火曜日，金曜日"
@@ -273,7 +273,7 @@
 
     <!--電話番号-->
     <TextView
-        android:id="@+id/shopText3"
+        android:id="@+id/tellphone"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:text="電話番号：0889-29-××××"
