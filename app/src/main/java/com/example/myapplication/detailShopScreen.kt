@@ -14,7 +14,7 @@ class detailShopScreen : AppCompatActivity() {
         setContentView(R.layout.detailshopscreen)
 
         //ホームボタン
-        val homeButton : ImageView =findViewById(R.id.homeButton)
+        val homeButton : ImageView = findViewById(R.id.homeButton)
 
         //マイページ画面遷移
         homeButton.setOnClickListener {
@@ -23,7 +23,7 @@ class detailShopScreen : AppCompatActivity() {
         }
 
         //戻るボタン
-        val backButton : ImageView =findViewById(R.id.backButton)
+        val backButton : ImageView = findViewById(R.id.backButton)
 
         //新規登録画面3に遷移
         backButton .setOnClickListener {
