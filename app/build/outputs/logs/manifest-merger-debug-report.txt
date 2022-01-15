@@ -103,12 +103,12 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/narumi/.gradle/cache
 		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:9:9-36
 	android:theme
 		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:14:9-51
-activity#com.example.myapplication.signupTwo
+activity#com.example.myapplication.loginScreen
 ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:20:9-28:20
 	android:exported
 		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
-		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:21:13-38
+		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:21:13-40
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
@@ -119,10 +119,6 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
 		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:26:27-74
-activity#com.example.myapplication.loginScreen
-ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:29:9-48
-	android:name
-		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:29:19-46
 activity#com.example.myapplication.keywordShopScreen
 ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:30:9-54
 	android:name
@@ -135,6 +131,10 @@ activity#com.example.myapplication.signupOne
 ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:32:9-45
 	android:name
 		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:32:19-43
+activity#com.example.myapplication.signupTwo
+ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:33:9-45
+	android:name
+		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:33:19-43
 activity#com.example.myapplication.signupThree
 ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:34:9-47
 	android:name
@@ -183,6 +183,10 @@ activity#com.example.myapplication.newsCouponScreen
 ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:45:9-53
 	android:name
 		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:45:19-51
+activity#com.example.myapplication.newsKeywordScreen
+ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:46:9-54
+	android:name
+		ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:46:19-52
 activity#com.example.myapplication.favShopScreen
 ADDED from /Users/narumi/github/aptful_system/app/src/main/AndroidManifest.xml:47:9-50
 	android:name

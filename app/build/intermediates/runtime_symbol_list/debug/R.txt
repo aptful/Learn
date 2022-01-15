@@ -2334,6 +2334,7 @@ int id navigation_header_container 0x7f0801b6
 int id never 0x7f0801b7
 int id neverCompleteToEnd 0x7f0801b8
 int id neverCompleteToStart 0x7f0801b9
+int id newsText 0x7f0802b0
 int id nextButton 0x7f0801ba
 int id noScroll 0x7f0801bb
 int id noState 0x7f0801bc
