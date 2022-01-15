@@ -31,18 +31,18 @@ class signupOne : AppCompatActivity() {
         }
 
         //戻るボタン
-        val backButton :ImageView =findViewById(R.id.backButton)
+        val nextButton :ImageView = findViewById(R.id.backButton)
 
-        //ホーム画面に遷移
-        backButton.setOnClickListener {
+        //ログイン画面に遷移
+        nextButton.setOnClickListener {
             val intent = Intent(this,loginScreen::class.java)
             startActivity(intent)
         }
 
         //キャンセルボタン
-        val cancelButton : Button =findViewById(R.id.cancelButton)
+        val cancelButton : Button = findViewById(R.id.cancelButton)
 
-        //ホーム画面に遷移
+        //ログイン画面に遷移
         cancelButton.setOnClickListener {
             val intent = Intent(this,loginScreen::class.java)
             startActivity(intent)

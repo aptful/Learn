@@ -14,7 +14,7 @@ class keywordShopScreen : AppCompatActivity() {
         setContentView(R.layout.keywordshopscreen)
 
         //戻るボタン
-        val backButton : ImageView =findViewById(R.id.backButton)
+        val backButton : ImageView = findViewById(R.id.backButton)
 
         //キーワード一覧画面に遷移
         backButton.setOnClickListener {
@@ -23,7 +23,7 @@ class keywordShopScreen : AppCompatActivity() {
         }
 
         //ホームボタン
-        val homeButton : ImageView =findViewById(R.id.homeButton)
+        val homeButton : ImageView = findViewById(R.id.homeButton)
 
         //マイページ画面遷移
         homeButton.setOnClickListener {

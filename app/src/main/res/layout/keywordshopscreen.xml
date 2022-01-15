@@ -67,7 +67,7 @@
             android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/keywordView"
         android:layout_width="140dp"
         android:layout_height="35dp"
         android:layout_marginLeft="30dp"

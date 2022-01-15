@@ -23,7 +23,7 @@ class keywordListScreen : AppCompatActivity() {
         }
 
         //ホームボタン
-        val homeButton : ImageView =findViewById(R.id.homeButton)
+        val homeButton : ImageView = findViewById(R.id.homeButton)
 
         //マイページ画面遷移
         homeButton.setOnClickListener {
@@ -33,7 +33,7 @@ class keywordListScreen : AppCompatActivity() {
 
         //キーワードのボタンの実装
         //テイクアウトボタン
-        val  takeoutButton: Button =findViewById(R.id.takeoutButton)
+        val  takeoutButton: Button = findViewById(R.id.takeoutButton)
 
         //キーワードに該当するお店一覧画面遷移
         takeoutButton.setOnClickListener {
@@ -42,7 +42,7 @@ class keywordListScreen : AppCompatActivity() {
         }
 
         //スイーツボタン
-        val  sweetsButton: Button =findViewById(R.id.sweetsButton)
+        val  sweetsButton: Button = findViewById(R.id.sweetsButton)
 
         //キーワードに該当するお店一覧画面遷移
         sweetsButton.setOnClickListener {
@@ -51,7 +51,7 @@ class keywordListScreen : AppCompatActivity() {
         }
 
         //ドリンクボタン
-        val  drinkButton: Button =findViewById(R.id.drinkButton)
+        val  drinkButton: Button = findViewById(R.id.drinkButton)
 
         //キーワードに該当するお店一覧画面遷移
         drinkButton.setOnClickListener {
@@ -60,7 +60,7 @@ class keywordListScreen : AppCompatActivity() {
         }
 
         //カフェボタン
-        val  cafeButton: Button =findViewById(R.id.cafeButton)
+        val  cafeButton: Button = findViewById(R.id.cafeButton)
 
         //キーワードに該当するお店一覧画面遷移
         cafeButton.setOnClickListener {
@@ -70,7 +70,7 @@ class keywordListScreen : AppCompatActivity() {
 
 
         //手土産ボタン
-        val  temiyageButton: Button =findViewById(R.id.temiyageButton)
+        val  temiyageButton: Button = findViewById(R.id.temiyageButton)
 
         //キーワードに該当するお店一覧画面遷移
         temiyageButton.setOnClickListener {
@@ -79,7 +79,7 @@ class keywordListScreen : AppCompatActivity() {
         }
 
         //居酒屋ボタン
-        val  izakayaButton: Button =findViewById(R.id.izakayaButton)
+        val  izakayaButton: Button = findViewById(R.id.izakayaButton)
 
         //キーワードに該当するお店一覧画面遷移
         izakayaButton.setOnClickListener {
