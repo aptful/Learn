@@ -18,7 +18,7 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="さーち"
+        android:text="しょっぷ"
         android:textStyle="bold"
         android:textColor="#696969"
         android:textSize="30dp" />

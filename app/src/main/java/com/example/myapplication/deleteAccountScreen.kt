@@ -34,7 +34,7 @@ class deleteAccountScreen : AppCompatActivity() {
             startActivity(intent)
         }
         //退会ボタン
-        val deleteButton : Button = findViewById(R.id.withdrawalbutton)
+        val deleteButton : Button = findViewById(R.id.withdrawalButton)
 
         //退会確認ポップアップ
         deleteButton.setOnClickListener {
