@@ -26,7 +26,7 @@
 
     <!--家マーク-->
     <ImageButton
-        android:id="@+id/imageView3"
+        android:id="@+id/homeButton"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_gravity="end"
@@ -37,7 +37,7 @@
 
     <!--戻るボタン-->
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/backButton"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginTop="-60dp"
@@ -74,7 +74,7 @@
         android:layout_height="50dp"
         android:text="カフェE"
         android:textColor="#696969"
-        android:textSize="40dp"
+        android:textSize="30dp"
         android:textStyle="bold"
         android:gravity="center"
         />
@@ -84,7 +84,6 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="230dp"
-        android:layout_marginTop="8dp"
         app:srcCompat="@drawable/home3" />
 
     <!--キーワードの図1-->
@@ -162,9 +161,9 @@
         android:layout_gravity="center"
         android:text="落ちついた雰囲気の店内となっており,中で"
         android:textColor="#696969"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:gravity="left"
-        android:layout_marginTop="5dp"
+
         />
 
     <!--文章2行目-->
@@ -175,9 +174,9 @@
         android:layout_gravity="center"
         android:text="もベルギー産のチョコレートを使用したワッ"
         android:textColor="#696969"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:gravity="left"
-        android:layout_marginTop="5dp"
+
         />
 
     <!--文章3行目-->
@@ -188,9 +187,9 @@
         android:layout_gravity="center"
         android:text="フルがおすすめです．"
         android:textColor="#696969"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:gravity="left"
-        android:layout_marginTop="5dp"
+
         />
 
     <!--文章4行目-->
@@ -201,9 +200,9 @@
         android:layout_gravity="center"
         android:text="チョコレートが大好きなあなたには，追いチ"
         android:textColor="#696969"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:gravity="left"
-        android:layout_marginTop="5dp"
+
         />
 
     <!--文章5行目-->
@@ -214,9 +213,9 @@
         android:layout_gravity="center"
         android:text="ョコレートサービスまで...！"
         android:textColor="#696969"
-        android:textSize="15dp"
+        android:textSize="13dp"
         android:gravity="left"
-        android:layout_marginTop="5dp"
+
         />
 
     <!--住所オレンジ丸-->
@@ -226,7 +225,7 @@
         android:layout_height="25dp"
         android:background="@drawable/orange_circle"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="2dp"
         />
 
     <!--住所-->
@@ -236,7 +235,7 @@
         android:layout_height="40dp"
         android:text="住所：高知県高知市"
         android:layout_marginLeft="65dp"
-        android:layout_marginTop="-35dp"
+        android:layout_marginTop="-32dp"
         android:gravity=""
         />
 
@@ -247,7 +246,7 @@
         android:layout_height="25dp"
         android:background="@drawable/orange_circle"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         />
 
     <!--営業時間，定休日-->
@@ -268,7 +267,7 @@
         android:layout_height="25dp"
         android:background="@drawable/orange_circle"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="2dp"
         />
 
     <!--電話番号-->
@@ -278,7 +277,7 @@
         android:layout_height="40dp"
         android:text="電話番号：0889-29-××××"
         android:layout_marginLeft="65dp"
-        android:layout_marginTop="-35dp"
+        android:layout_marginTop="-30dp"
         android:gravity=""
         />
 
@@ -290,7 +289,7 @@
         android:background="@drawable/hart_line"
         android:layout_gravity="right"
         android:layout_marginRight="60dp"
-        android:layout_marginTop="-30dp"
+        android:layout_marginTop="-45dp"
         />
 
     <!--Line共有-->

@@ -13,23 +13,23 @@ class detailShopScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.detailshopscreen)
 
-//        //ホームボタン
-//        val homeButton : ImageView =findViewById(R.id.homeButton)
-//
-//        //マイページ画面遷移
-//        homeButton.setOnClickListener {
-//            val intent = Intent(this,mypageScreen::class.java)
-//            startActivity(intent)
-//        }
-//
-//        //お店ボタン
-//        val backgroundWhite : ImageView =findViewById(R.id.backgroundWhite1)
-//
-//        //新規登録画面3に遷移
-//            backgroundWhite.setOnClickListener {
-//            val intent = Intent(this,detailShopScreen::class.java)
-//            startActivity(intent)
-//        }
+        //ホームボタン
+        val homeButton : ImageView =findViewById(R.id.homeButton)
+
+        //マイページ画面遷移
+        homeButton.setOnClickListener {
+            val intent = Intent(this,mypageScreen::class.java)
+            startActivity(intent)
+        }
+
+        //戻るボタン
+        val backButton : ImageView =findViewById(R.id.backButton)
+
+        //新規登録画面3に遷移
+        backButton .setOnClickListener {
+            val intent = Intent(this,favShopScreen::class.java)
+            startActivity(intent)
+        }
 
     }
 }

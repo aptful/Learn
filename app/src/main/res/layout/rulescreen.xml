@@ -48,7 +48,7 @@
 
     <!--戻るボタン-->
     <ImageButton
-        android:id="@+id/buckButton"
+        android:id="@+id/backButton"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="20dp"

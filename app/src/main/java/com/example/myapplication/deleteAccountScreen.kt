@@ -16,6 +16,15 @@ class deleteAccountScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.withdrawalshow)
 
+        //戻るボタン
+        val backButton : ImageView =findViewById(R.id.backButton)
+
+        //新規登録画面2に遷移
+        backButton.setOnClickListener {
+            val intent = Intent(this,configScreen::class.java)
+            startActivity(intent)
+        }
+
         //ホームボタン
         val homeButton : ImageView =findViewById(R.id.homeButton)
 

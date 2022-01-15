@@ -31,7 +31,7 @@ class signupThree : AppCompatActivity() {
 
         //新規登録画面2に遷移
         backButton.setOnClickListener {
-            val intent = Intent(this,loginScreen::class.java)
+            val intent = Intent(this,signupTwo::class.java)
             startActivity(intent)
         }
 
