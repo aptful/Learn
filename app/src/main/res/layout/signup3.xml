@@ -152,7 +152,7 @@
 
     <!--キーワード内容確認-->
     <TextView
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:background="@drawable/black_flame_back_cream"
@@ -175,18 +175,22 @@
 
 
     <ScrollView
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="130dp"
         android:layout_gravity="center">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
         <!--利用規約-->
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="300dp"
-            android:layout_height="130dp"
+            android:layout_width="280dp"
+            android:layout_height="450dp"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             app:srcCompat="@drawable/rule__1_" />
+        </LinearLayout>
 
     </ScrollView>
 
@@ -196,6 +200,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text=" 利用規約に同意する" />
+
 
     <Button
         android:id="@+id/cancelButton"

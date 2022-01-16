@@ -9,7 +9,7 @@ import android.widget.Button
 
 //作成者：綾部
 
-class newsKeywordScreen<Bottom> : AppCompatActivity() {
+class newsKeywordScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.newskeywordscreen)
