@@ -22,22 +22,24 @@ class signupThree : AppCompatActivity() {
         //完了ボタン
         val completeButton : Button = findViewById(R.id.okButton)
 
+        //ログイン画面に遷移
         completeButton.setOnClickListener {
-        fun onCheckboxClicked(view: View) {
-            if (view is CheckBox) {
-                val checked: Boolean = view.isChecked
+            //チェックボックスの実装
+            fun onCheckboxClicked(view: View) {
+                if (view is CheckBox) {
+                    val checked: Boolean = view.isChecked
 
-                when (view.id) {
-                    R.id.checkbox -> {
-                        if (checked) {
-                            startActivity(intent)
-                        } else {
-                            // Remove the meat
+                    when (view.id) {
+                        R.id.checkbox -> {
+                            if (checked == true) {
+                                startActivity(intent)
+                            } else {
+                                //anything
+                            }
                         }
                     }
                 }
             }
-           }
         }
         //ログイン画面に遷移
 //        completeButton.setOnClickListener {
@@ -66,4 +68,6 @@ class signupThree : AppCompatActivity() {
         }
 
     }
+
+    fun onCheckboxClicked(view: android.view.View) {}
 }
