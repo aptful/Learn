@@ -7,7 +7,6 @@ package com.example.myapplication
  */
 data class LoginFormState(
     val usernameError: Int? = null,
-    val usernamelengthError: Int? = null,
     val passwordError: Int? = null,
     val isDataValid: Boolean = false
 )
