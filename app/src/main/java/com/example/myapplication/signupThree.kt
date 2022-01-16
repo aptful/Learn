@@ -19,13 +19,14 @@ class signupThree : AppCompatActivity() {
 //        val editpass = intent.getStringExtra("pass")    //値の受け取り
 //        pass.text = editpass    //テキストに表示
         //完了ボタン
-        val completeButton : Button =findViewById(R.id.btnOK)
+        val completeButton : Button = findViewById(R.id.okButton)
 
         //ログイン画面に遷移
         completeButton.setOnClickListener {
-            val intent = Intent(this,loginScreen::class.java)
+
             val checkBox = findViewById<CheckBox>(R.id.checkbox)    //チェックボックス
-            if(checkBox.isChecked == true) {
+            while(checkBox.isChecked) {
+                val intent = Intent(this, loginScreen::class.java)
                 startActivity(intent)
             }
         }

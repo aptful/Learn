@@ -25,7 +25,7 @@
 
     <!--完了ボタン-->
     <Button
-        android:id="@+id/btnOK"
+        android:id="@+id/okButton"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="right"
@@ -112,7 +112,7 @@
 
     <!--生年月日テキスト-->
     <TextView
-        android:id="@+id/birthday_sinupText"
+        android:id="@+id/birthday_signupText"
         android:layout_width="150dp"
         android:layout_height="30dp"
         android:layout_marginLeft="40dp"
