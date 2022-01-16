@@ -9,14 +9,16 @@
         android:allowBackup="false"
         android:icon="@drawable/aptful_icon"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/aptful_icon"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/Theme.MyApplication"
 
         >
 
+
+
         <activity
-            android:name=".loginScreen"
+            android:name=".deleteAccountScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<!--        <activity android:name=".loginScreen"/>-->
         <activity android:name=".keywordShopScreen"/>
         <activity android:name="mypageScreen"/>
         <activity android:name="signupOne"/>
@@ -33,9 +34,11 @@
         <activity android:name="configScreen"/>
         <activity android:name=".checkAccountScreen"/>
         <activity android:name=".ruleScreen"/>
-        <activity android:name=".deleteAccountScreen"/>
+        <!--<activity android:name=".deleteAccountScreen"/>-->
         <activity android:name="searchScreen"/>
+
         <activity android:name="couponScreen"/>
+
         <activity android:name="keywordListScreen"/>
         <activity android:name=".keywordEditScreen"/>
         <activity android:name=".detailShopScreen"/>

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.CheckBox
 
 //作成者：綾部，井口
 
@@ -23,7 +24,10 @@ class signupThree : AppCompatActivity() {
         //ログイン画面に遷移
         completeButton.setOnClickListener {
             val intent = Intent(this,loginScreen::class.java)
-            startActivity(intent)
+            val checkBox = findViewById<CheckBox>(R.id.checkbox)    //チェックボックス
+            if(checkBox.isChecked == true) {
+                startActivity(intent)
+            }
         }
 
         //戻るボタン

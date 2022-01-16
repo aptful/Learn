@@ -29,16 +29,10 @@ public final class WithdrawalshowBinding implements ViewBinding {
   public final TextView IDText;
 
   @NonNull
-  public final TextView PasswordText;
-
-  @NonNull
   public final ImageButton buckButton;
 
   @NonNull
   public final ImageButton homeButton;
-
-  @NonNull
-  public final TextView keywordScreenText;
 
   @NonNull
   public final View lineOrange;
@@ -47,22 +41,28 @@ public final class WithdrawalshowBinding implements ViewBinding {
   public final EditText passwordEdit;
 
   @NonNull
-  public final Button withdrawalbutton;
+  public final TextView passwordText;
+
+  @NonNull
+  public final Button withdrawalButton;
+
+  @NonNull
+  public final TextView withdrawalshowText;
 
   private WithdrawalshowBinding(@NonNull LinearLayout rootView, @NonNull EditText IDEdit,
-      @NonNull TextView IDText, @NonNull TextView PasswordText, @NonNull ImageButton buckButton,
-      @NonNull ImageButton homeButton, @NonNull TextView keywordScreenText,
-      @NonNull View lineOrange, @NonNull EditText passwordEdit, @NonNull Button withdrawalbutton) {
+      @NonNull TextView IDText, @NonNull ImageButton buckButton, @NonNull ImageButton homeButton,
+      @NonNull View lineOrange, @NonNull EditText passwordEdit, @NonNull TextView passwordText,
+      @NonNull Button withdrawalButton, @NonNull TextView withdrawalshowText) {
     this.rootView = rootView;
     this.IDEdit = IDEdit;
     this.IDText = IDText;
-    this.PasswordText = PasswordText;
     this.buckButton = buckButton;
     this.homeButton = homeButton;
-    this.keywordScreenText = keywordScreenText;
     this.lineOrange = lineOrange;
     this.passwordEdit = passwordEdit;
-    this.withdrawalbutton = withdrawalbutton;
+    this.passwordText = passwordText;
+    this.withdrawalButton = withdrawalButton;
+    this.withdrawalshowText = withdrawalshowText;
   }
 
   @Override
@@ -104,12 +104,6 @@ public final class WithdrawalshowBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.PasswordText;
-      TextView PasswordText = ViewBindings.findChildViewById(rootView, id);
-      if (PasswordText == null) {
-        break missingId;
-      }
-
       id = R.id.buckButton;
       ImageButton buckButton = ViewBindings.findChildViewById(rootView, id);
       if (buckButton == null) {
@@ -119,12 +113,6 @@ public final class WithdrawalshowBinding implements ViewBinding {
       id = R.id.homeButton;
       ImageButton homeButton = ViewBindings.findChildViewById(rootView, id);
       if (homeButton == null) {
-        break missingId;
-      }
-
-      id = R.id.keywordScreenText;
-      TextView keywordScreenText = ViewBindings.findChildViewById(rootView, id);
-      if (keywordScreenText == null) {
         break missingId;
       }
 
@@ -140,14 +128,26 @@ public final class WithdrawalshowBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.withdrawalbutton;
-      Button withdrawalbutton = ViewBindings.findChildViewById(rootView, id);
-      if (withdrawalbutton == null) {
+      id = R.id.passwordText;
+      TextView passwordText = ViewBindings.findChildViewById(rootView, id);
+      if (passwordText == null) {
         break missingId;
       }
 
-      return new WithdrawalshowBinding((LinearLayout) rootView, IDEdit, IDText, PasswordText,
-          buckButton, homeButton, keywordScreenText, lineOrange, passwordEdit, withdrawalbutton);
+      id = R.id.withdrawalButton;
+      Button withdrawalButton = ViewBindings.findChildViewById(rootView, id);
+      if (withdrawalButton == null) {
+        break missingId;
+      }
+
+      id = R.id.withdrawalshowText;
+      TextView withdrawalshowText = ViewBindings.findChildViewById(rootView, id);
+      if (withdrawalshowText == null) {
+        break missingId;
+      }
+
+      return new WithdrawalshowBinding((LinearLayout) rootView, IDEdit, IDText, buckButton,
+          homeButton, lineOrange, passwordEdit, passwordText, withdrawalButton, withdrawalshowText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
