@@ -255,7 +255,7 @@
 
     <!--"☆メモやスクリーンショットで．ID・パスワードを控えておいてください"-->
     <TextView
-        android:id="@+id/attention_sinupText"
+        android:id="@+id/attention_signupText"
         android:layout_width="365dp"
         android:layout_height="70dp"
         android:layout_marginTop="50dp"
