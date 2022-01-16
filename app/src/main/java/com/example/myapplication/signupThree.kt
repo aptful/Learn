@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.CheckBox
+import android.view.View
 
 //作成者：綾部，井口
 
@@ -21,15 +22,30 @@ class signupThree : AppCompatActivity() {
         //完了ボタン
         val completeButton : Button = findViewById(R.id.okButton)
 
-        //ログイン画面に遷移
         completeButton.setOnClickListener {
+        fun onCheckboxClicked(view: View) {
+            if (view is CheckBox) {
+                val checked: Boolean = view.isChecked
 
-            val checkBox = findViewById<CheckBox>(R.id.checkbox)    //チェックボックス
-            while(checkBox.isChecked) {
-                val intent = Intent(this, loginScreen::class.java)
-                startActivity(intent)
+                when (view.id) {
+                    R.id.checkbox -> {
+                        if (checked) {
+                            startActivity(intent)
+                        } else {
+                            // Remove the meat
+                        }
+                    }
+                }
             }
+           }
         }
+        //ログイン画面に遷移
+//        completeButton.setOnClickListener {
+//            val checkBox = findViewById<CheckBox>(R.id.checkbox)    //チェックボックス
+//            if(checkBox.isChecked == true) {
+//                startActivity(intent)
+//            }
+//        }
 
         //戻るボタン
         val backButton : ImageView = findViewById(R.id.backButton)
