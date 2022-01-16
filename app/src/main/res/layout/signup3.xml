@@ -199,9 +199,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text=" 利用規約に同意する"
-        android:checked="false"
         android:onClick="onCheckboxClicked"
-        tools:ignore="OnClick" />
+         />
+
+<!--    tools:ignore="OnClick"-->
+    <!--        android:checked="false"-->
 
 
     <Button
