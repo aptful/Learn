@@ -68,7 +68,7 @@ public final class Signup1Binding implements ViewBinding {
   public final TextView seirekiText;
 
   @NonNull
-  public final TextView sigupOneLabel;
+  public final TextView signupOneLabel;
 
   @NonNull
   public final EditText yearEdit;
@@ -82,7 +82,7 @@ public final class Signup1Binding implements ViewBinding {
       @NonNull EditText dayEdit, @NonNull TextView dayText, @NonNull TextView id,
       @NonNull EditText monthEdit, @NonNull TextView monthText, @NonNull Button nextButton,
       @NonNull EditText passwordEdit, @NonNull TextView passwordText, @NonNull TextView seirekiText,
-      @NonNull TextView sigupOneLabel, @NonNull EditText yearEdit, @NonNull TextView yearText) {
+      @NonNull TextView signupOneLabel, @NonNull EditText yearEdit, @NonNull TextView yearText) {
     this.rootView = rootView;
     this.IDText = IDText;
     this.IDcomentText = IDcomentText;
@@ -99,7 +99,7 @@ public final class Signup1Binding implements ViewBinding {
     this.passwordEdit = passwordEdit;
     this.passwordText = passwordText;
     this.seirekiText = seirekiText;
-    this.sigupOneLabel = sigupOneLabel;
+    this.signupOneLabel = signupOneLabel;
     this.yearEdit = yearEdit;
     this.yearText = yearText;
   }
@@ -221,9 +221,9 @@ public final class Signup1Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.sigupOneLabel;
-      TextView sigupOneLabel = ViewBindings.findChildViewById(rootView, id);
-      if (sigupOneLabel == null) {
+      id = R.id.signupOneLabel;
+      TextView signupOneLabel = ViewBindings.findChildViewById(rootView, id);
+      if (signupOneLabel == null) {
         break missingId;
       }
 
@@ -241,7 +241,7 @@ public final class Signup1Binding implements ViewBinding {
 
       return new Signup1Binding((LinearLayout) rootView, IDText, IDcomentText, attentionSinupText,
           backButton, birthText, cancelButton, dayEdit, dayText, id_, monthEdit, monthText,
-          nextButton, passwordEdit, passwordText, seirekiText, sigupOneLabel, yearEdit, yearText);
+          nextButton, passwordEdit, passwordText, seirekiText, signupOneLabel, yearEdit, yearText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

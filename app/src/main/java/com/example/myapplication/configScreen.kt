@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import androidx.appcompat.app.AlertDialog
 
 //作成者：綾部
 
@@ -37,6 +38,25 @@ class configScreen : AppCompatActivity() {
         ruleButton.setOnClickListener {
             val intent = Intent(this,ruleScreen::class.java)
             startActivity(intent)
+        }
+
+        //ログアウトボタン
+        val logoutButton : Button = findViewById(R.id.logoutButton)
+
+        //ログアウト確認ポップアップ
+        logoutButton.setOnClickListener {
+            AlertDialog.Builder(this)
+                .setTitle("ログアウトしますか?")
+
+                .setPositiveButton("いいえ"){ dialog, which ->
+                }
+
+                .setNegativeButton("はい"){ dialog, which ->
+                    val intent = Intent(this,loginScreen::class.java)
+                    startActivity(intent)
+                }
+                .show()
+
         }
 
         //退会ボタン

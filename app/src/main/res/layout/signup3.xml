@@ -8,8 +8,7 @@
     tools:context=".signupThree"
     android:background="#fff8dc" >
 
-    <!--作成者:綾部-->
-
+    <!--作成者:綾部，井口一部追加-->
     <!--帯-->
     <!--    新規登録画面（3/3）の文字-->
     <TextView
@@ -25,7 +24,7 @@
 
     <!--完了ボタン-->
     <Button
-        android:id="@+id/btnOK"
+        android:id="@+id/okButton"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="right"
@@ -112,7 +111,7 @@
 
     <!--生年月日テキスト-->
     <TextView
-        android:id="@+id/birthday_sinupText"
+        android:id="@+id/birthday_signupText"
         android:layout_width="150dp"
         android:layout_height="30dp"
         android:layout_marginLeft="40dp"
@@ -152,7 +151,7 @@
 
     <!--キーワード内容確認-->
     <TextView
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
         android:background="@drawable/black_flame_back_cream"
@@ -175,18 +174,22 @@
 
 
     <ScrollView
-        android:layout_width="300dp"
+        android:layout_width="280dp"
         android:layout_height="130dp"
         android:layout_gravity="center">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
         <!--利用規約-->
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="300dp"
-            android:layout_height="130dp"
+            android:layout_width="280dp"
+            android:layout_height="450dp"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             app:srcCompat="@drawable/rule__1_" />
+        </LinearLayout>
 
     </ScrollView>
 
@@ -195,7 +198,13 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text=" 利用規約に同意する" />
+        android:text=" 利用規約に同意する"
+        android:onClick="onCheckboxClicked"
+         />
+
+<!--    tools:ignore="OnClick"-->
+    <!--        android:checked="false"-->
+
 
     <Button
         android:id="@+id/cancelButton"

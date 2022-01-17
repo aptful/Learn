@@ -28,10 +28,10 @@ public final class OptionBinding implements ViewBinding {
   public final TextView accountText;
 
   @NonNull
-  public final ImageButton homeButton;
+  public final TextView configText;
 
   @NonNull
-  public final TextView keywordScreenText;
+  public final ImageButton homeButton;
 
   @NonNull
   public final View lineOrange;
@@ -55,15 +55,15 @@ public final class OptionBinding implements ViewBinding {
   public final TextView signoutText;
 
   private OptionBinding(@NonNull LinearLayout rootView, @NonNull Button accountButton,
-      @NonNull TextView accountText, @NonNull ImageButton homeButton,
-      @NonNull TextView keywordScreenText, @NonNull View lineOrange, @NonNull Button logoutButton,
-      @NonNull TextView logoutText, @NonNull Button ruleButton, @NonNull TextView ruleText,
-      @NonNull Button signoutButton, @NonNull TextView signoutText) {
+      @NonNull TextView accountText, @NonNull TextView configText, @NonNull ImageButton homeButton,
+      @NonNull View lineOrange, @NonNull Button logoutButton, @NonNull TextView logoutText,
+      @NonNull Button ruleButton, @NonNull TextView ruleText, @NonNull Button signoutButton,
+      @NonNull TextView signoutText) {
     this.rootView = rootView;
     this.accountButton = accountButton;
     this.accountText = accountText;
+    this.configText = configText;
     this.homeButton = homeButton;
-    this.keywordScreenText = keywordScreenText;
     this.lineOrange = lineOrange;
     this.logoutButton = logoutButton;
     this.logoutText = logoutText;
@@ -112,15 +112,15 @@ public final class OptionBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.homeButton;
-      ImageButton homeButton = ViewBindings.findChildViewById(rootView, id);
-      if (homeButton == null) {
+      id = R.id.configText;
+      TextView configText = ViewBindings.findChildViewById(rootView, id);
+      if (configText == null) {
         break missingId;
       }
 
-      id = R.id.keywordScreenText;
-      TextView keywordScreenText = ViewBindings.findChildViewById(rootView, id);
-      if (keywordScreenText == null) {
+      id = R.id.homeButton;
+      ImageButton homeButton = ViewBindings.findChildViewById(rootView, id);
+      if (homeButton == null) {
         break missingId;
       }
 
@@ -166,9 +166,9 @@ public final class OptionBinding implements ViewBinding {
         break missingId;
       }
 
-      return new OptionBinding((LinearLayout) rootView, accountButton, accountText, homeButton,
-          keywordScreenText, lineOrange, logoutButton, logoutText, ruleButton, ruleText,
-          signoutButton, signoutText);
+      return new OptionBinding((LinearLayout) rootView, accountButton, accountText, configText,
+          homeButton, lineOrange, logoutButton, logoutText, ruleButton, ruleText, signoutButton,
+          signoutText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

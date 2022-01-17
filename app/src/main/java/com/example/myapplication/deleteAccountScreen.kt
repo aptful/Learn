@@ -43,8 +43,10 @@ class deleteAccountScreen : AppCompatActivity() {
                 .setMessage("本当によろしいですか?")
 
                 .setPositiveButton("いいえ"){ dialog, which ->
-
+                    val intent = Intent(this,deleteAccountScreen::class.java)
+                    startActivity(intent)
                 }
+
                 .setNegativeButton("はい"){ dialog, which ->
                     val intent = Intent(this,loginScreen::class.java)
                     startActivity(intent)
