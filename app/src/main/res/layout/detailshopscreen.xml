@@ -283,16 +283,30 @@
         />
 
     <!--お気に入り機能-->
+    <!--塗りつぶしハートボタン-->
     <ImageButton
-        android:id="@+id/heart"
+        android:id="@+id/heartButton"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:background="@drawable/hart_line"
+        android:background="@drawable/color_hart_pic"
         android:layout_gravity="right"
         android:layout_marginRight="60dp"
         android:layout_marginTop="-30dp"
         app:layout_constraintTop_toTopOf="parent"
         />
+
+    <!--白抜きハートボタン-->
+    <ImageButton
+        android:id="@+id/heartLineButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/hart_line"
+        android:layout_gravity="right"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="-40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
 
     <!--Line共有-->
     <ImageButton
