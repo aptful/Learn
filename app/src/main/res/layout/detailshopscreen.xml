@@ -26,7 +26,7 @@
 
     <!--家マーク-->
     <ImageButton
-        android:id="@+id/imageView3"
+        android:id="@+id/homeButton"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_gravity="end"
