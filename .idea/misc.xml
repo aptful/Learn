@@ -3,6 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/config.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/detailshopscreen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/keywordeditscreen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/keywordshopscreen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/loginscreen.xml" value="0.1" />
+        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/search.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/signup1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/signup2.xml" value="0.25" />
+        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/signup3.xml" value="0.22" />
+        <entry key="..\:/Users/user/github/aptful_system/app/src/main/res/layout/withdrawalshow.xml" value="0.20416666666666666" />
         <entry key="app/src/main/res/drawable/black_flame_back_orange.xml" value="0.11770833333333333" />
         <entry key="app/src/main/res/drawable/blueborder.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/border.xml" value="0.11770833333333333" />

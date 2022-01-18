@@ -79,16 +79,28 @@
                 android:text="テイクアウト"
                 android:textSize="18sp" />
 
-            <!--追加ボタン-->
+            <!--追加済ボタン1-->
             <ImageButton
-                android:id="@+id/addButton"
+                android:id="@+id/addedButton1"
                 android:layout_width="90dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="70dp"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/added"
+                android:gravity="center"
+                android:textSize="18sp" />
+
+            <!--追加ボタン1-->
+            <ImageButton
+                android:id="@+id/addButton1"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/add"
                 android:gravity="center"
                 android:textSize="18sp" />
+
 
             <!--スイーツの文字-->
             <TextView
@@ -100,9 +112,9 @@
                 android:text="スイーツ"
                 android:textSize="18sp" />
 
-            <!--追加済ボタン-->
+            <!--追加済ボタン2-->
             <ImageButton
-                android:id="@+id/addedButton"
+                android:id="@+id/addedButton2"
                 android:layout_width="90dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="70dp"
@@ -110,6 +122,18 @@
                 android:background="@drawable/added"
                 android:gravity="center"
                 android:textSize="15sp" />
+
+            <!--追加ボタン2-->
+            <ImageButton
+                android:id="@+id/addButton2"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/add"
+                android:gravity="center"
+                android:textSize="18sp" />
+
 
             <!--ドリンクの文字-->
             <TextView
@@ -121,9 +145,9 @@
                 android:text="ドリンク"
                 android:textSize="18sp" />
 
-            <!--追加済ボタン-->
+            <!--追加済ボタン3-->
             <ImageButton
-                android:id="@+id/added2Button"
+                android:id="@+id/addedButton3"
                 android:layout_width="90dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="70dp"
@@ -131,6 +155,18 @@
                 android:background="@drawable/added"
                 android:gravity="center"
                 android:textSize="15sp" />
+
+            <!--追加ボタン3-->
+            <ImageButton
+                android:id="@+id/addButton3"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/add"
+                android:gravity="center"
+                android:textSize="18sp" />
+
 
             <!--カフェの文字-->
             <TextView
@@ -142,9 +178,9 @@
                 android:text="カフェ"
                 android:textSize="18sp" />
 
-            <!--追加済ボタン-->
+            <!--追加済ボタン4-->
             <ImageButton
-                android:id="@+id/added3Button"
+                android:id="@+id/addedButton4"
                 android:layout_width="90dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="70dp"
@@ -152,6 +188,18 @@
                 android:background="@drawable/added"
                 android:gravity="center"
                 android:textSize="15sp" />
+
+            <!--追加ボタン4-->
+            <ImageButton
+                android:id="@+id/addButton4"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="170dp"
+                android:background="@drawable/add"
+                android:gravity="center"
+                android:textSize="18sp" />
+
 
             <!--手土産の文字-->
             <TextView
@@ -163,9 +211,9 @@
                 android:text="手土産"
                 android:textSize="18sp" />
 
-            <!--追加済ボタン-->
+            <!--追加済ボタン5-->
             <ImageButton
-                android:id="@+id/added4Button"
+                android:id="@+id/addedButton5"
                 android:layout_width="90dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="70dp"
@@ -173,6 +221,18 @@
                 android:background="@drawable/added"
                 android:gravity="center"
                 android:textSize="15sp" />
+
+            <!--追加ボタン5-->
+            <ImageButton
+                android:id="@+id/addButton5"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="220dp"
+                android:background="@drawable/add"
+                android:gravity="center"
+                android:textSize="18sp" />
+
 
             <!--創作料理の文字-->
             <TextView
@@ -184,9 +244,9 @@
                 android:text="創作料理"
                 android:textSize="18sp" />
 
-            <!--追加済ボタン-->
+            <!--追加済ボタン6-->
             <ImageButton
-                android:id="@+id/added5Button"
+                android:id="@+id/addedButton6"
                 android:layout_width="90dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="70dp"
@@ -194,6 +254,18 @@
                 android:background="@drawable/added"
                 android:gravity="center"
                 android:textSize="15sp" />
+
+            <!--追加ボタン6-->
+            <ImageButton
+                android:id="@+id/addButton6"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="270dp"
+                android:background="@drawable/add"
+                android:gravity="center"
+                android:textSize="18sp" />
+
 
             <!--居酒屋の文字-->
             <TextView
@@ -205,9 +277,9 @@
                 android:text="居酒屋"
                 android:textSize="18sp" />
 
-            <!--追加済ボタン-->
+            <!--追加済ボタン7-->
             <ImageButton
-                android:id="@+id/added6Button"
+                android:id="@+id/addedButton7"
                 android:layout_width="90dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="70dp"
@@ -215,6 +287,18 @@
                 android:background="@drawable/added"
                 android:gravity="center"
                 android:textSize="15sp" />
+
+            <!--追加ボタン7-->
+            <ImageButton
+                android:id="@+id/addButton7"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="320dp"
+                android:background="@drawable/add"
+                android:gravity="center"
+                android:textSize="18sp" />
+
 
             <!--芸術の文字-->
             <TextView
@@ -226,9 +310,9 @@
                 android:text="芸術 "
                 android:textSize="18sp" />
 
-            <!--追加済ボタン-->
+            <!--追加済ボタン8-->
             <ImageButton
-                android:id="@+id/added7Button"
+                android:id="@+id/addedButton8"
                 android:layout_width="90dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="70dp"
@@ -236,6 +320,18 @@
                 android:background="@drawable/added"
                 android:gravity="center"
                 android:textSize="15sp" />
+
+            <!--追加ボタン8-->
+            <ImageButton
+                android:id="@+id/addButton8"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="370dp"
+                android:background="@drawable/add"
+                android:gravity="center"
+                android:textSize="18sp" />
+
 
             <!--パンの文字-->
             <TextView
@@ -247,9 +343,9 @@
                 android:text="パン"
                 android:textSize="18sp" />
 
-            <!--追加済ボタン-->
+            <!--追加済ボタン9-->
             <ImageButton
-                android:id="@+id/added8Button"
+                android:id="@+id/addedButton9"
                 android:layout_width="90dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="70dp"
@@ -257,6 +353,18 @@
                 android:background="@drawable/added"
                 android:gravity="center"
                 android:textSize="15sp" />
+
+            <!--追加ボタン9-->
+            <ImageButton
+                android:id="@+id/addButton9"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="420dp"
+                android:background="@drawable/add"
+                android:gravity="center"
+                android:textSize="18sp" />
+
 
             <!--果物の文字-->
             <TextView
@@ -268,9 +376,9 @@
                 android:text="果物"
                 android:textSize="18sp" />
 
-            <!--追加済ボタン-->
+            <!--追加済ボタン10-->
             <ImageButton
-                android:id="@+id/added9Button"
+                android:id="@+id/addedButton10"
                 android:layout_width="90dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="70dp"
@@ -279,8 +387,19 @@
                 android:gravity="center"
                 android:textSize="15sp" />
 
-        </LinearLayout>
-    </ScrollView>
+            <!--追加ボタン10-->
+            <ImageButton
+                android:id="@+id/addButton10"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="470dp"
+                android:background="@drawable/add"
+                android:gravity="center"
+                android:textSize="18sp" />
+
+        </LinearLayout>-->
+    </ScrollView>-->
 
     <!--キャンセルボタン-->
     <Button
