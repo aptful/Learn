@@ -10,7 +10,7 @@ import android.widget.ImageView
 import android.app.Activity
 import android.widget.EditText
 
-//作成者：綾部，小島，（井口）
+//作成者：綾部，小島，井口
 
 class signupTwo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
