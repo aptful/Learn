@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.*
 import android.widget.CheckBox
-import android.R.id
-
+import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 
 
@@ -30,7 +30,22 @@ class signupThree : AppCompatActivity() {
         //textEditの上書き表示
         //パスワード
         val passText = findViewById<View>(R.id.password_edit_signupText) as TextView
-        passText.text = "  " + textPasswordEdit
+//        passText.text = "  " + textPasswordEdit
+        if (textPasswordEdit != null) {
+            when (textPasswordEdit.length) {
+                6 -> {
+                    passText.text = "  ●●●●●●" }
+                7 -> {
+                    passText.text = "  ●●●●●●●"
+                }
+                8 -> {
+                    passText.text = "  ●●●●●●●●"
+                }
+                else -> {
+                    passText.text = "  範囲外だよ"
+                }
+            }
+        }
         //生年月日
         val birthText =  findViewById<View>(R.id.birthday_edit_signupText) as TextView
         birthText.text = "  " + textYearEdit + "年" + textMonthEdit + "月" + textDayEdit + "日"
