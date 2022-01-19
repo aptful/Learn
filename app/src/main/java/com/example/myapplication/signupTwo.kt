@@ -3,7 +3,6 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
@@ -208,7 +207,7 @@ class signupTwo : AppCompatActivity() {
 
         //新規登録画面3に遷移
         nextButton.setOnClickListener {
-            if (count > 0) {
+            if (count >= 1) {
                 val intent = Intent(this, signupThree::class.java)
                 startActivity(intent)
             }
