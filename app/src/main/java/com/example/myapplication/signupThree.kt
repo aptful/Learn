@@ -4,11 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.*
 import android.widget.CheckBox
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import android.view.Gravity
 
 //作成者：綾部，井口
 
@@ -18,10 +18,10 @@ class signupThree : AppCompatActivity() {
         setContentView(R.layout.signup3)
 
         //値の受け取り
-        val textPasswordEdit = intent.getStringExtra("passwordKey") //パスワード
-        val textYearEdit = intent.getStringExtra("yearKey") //誕生年
-        val textMonthEdit = intent.getStringExtra("monthKey")   //誕生月
-        val textDayEdit = intent.getStringExtra("dayKey")   //誕生日
+        val textPasswordEdit = intent.getStringExtra("passwordKey")
+        val textYearEdit = intent.getStringExtra("yearKey")
+        val textMonthEdit = intent.getStringExtra("monthKey")
+        val textDayEdit = intent.getStringExtra("dayKey")
 
         //TexiViewの上書き表示
         //パスワード
@@ -31,15 +31,15 @@ class signupThree : AppCompatActivity() {
         if (textPasswordEdit != null) {
             when (textPasswordEdit.length) {
                 6 -> {
-                    passText.text = "  ●●●●●●" }
+                    passText.text = "  ●●●●●●"
+                }
                 7 -> {
                     passText.text = "  ●●●●●●●"
                 }
                 8 -> {
                     passText.text = "  ●●●●●●●●"
-                }
-                else -> {
-                    passText.text = "  範囲外だよ"
+                }else -> {
+                passText.text = "範囲外です！"
                 }
             }
         }
@@ -56,8 +56,6 @@ class signupThree : AppCompatActivity() {
                 startActivity(intent)
             }
         }
-
-
 
         //戻るボタン
         val backButton : ImageView = findViewById(R.id.backButton)
