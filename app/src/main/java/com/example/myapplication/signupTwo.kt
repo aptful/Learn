@@ -7,6 +7,8 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
+import android.app.Activity
+import android.widget.EditText
 
 //作成者：綾部，小島，（井口）
 
@@ -205,11 +207,20 @@ class signupTwo : AppCompatActivity() {
 
         //次へボタン
         val nextButton : Button = findViewById(R.id.nextButton)
+        //値の受け取り
+        val textPasswordEdit = intent.getStringExtra("passwordKey") //パスワード
+        val textYearEdit = intent.getStringExtra("yearKey") //誕生年
+        val textMonthEdit = intent.getStringExtra("monthKey")   //誕生月
+        val textDayEdit = intent.getStringExtra("dayKey")   //誕生日
 
         //新規登録画面3に遷移
         nextButton.setOnClickListener {
             if (count >= 1) {
                 val intent = Intent(this, signupThree::class.java)
+                intent.putExtra("passwordKey", textPasswordEdit.toString());    //パスワード値引き渡し
+                intent.putExtra("yearKey", textYearEdit.toString());  //誕生年の値引き渡し
+                intent.putExtra("monthKey", textMonthEdit.toString());  //誕生月の値引き渡し
+                intent.putExtra("dayKey", textDayEdit.toString());  //誕生日の値引き渡し
                 startActivity(intent)
             }
         }
