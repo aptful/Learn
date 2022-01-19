@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
 
-//作成者：綾部
+//作成者：綾部，小島，（井口）
 
 class signupTwo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -70,7 +70,8 @@ class signupTwo : AppCompatActivity() {
         //ボタンの動き
         //INVISIBLE:隠す　VISIBLE:出す
 
-        var count : Int = 0
+        var count : Int
+        count = 0
 
         //追加ボタン1の動き
         addButton1.setOnClickListener{
