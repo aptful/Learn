@@ -125,7 +125,7 @@ class signupTwo : AppCompatActivity() {
         }
 
         //追加ボタン5の動き
-        addButton1.setOnClickListener{
+        addButton5.setOnClickListener{
             addButton5.visibility = View.INVISIBLE
             addedButton5.visibility = View.VISIBLE
             count++
@@ -183,7 +183,7 @@ class signupTwo : AppCompatActivity() {
             count++
         }
         //追加済ボタン9の動き
-        addedButton1.setOnClickListener{
+        addedButton9.setOnClickListener{
             addedButton9.visibility = View.INVISIBLE
             addButton9.visibility = View.VISIBLE
             count--
