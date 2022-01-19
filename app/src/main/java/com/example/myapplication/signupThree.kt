@@ -10,10 +10,6 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 
-
-
-
-
 //作成者：綾部，井口
 
 class signupThree : AppCompatActivity() {
@@ -27,7 +23,7 @@ class signupThree : AppCompatActivity() {
         val textMonthEdit = intent.getStringExtra("monthKey")   //誕生月
         val textDayEdit = intent.getStringExtra("dayKey")   //誕生日
 
-        //textEditの上書き表示
+        //TexiViewの上書き表示
         //パスワード
         val passText = findViewById<View>(R.id.password_edit_signupText) as TextView
         //入力された文字数分だけ●表示
