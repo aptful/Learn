@@ -30,7 +30,8 @@ class signupThree : AppCompatActivity() {
         //textEditの上書き表示
         //パスワード
         val passText = findViewById<View>(R.id.password_edit_signupText) as TextView
-//        passText.text = "  " + textPasswordEdit
+        //入力された文字数分だけ●表示
+        //6~8文字しか想定してないです
         if (textPasswordEdit != null) {
             when (textPasswordEdit.length) {
                 6 -> {

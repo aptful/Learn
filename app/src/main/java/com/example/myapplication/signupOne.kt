@@ -3,11 +3,9 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
-import android.app.Activity
 
 //作成者：綾部，井口
 
@@ -28,10 +26,11 @@ class signupOne : AppCompatActivity() {
         nextButton.setOnClickListener {
             val intent = Intent(this, signupTwo::class.java)
             if(textPasswordEdit.length() > 0 && textYearEdit.length() > 0 && textMonthEdit.length() > 0 && textDayEdit.length() > 0){
-                intent.putExtra("passwordKey", textPasswordEdit.getText().toString());  //パスワードの値引き渡し
-                intent.putExtra("yearKey", textYearEdit.getText().toString());  //誕生年の値引き渡し
-                intent.putExtra("monthKey", textMonthEdit.getText().toString());  //誕生月の値引き渡し
-                intent.putExtra("dayKey", textDayEdit.getText().toString());  //誕生日の値引き渡し
+                //値の引き渡し
+                intent.putExtra("passwordKey", textPasswordEdit.toString());    //パスワード
+                intent.putExtra("yearKey", textYearEdit.toString());  //誕生年
+                intent.putExtra("monthKey", textMonthEdit.toString());  //誕生月
+                intent.putExtra("dayKey", textDayEdit.toString());  //誕生日
                 startActivity(intent)
             }
         }

@@ -217,10 +217,11 @@ class signupTwo : AppCompatActivity() {
         nextButton.setOnClickListener {
             if (count >= 1) {
                 val intent = Intent(this, signupThree::class.java)
-                intent.putExtra("passwordKey", textPasswordEdit.toString());    //パスワード値引き渡し
-                intent.putExtra("yearKey", textYearEdit.toString());  //誕生年の値引き渡し
-                intent.putExtra("monthKey", textMonthEdit.toString());  //誕生月の値引き渡し
-                intent.putExtra("dayKey", textDayEdit.toString());  //誕生日の値引き渡し
+                //値の引き渡し
+                intent.putExtra("passwordKey", textPasswordEdit.toString());    //パスワード
+                intent.putExtra("yearKey", textYearEdit.toString());  //誕生年
+                intent.putExtra("monthKey", textMonthEdit.toString());  //誕生月
+                intent.putExtra("dayKey", textDayEdit.toString());  //誕生日
                 startActivity(intent)
             }
         }
