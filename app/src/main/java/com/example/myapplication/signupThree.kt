@@ -9,8 +9,9 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.view.Gravity
+import androidx.appcompat.app.AlertDialog
 
-//作成者：綾部，井口
+//作成者：綾部，井口，久保田
 
 class signupThree : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,13 +50,30 @@ class signupThree : AppCompatActivity() {
 
         //完了ボタン
         val completeButton: Button = findViewById(R.id.okButton)
-        //完了ボタンが押されたら
+
+//       //完了ボタンが押されたら
+//    completeButton.setOnClickListener {
+//             val intent = Intent(this, mypageScreen::class.java)
+//               if (checkBoxState[0].equals(1)) {
+//                  startActivity(intent)
+//                }
+//           }
+
+        //ユーザ登録完了ポップアップ
         completeButton.setOnClickListener {
-            val intent = Intent(this, mypageScreen::class.java)
-            if (checkBoxState[0].equals(1)) {
-                startActivity(intent)
-            }
+            AlertDialog.Builder(this)
+                .setTitle("登録完了")
+                .setMessage("ログインしてみましょう")
+
+                .setPositiveButton("OK"){ dialog, which ->
+                    val intent = Intent(this,loginScreen::class.java)
+                    startActivity(intent)
+                }
+
+                .show()
+
         }
+
 
         //戻るボタン
         val backButton : ImageView = findViewById(R.id.backButton)
@@ -76,6 +94,7 @@ class signupThree : AppCompatActivity() {
         }
 
     }
+
 
 
     var checkBoxState = arrayOf(0)
