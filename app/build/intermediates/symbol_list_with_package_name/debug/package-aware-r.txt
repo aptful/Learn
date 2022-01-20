@@ -1817,6 +1817,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable color_hart_pic
 drawable config
 drawable coupon
 drawable coupon_news
@@ -1986,6 +1987,16 @@ id actions
 id activity_chooser_view_content
 id add
 id addButton
+id addButton1
+id addButton10
+id addButton2
+id addButton3
+id addButton4
+id addButton5
+id addButton6
+id addButton7
+id addButton8
+id addButton9
 id added10Button
 id added2Button
 id added3Button
@@ -1996,6 +2007,16 @@ id added7Button
 id added8Button
 id added9Button
 id addedButton
+id addedButton1
+id addedButton10
+id addedButton2
+id addedButton3
+id addedButton4
+id addedButton5
+id addedButton6
+id addedButton7
+id addedButton8
+id addedButton9
 id address
 id alertTitle
 id aligned
@@ -2011,7 +2032,7 @@ id arc
 id artText
 id asConfigured
 id async
-id attention_sinupText
+id attention_signupText
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -2029,7 +2050,7 @@ id beginning
 id bestChoice
 id birthText
 id birthday_edit_signupText
-id birthday_sinupText
+id birthday_signupText
 id blocking
 id bottom
 id bounce
@@ -2038,7 +2059,6 @@ id bounceEnd
 id bounceStart
 id breadText
 id broaddayText
-id btnOK
 id buckButton
 id buttonPanel
 id cache_measures
@@ -2196,7 +2216,8 @@ id grouping
 id groups
 id guideline
 id header_title
-id heart
+id heartButton
+id heartLineButton
 id hideable
 id home
 id homeAsUp
@@ -2218,6 +2239,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView4
 id imageframe
 id immediateStop
 id included
@@ -2260,8 +2282,6 @@ id line_orange
 id linear
 id listMode
 id list_item
-id loading
-id login
 id loginButton
 id logoutButton
 id logoutText
@@ -2349,6 +2369,7 @@ id notification_main_column
 id notification_main_column_container
 id off
 id official
+id okButton
 id on
 id onInterceptTouchReturnSwipe
 id orangeLine
@@ -2371,7 +2392,8 @@ id parentRelative
 id parent_matrix
 id passEdit
 id passText
-id password
+id passWord
+id passwordComentText
 id passwordEdit
 id passwordText
 id password_edit_signupText
@@ -2549,7 +2571,7 @@ id useButton_b
 id useButton_c
 id useButton_d
 id useLogo
-id username
+id userName
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -2800,8 +2822,6 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string action_sign_in
-string action_sign_in_short
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -2812,6 +2832,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string create_button
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2819,12 +2840,9 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string id_label
-string invalid_password
-string invalid_username
-string invalid_usernamelength
 string item_view_role_description
 string keyword
-string login_failed
+string login_button
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2880,7 +2898,6 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
-string newcreate
 string password_label
 string password_toggle_content_description
 string path_password_eye
@@ -2892,7 +2909,6 @@ string prompt_password
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_label
-string welcome
 string zxing_app_name
 string zxing_button_ok
 string zxing_msg_camera_framework_bug

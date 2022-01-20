@@ -22,6 +22,9 @@ public final class KeywordshopscreenBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final TextView Text1;
+
+  @NonNull
   public final TextView accessText1;
 
   @NonNull
@@ -111,9 +114,9 @@ public final class KeywordshopscreenBinding implements ViewBinding {
   @NonNull
   public final TextView shopText5;
 
-  private KeywordshopscreenBinding(@NonNull LinearLayout rootView, @NonNull TextView accessText1,
-      @NonNull TextView accessText2, @NonNull TextView accessText3, @NonNull TextView accessText4,
-      @NonNull TextView accessText5, @NonNull ImageView backButton,
+  private KeywordshopscreenBinding(@NonNull LinearLayout rootView, @NonNull TextView Text1,
+      @NonNull TextView accessText1, @NonNull TextView accessText2, @NonNull TextView accessText3,
+      @NonNull TextView accessText4, @NonNull TextView accessText5, @NonNull ImageView backButton,
       @NonNull ImageView backgroundWhite1, @NonNull ImageView backgroundWhite2,
       @NonNull ImageView backgroundWhite3, @NonNull ImageView backgroundWhite4,
       @NonNull ImageView backgroundWhite5, @NonNull TextView dayText1, @NonNull TextView dayText2,
@@ -124,6 +127,7 @@ public final class KeywordshopscreenBinding implements ViewBinding {
       @NonNull TextView shopText1, @NonNull TextView shopText2, @NonNull TextView shopText3,
       @NonNull TextView shopText4, @NonNull TextView shopText5) {
     this.rootView = rootView;
+    this.Text1 = Text1;
     this.accessText1 = accessText1;
     this.accessText2 = accessText2;
     this.accessText3 = accessText3;
@@ -183,6 +187,12 @@ public final class KeywordshopscreenBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.Text1;
+      TextView Text1 = ViewBindings.findChildViewById(rootView, id);
+      if (Text1 == null) {
+        break missingId;
+      }
+
       id = R.id.accessText1;
       TextView accessText1 = ViewBindings.findChildViewById(rootView, id);
       if (accessText1 == null) {
@@ -363,7 +373,7 @@ public final class KeywordshopscreenBinding implements ViewBinding {
         break missingId;
       }
 
-      return new KeywordshopscreenBinding((LinearLayout) rootView, accessText1, accessText2,
+      return new KeywordshopscreenBinding((LinearLayout) rootView, Text1, accessText1, accessText2,
           accessText3, accessText4, accessText5, backButton, backgroundWhite1, backgroundWhite2,
           backgroundWhite3, backgroundWhite4, backgroundWhite5, dayText1, dayText2, dayText3,
           dayText4, dayText5, homeButton, homepic1, homepic2, homepic3, homepic4, homepic5,

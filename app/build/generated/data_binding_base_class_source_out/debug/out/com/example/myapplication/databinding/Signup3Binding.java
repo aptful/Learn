@@ -35,10 +35,7 @@ public final class Signup3Binding implements ViewBinding {
   public final TextView birthdayEditSignupText;
 
   @NonNull
-  public final TextView birthdaySinupText;
-
-  @NonNull
-  public final Button btnOK;
+  public final TextView birthdaySignupText;
 
   @NonNull
   public final Button cancelButton;
@@ -56,6 +53,9 @@ public final class Signup3Binding implements ViewBinding {
   public final TextView looksignupText;
 
   @NonNull
+  public final Button okButton;
+
+  @NonNull
   public final TextView passwordEditSignupText;
 
   @NonNull
@@ -69,9 +69,9 @@ public final class Signup3Binding implements ViewBinding {
 
   private Signup3Binding(@NonNull LinearLayout rootView, @NonNull TextView IDEditSignupText,
       @NonNull TextView IDSignupText, @NonNull ImageView backButton,
-      @NonNull TextView birthdayEditSignupText, @NonNull TextView birthdaySinupText,
-      @NonNull Button btnOK, @NonNull Button cancelButton, @NonNull CheckBox checkBox,
-      @NonNull ImageView imageView, @NonNull TextView keywordText, @NonNull TextView looksignupText,
+      @NonNull TextView birthdayEditSignupText, @NonNull TextView birthdaySignupText,
+      @NonNull Button cancelButton, @NonNull CheckBox checkBox, @NonNull ImageView imageView,
+      @NonNull TextView keywordText, @NonNull TextView looksignupText, @NonNull Button okButton,
       @NonNull TextView passwordEditSignupText, @NonNull TextView passwordSignupText,
       @NonNull TextView ruleText, @NonNull TextView signupOneLabel) {
     this.rootView = rootView;
@@ -79,13 +79,13 @@ public final class Signup3Binding implements ViewBinding {
     this.IDSignupText = IDSignupText;
     this.backButton = backButton;
     this.birthdayEditSignupText = birthdayEditSignupText;
-    this.birthdaySinupText = birthdaySinupText;
-    this.btnOK = btnOK;
+    this.birthdaySignupText = birthdaySignupText;
     this.cancelButton = cancelButton;
     this.checkBox = checkBox;
     this.imageView = imageView;
     this.keywordText = keywordText;
     this.looksignupText = looksignupText;
+    this.okButton = okButton;
     this.passwordEditSignupText = passwordEditSignupText;
     this.passwordSignupText = passwordSignupText;
     this.ruleText = ruleText;
@@ -143,15 +143,9 @@ public final class Signup3Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.birthday_sinupText;
-      TextView birthdaySinupText = ViewBindings.findChildViewById(rootView, id);
-      if (birthdaySinupText == null) {
-        break missingId;
-      }
-
-      id = R.id.btnOK;
-      Button btnOK = ViewBindings.findChildViewById(rootView, id);
-      if (btnOK == null) {
+      id = R.id.birthday_signupText;
+      TextView birthdaySignupText = ViewBindings.findChildViewById(rootView, id);
+      if (birthdaySignupText == null) {
         break missingId;
       }
 
@@ -185,6 +179,12 @@ public final class Signup3Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.okButton;
+      Button okButton = ViewBindings.findChildViewById(rootView, id);
+      if (okButton == null) {
+        break missingId;
+      }
+
       id = R.id.password_edit_signupText;
       TextView passwordEditSignupText = ViewBindings.findChildViewById(rootView, id);
       if (passwordEditSignupText == null) {
@@ -210,9 +210,9 @@ public final class Signup3Binding implements ViewBinding {
       }
 
       return new Signup3Binding((LinearLayout) rootView, IDEditSignupText, IDSignupText, backButton,
-          birthdayEditSignupText, birthdaySinupText, btnOK, cancelButton, checkBox, imageView,
-          keywordText, looksignupText, passwordEditSignupText, passwordSignupText, ruleText,
-          signupOneLabel);
+          birthdayEditSignupText, birthdaySignupText, cancelButton, checkBox, imageView,
+          keywordText, looksignupText, okButton, passwordEditSignupText, passwordSignupText,
+          ruleText, signupOneLabel);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
