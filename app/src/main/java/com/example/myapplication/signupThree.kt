@@ -50,9 +50,16 @@ class signupThree : AppCompatActivity() {
         birthText.text = "  " + textYearEdit + "年" + textMonthEdit + "月" + textDayEdit + "日"
 
         //キーワード
+        //改行されへんから追加された一番下しか表示できない
         val favKeywordText = findViewById<View>(R.id.favKeywordText) as TextView
-        for(i in 0..9) {
-                favKeywordText.text = favKeyword!![i]
+//        favKeywordText.text = favKeyword!![0] +  "，" + favKeyword!![1] +  "，" + favKeyword!![2] +  "，" + favKeyword!![3] +  "，" + favKeyword!![4] +  "，" + favKeyword!![5] +  "，" + favKeyword!![6] +  "，" + favKeyword!![7] +  "，" + favKeyword!![8] +  "，" + favKeyword!![9]
+        if (favKeyword != null) {
+            for (i in 0..9){
+                if (favKeyword[i] == null){
+                }else{
+                    favKeywordText.text = favKeyword[i]
+                }
+            }
         }
 
         //完了ボタン

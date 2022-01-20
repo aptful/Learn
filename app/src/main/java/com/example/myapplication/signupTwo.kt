@@ -88,7 +88,7 @@ class signupTwo : AppCompatActivity() {
             addedButton1.visibility = View.INVISIBLE
             addButton1.visibility = View.VISIBLE
             count--
-            favKeyword[0] = "  "
+            favKeyword[0] = null
         }
 
         //追加ボタン2の動き
@@ -103,7 +103,7 @@ class signupTwo : AppCompatActivity() {
             addedButton2.visibility = View.INVISIBLE
             addButton2.visibility = View.VISIBLE
             count--
-            favKeyword[1] = "  "
+            favKeyword[1] = null
         }
 
         //追加ボタン3の動き
@@ -118,7 +118,7 @@ class signupTwo : AppCompatActivity() {
             addedButton3.visibility = View.INVISIBLE
             addButton3.visibility = View.VISIBLE
             count--
-            favKeyword[2] = "  "
+            favKeyword[2] = null
         }
 
         //追加ボタン4の動き
@@ -133,7 +133,7 @@ class signupTwo : AppCompatActivity() {
             addedButton4.visibility = View.INVISIBLE
             addButton4.visibility = View.VISIBLE
             count--
-            favKeyword[3] = "  "
+            favKeyword[3] = null
         }
 
         //追加ボタン5の動き
@@ -148,7 +148,7 @@ class signupTwo : AppCompatActivity() {
             addedButton5.visibility = View.INVISIBLE
             addButton5.visibility = View.VISIBLE
             count--
-            favKeyword[4] = "  "
+            favKeyword[4] = null
         }
 
         //追加ボタン6の動き
@@ -163,7 +163,7 @@ class signupTwo : AppCompatActivity() {
             addedButton6.visibility = View.INVISIBLE
             addButton6.visibility = View.VISIBLE
             count--
-            favKeyword[5] = "  "
+            favKeyword[5] = null
         }
 
         //追加ボタン7の動き
@@ -178,7 +178,7 @@ class signupTwo : AppCompatActivity() {
             addedButton7.visibility = View.INVISIBLE
             addButton7.visibility = View.VISIBLE
             count--
-            favKeyword[6] = "  "
+            favKeyword[6] = null
         }
 
         //追加ボタン8の動き
@@ -193,7 +193,7 @@ class signupTwo : AppCompatActivity() {
             addedButton8.visibility = View.INVISIBLE
             addButton8.visibility = View.VISIBLE
             count--
-            favKeyword[7] = "  "
+            favKeyword[7] = null
         }
 
         //追加ボタン9の動き
@@ -208,7 +208,7 @@ class signupTwo : AppCompatActivity() {
             addedButton9.visibility = View.INVISIBLE
             addButton9.visibility = View.VISIBLE
             count--
-            favKeyword[8] = "  "
+            favKeyword[8] = null
         }
 
         //追加ボタン10の動き
@@ -223,7 +223,7 @@ class signupTwo : AppCompatActivity() {
             addedButton10.visibility = View.INVISIBLE
             addButton10.visibility = View.VISIBLE
             count--
-            favKeyword[9] = "  "
+            favKeyword[9] = null
         }
 
         //次へボタン
