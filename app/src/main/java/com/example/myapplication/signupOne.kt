@@ -26,7 +26,7 @@ class signupOne : AppCompatActivity() {
         val textYearEdit = findViewById<EditText>(R.id.yearEdit)
         //誕生月入力欄
         val textMonthEdit = findViewById<EditText>(R.id.monthEdit)
-        //誕生日入力欄を取得してint型に変換
+        //誕生日入力欄
         val textDayEdit = findViewById<EditText>(R.id.dayEdit)
 
         //今日の日付を取得

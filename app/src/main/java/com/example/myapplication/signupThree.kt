@@ -23,6 +23,7 @@ class signupThree : AppCompatActivity() {
         val textYearEdit = intent.getStringExtra("yearKey")
         val textMonthEdit = intent.getStringExtra("monthKey")
         val textDayEdit = intent.getStringExtra("dayKey")
+        val favKeyword = intent.getStringArrayExtra("favKey")
 
         //TexiViewの上書き表示
         //パスワード
@@ -47,6 +48,12 @@ class signupThree : AppCompatActivity() {
         //生年月日
         val birthText =  findViewById<View>(R.id.birthday_edit_signupText) as TextView
         birthText.text = "  " + textYearEdit + "年" + textMonthEdit + "月" + textDayEdit + "日"
+
+        //キーワード
+        val favKeywordText = findViewById<View>(R.id.favKeywordText) as TextView
+        for(i in 0..9) {
+                favKeywordText.text = favKeyword!![i]
+        }
 
         //完了ボタン
         val completeButton: Button = findViewById(R.id.okButton)
