@@ -29,7 +29,7 @@ class signupOne : AppCompatActivity() {
         //新規登録画面2に遷移
         nextButton.setOnClickListener {
             val intent = Intent(this, signupTwo::class.java)
-            if(textPasswordEdit.length() > 0 && textYearEdit.length() > 0 && textMonthEdit.length() > 0 && textDayEdit.length() > 0){
+            if(textPasswordEdit.length() > 5 && textYearEdit.length() > 3 && textMonthEdit.length() > 0 && textDayEdit.length() > 0){
                 //値の引き渡し
                 //パスワード
                 intent.putExtra("passwordKey", textPasswordEdit.getText().toString())
