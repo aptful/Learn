@@ -57,7 +57,10 @@ class signupThree : AppCompatActivity() {
             for (i in 0..9){
                 if (favKeyword[i] == null){
                 }else{
-                    favKeywordText.text = favKeyword[i]
+                    for(j in 0..i) {
+                        favKeywordText.text = "  \n"
+                    }
+                        favKeywordText.text = favKeyword[i]
                 }
             }
         }
