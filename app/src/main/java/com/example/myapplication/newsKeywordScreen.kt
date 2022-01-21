@@ -48,7 +48,7 @@ class newsKeywordScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         contentsText1.setOnClickListener {
-            val intent = Intent(this,detailShopScreen::class.java)
+            val intent = Intent(this,detailShopScreenThree::class.java)
             startActivity(intent)
         }
 
@@ -57,7 +57,7 @@ class newsKeywordScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         contentsText2.setOnClickListener {
-            val intent = Intent(this,detailShopScreen::class.java)
+            val intent = Intent(this,detailShopScreenThree::class.java)
             startActivity(intent)
         }
 
@@ -66,7 +66,7 @@ class newsKeywordScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         contentsText3.setOnClickListener {
-            val intent = Intent(this,detailShopScreen::class.java)
+            val intent = Intent(this,detailShopScreenThree::class.java)
             startActivity(intent)
         }
 
@@ -75,7 +75,7 @@ class newsKeywordScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         contentsText4.setOnClickListener {
-            val intent = Intent(this,detailShopScreen::class.java)
+            val intent = Intent(this,detailShopScreenThree::class.java)
             startActivity(intent)
         }
 
@@ -84,7 +84,7 @@ class newsKeywordScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         contentsText5.setOnClickListener {
-            val intent = Intent(this,detailShopScreen::class.java)
+            val intent = Intent(this,detailShopScreenThree::class.java)
             startActivity(intent)
         }
     }

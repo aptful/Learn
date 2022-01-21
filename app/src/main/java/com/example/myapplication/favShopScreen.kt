@@ -3,7 +3,6 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 
 //作成者：綾部
@@ -27,7 +26,7 @@ class favShopScreen : AppCompatActivity() {
 
         //そのお店の情報詳細画面遷移
         homepic1.setOnClickListener {
-            val intent = Intent(this,detailShopScreen::class.java)
+            val intent = Intent(this,detailShopScreenThree::class.java)
             startActivity(intent)
         }
 
@@ -36,7 +35,7 @@ class favShopScreen : AppCompatActivity() {
 
         //そのお店の情報詳細画面遷移
         homepic2.setOnClickListener {
-            val intent = Intent(this,detailShopScreen::class.java)
+            val intent = Intent(this,detailShopScreenThree::class.java)
             startActivity(intent)
         }
 
@@ -45,7 +44,7 @@ class favShopScreen : AppCompatActivity() {
 
         //そのお店の情報詳細画面遷移
         homepic3.setOnClickListener {
-            val intent = Intent(this,detailShopScreen::class.java)
+            val intent = Intent(this,detailShopScreenThree::class.java)
             startActivity(intent)
         }
 
@@ -54,7 +53,7 @@ class favShopScreen : AppCompatActivity() {
 
         //そのお店の情報詳細画面遷移
         homepic4.setOnClickListener {
-            val intent = Intent(this,detailShopScreen::class.java)
+            val intent = Intent(this,detailShopScreenThree::class.java)
             startActivity(intent)
         }
 
@@ -63,7 +62,7 @@ class favShopScreen : AppCompatActivity() {
 
         //そのお店の情報詳細画面遷移
         homepic5.setOnClickListener {
-            val intent = Intent(this,detailShopScreen::class.java)
+            val intent = Intent(this,detailShopScreenThree::class.java)
             startActivity(intent)
         }
 

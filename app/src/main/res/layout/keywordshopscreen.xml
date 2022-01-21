@@ -110,7 +110,7 @@
         android:layout_marginLeft="230dp"
         android:layout_marginTop="-130dp"
         android:gravity="center"
-        android:text="2021/2/1 放送"  />
+        android:text="2021/12/2"  />
 
     <!--店名-->
     <TextView
@@ -119,7 +119,7 @@
         android:layout_height="70dp"
         android:layout_marginLeft="185dp"
         android:gravity="center"
-        android:text="レストラン K"
+        android:text="ケーキ屋 A"
         android:textSize="25dp" />
 
     <!--アクセス-->
@@ -209,7 +209,7 @@
         android:layout_marginLeft="230dp"
         android:layout_marginTop="-130dp"
         android:gravity="center"
-        android:text="2021/2/1 放送"  />
+        android:text="2021/8/31 放送"  />
 
     <!--店名-->
     <TextView
@@ -218,7 +218,7 @@
         android:layout_height="70dp"
         android:layout_marginLeft="185dp"
         android:gravity="center"
-        android:text="レストラン K"
+        android:text="カフェ E"
         android:textSize="25dp" />
 
     <!--アクセス-->
@@ -229,7 +229,7 @@
         android:layout_marginLeft="190dp"
         android:layout_marginTop="2dp"
         android:gravity="center"
-        android:text="土佐一宮駅から徒歩10分" />
+        android:text="高知駅から徒歩10分" />
 
     <!--お店の写真 -->
     <ImageView

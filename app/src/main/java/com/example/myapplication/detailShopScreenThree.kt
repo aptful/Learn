@@ -4,16 +4,15 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
 
 //作成者：綾部
 
-class detailShopScreen : AppCompatActivity() {
+class detailShopScreenThree : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.detailshopscreen)
+        setContentView(R.layout.detailshopscreen3)
 
         //ホームボタン
         val homeButton : ImageView =findViewById(R.id.homeButton)
