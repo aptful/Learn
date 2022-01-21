@@ -29,7 +29,7 @@ public final class WithdrawalshowBinding implements ViewBinding {
   public final TextView IDText;
 
   @NonNull
-  public final ImageButton buckButton;
+  public final ImageButton backButton;
 
   @NonNull
   public final ImageButton homeButton;
@@ -50,13 +50,13 @@ public final class WithdrawalshowBinding implements ViewBinding {
   public final TextView withdrawalshowText;
 
   private WithdrawalshowBinding(@NonNull LinearLayout rootView, @NonNull EditText IDEdit,
-      @NonNull TextView IDText, @NonNull ImageButton buckButton, @NonNull ImageButton homeButton,
+      @NonNull TextView IDText, @NonNull ImageButton backButton, @NonNull ImageButton homeButton,
       @NonNull View lineOrange, @NonNull EditText passwordEdit, @NonNull TextView passwordText,
       @NonNull Button withdrawalButton, @NonNull TextView withdrawalshowText) {
     this.rootView = rootView;
     this.IDEdit = IDEdit;
     this.IDText = IDText;
-    this.buckButton = buckButton;
+    this.backButton = backButton;
     this.homeButton = homeButton;
     this.lineOrange = lineOrange;
     this.passwordEdit = passwordEdit;
@@ -104,9 +104,9 @@ public final class WithdrawalshowBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.buckButton;
-      ImageButton buckButton = ViewBindings.findChildViewById(rootView, id);
-      if (buckButton == null) {
+      id = R.id.backButton;
+      ImageButton backButton = ViewBindings.findChildViewById(rootView, id);
+      if (backButton == null) {
         break missingId;
       }
 
@@ -146,7 +146,7 @@ public final class WithdrawalshowBinding implements ViewBinding {
         break missingId;
       }
 
-      return new WithdrawalshowBinding((LinearLayout) rootView, IDEdit, IDText, buckButton,
+      return new WithdrawalshowBinding((LinearLayout) rootView, IDEdit, IDText, backButton,
           homeButton, lineOrange, passwordEdit, passwordText, withdrawalButton, withdrawalshowText);
     }
     String missingId = rootView.getResources().getResourceName(id);

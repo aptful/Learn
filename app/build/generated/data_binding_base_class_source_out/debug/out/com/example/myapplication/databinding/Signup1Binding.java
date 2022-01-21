@@ -29,7 +29,7 @@ public final class Signup1Binding implements ViewBinding {
   public final TextView IDcomentText;
 
   @NonNull
-  public final TextView attentionSinupText;
+  public final TextView attentionSignupText;
 
   @NonNull
   public final ImageView backButton;
@@ -77,7 +77,7 @@ public final class Signup1Binding implements ViewBinding {
   public final TextView yearText;
 
   private Signup1Binding(@NonNull LinearLayout rootView, @NonNull TextView IDText,
-      @NonNull TextView IDcomentText, @NonNull TextView attentionSinupText,
+      @NonNull TextView IDcomentText, @NonNull TextView attentionSignupText,
       @NonNull ImageView backButton, @NonNull TextView birthText, @NonNull Button cancelButton,
       @NonNull EditText dayEdit, @NonNull TextView dayText, @NonNull TextView id,
       @NonNull EditText monthEdit, @NonNull TextView monthText, @NonNull Button nextButton,
@@ -86,7 +86,7 @@ public final class Signup1Binding implements ViewBinding {
     this.rootView = rootView;
     this.IDText = IDText;
     this.IDcomentText = IDcomentText;
-    this.attentionSinupText = attentionSinupText;
+    this.attentionSignupText = attentionSignupText;
     this.backButton = backButton;
     this.birthText = birthText;
     this.cancelButton = cancelButton;
@@ -143,9 +143,9 @@ public final class Signup1Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.attention_sinupText;
-      TextView attentionSinupText = ViewBindings.findChildViewById(rootView, id);
-      if (attentionSinupText == null) {
+      id = R.id.attention_signupText;
+      TextView attentionSignupText = ViewBindings.findChildViewById(rootView, id);
+      if (attentionSignupText == null) {
         break missingId;
       }
 
@@ -239,7 +239,7 @@ public final class Signup1Binding implements ViewBinding {
         break missingId;
       }
 
-      return new Signup1Binding((LinearLayout) rootView, IDText, IDcomentText, attentionSinupText,
+      return new Signup1Binding((LinearLayout) rootView, IDText, IDcomentText, attentionSignupText,
           backButton, birthText, cancelButton, dayEdit, dayText, id_, monthEdit, monthText,
           nextButton, passwordEdit, passwordText, seirekiText, signupOneLabel, yearEdit, yearText);
     }

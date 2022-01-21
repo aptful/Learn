@@ -48,25 +48,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.myapplication.checkAccountScreen" />
-        <activity android:name="com.example.myapplication.configScreen" />
-        <activity android:name="com.example.myapplication.couponScreen" />
-        <activity android:name="com.example.myapplication.deleteAccountScreen" />
-        <activity android:name="com.example.myapplication.detailShopScreen" />
-        <activity android:name="com.example.myapplication.favShopScreen" />
-        <activity android:name="com.example.myapplication.keywordEditScreen" />
-        <activity android:name="com.example.myapplication.keywordListScreen" />
-        <activity android:name="com.example.myapplication.keywordShopScreen" />
         <!-- <activity android:name=".loginScreen"/> -->
+        <activity android:name="com.example.myapplication.keywordShopScreen" />
         <activity android:name="com.example.myapplication.mypageScreen" />
-        <activity android:name="com.example.myapplication.newsCouponScreen" />
-        <activity android:name="com.example.myapplication.newsKeywordScreen" />
-        <activity android:name="com.example.myapplication.newsListScreen" />
-        <activity android:name="com.example.myapplication.ruleScreen" />
-        <activity android:name="com.example.myapplication.searchScreen" />
         <activity android:name="com.example.myapplication.signupOne" />
         <activity android:name="com.example.myapplication.signupTwo" />
         <activity android:name="com.example.myapplication.signupThree" />
+        <activity android:name="com.example.myapplication.configScreen" />
+        <activity android:name="com.example.myapplication.checkAccountScreen" />
+        <activity android:name="com.example.myapplication.ruleScreen" />
+        <activity android:name="com.example.myapplication.deleteAccountScreen" />
+        <activity android:name="com.example.myapplication.searchScreen" />
+        <activity android:name="com.example.myapplication.couponScreen" />
+        <activity android:name="com.example.myapplication.keywordListScreen" />
+        <activity android:name="com.example.myapplication.keywordEditScreen" />
+        <activity android:name="com.example.myapplication.detailShopScreen" />
+        <activity android:name="com.example.myapplication.newsListScreen" />
+        <activity android:name="com.example.myapplication.newsCouponScreen" />
+        <activity android:name="com.example.myapplication.newsKeywordScreen" />
+        <activity android:name="com.example.myapplication.favShopScreen" />
 
         <!-- QRコード -->
         <activity

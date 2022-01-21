@@ -22,34 +22,64 @@ public final class Signup2Binding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final ImageButton addButton;
+  public final ImageButton addButton1;
 
   @NonNull
-  public final ImageButton added2Button;
+  public final ImageButton addButton10;
 
   @NonNull
-  public final ImageButton added3Button;
+  public final ImageButton addButton2;
 
   @NonNull
-  public final ImageButton added4Button;
+  public final ImageButton addButton3;
 
   @NonNull
-  public final ImageButton added5Button;
+  public final ImageButton addButton4;
 
   @NonNull
-  public final ImageButton added6Button;
+  public final ImageButton addButton5;
 
   @NonNull
-  public final ImageButton added7Button;
+  public final ImageButton addButton6;
 
   @NonNull
-  public final ImageButton added8Button;
+  public final ImageButton addButton7;
 
   @NonNull
-  public final ImageButton added9Button;
+  public final ImageButton addButton8;
 
   @NonNull
-  public final ImageButton addedButton;
+  public final ImageButton addButton9;
+
+  @NonNull
+  public final ImageButton addedButton1;
+
+  @NonNull
+  public final ImageButton addedButton10;
+
+  @NonNull
+  public final ImageButton addedButton2;
+
+  @NonNull
+  public final ImageButton addedButton3;
+
+  @NonNull
+  public final ImageButton addedButton4;
+
+  @NonNull
+  public final ImageButton addedButton5;
+
+  @NonNull
+  public final ImageButton addedButton6;
+
+  @NonNull
+  public final ImageButton addedButton7;
+
+  @NonNull
+  public final ImageButton addedButton8;
+
+  @NonNull
+  public final ImageButton addedButton9;
 
   @NonNull
   public final TextView artText;
@@ -96,28 +126,43 @@ public final class Signup2Binding implements ViewBinding {
   @NonNull
   public final TextView takeoutText;
 
-  private Signup2Binding(@NonNull LinearLayout rootView, @NonNull ImageButton addButton,
-      @NonNull ImageButton added2Button, @NonNull ImageButton added3Button,
-      @NonNull ImageButton added4Button, @NonNull ImageButton added5Button,
-      @NonNull ImageButton added6Button, @NonNull ImageButton added7Button,
-      @NonNull ImageButton added8Button, @NonNull ImageButton added9Button,
-      @NonNull ImageButton addedButton, @NonNull TextView artText, @NonNull ImageButton backButton,
+  private Signup2Binding(@NonNull LinearLayout rootView, @NonNull ImageButton addButton1,
+      @NonNull ImageButton addButton10, @NonNull ImageButton addButton2,
+      @NonNull ImageButton addButton3, @NonNull ImageButton addButton4,
+      @NonNull ImageButton addButton5, @NonNull ImageButton addButton6,
+      @NonNull ImageButton addButton7, @NonNull ImageButton addButton8,
+      @NonNull ImageButton addButton9, @NonNull ImageButton addedButton1,
+      @NonNull ImageButton addedButton10, @NonNull ImageButton addedButton2,
+      @NonNull ImageButton addedButton3, @NonNull ImageButton addedButton4,
+      @NonNull ImageButton addedButton5, @NonNull ImageButton addedButton6,
+      @NonNull ImageButton addedButton7, @NonNull ImageButton addedButton8,
+      @NonNull ImageButton addedButton9, @NonNull TextView artText, @NonNull ImageButton backButton,
       @NonNull TextView breadText, @NonNull TextView cafeText, @NonNull Button cancelButton,
       @NonNull TextView creativecuisineText, @NonNull TextView customizeText,
       @NonNull TextView drinkText, @NonNull TextView fruitText, @NonNull TextView izakayaText,
       @NonNull Button nextButton, @NonNull TextView signupTwoLabel, @NonNull TextView souvenirsText,
       @NonNull TextView sweetsText, @NonNull TextView takeoutText) {
     this.rootView = rootView;
-    this.addButton = addButton;
-    this.added2Button = added2Button;
-    this.added3Button = added3Button;
-    this.added4Button = added4Button;
-    this.added5Button = added5Button;
-    this.added6Button = added6Button;
-    this.added7Button = added7Button;
-    this.added8Button = added8Button;
-    this.added9Button = added9Button;
-    this.addedButton = addedButton;
+    this.addButton1 = addButton1;
+    this.addButton10 = addButton10;
+    this.addButton2 = addButton2;
+    this.addButton3 = addButton3;
+    this.addButton4 = addButton4;
+    this.addButton5 = addButton5;
+    this.addButton6 = addButton6;
+    this.addButton7 = addButton7;
+    this.addButton8 = addButton8;
+    this.addButton9 = addButton9;
+    this.addedButton1 = addedButton1;
+    this.addedButton10 = addedButton10;
+    this.addedButton2 = addedButton2;
+    this.addedButton3 = addedButton3;
+    this.addedButton4 = addedButton4;
+    this.addedButton5 = addedButton5;
+    this.addedButton6 = addedButton6;
+    this.addedButton7 = addedButton7;
+    this.addedButton8 = addedButton8;
+    this.addedButton9 = addedButton9;
     this.artText = artText;
     this.backButton = backButton;
     this.breadText = breadText;
@@ -162,63 +207,123 @@ public final class Signup2Binding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.addButton;
-      ImageButton addButton = ViewBindings.findChildViewById(rootView, id);
-      if (addButton == null) {
+      id = R.id.addButton1;
+      ImageButton addButton1 = ViewBindings.findChildViewById(rootView, id);
+      if (addButton1 == null) {
         break missingId;
       }
 
-      id = R.id.added2Button;
-      ImageButton added2Button = ViewBindings.findChildViewById(rootView, id);
-      if (added2Button == null) {
+      id = R.id.addButton10;
+      ImageButton addButton10 = ViewBindings.findChildViewById(rootView, id);
+      if (addButton10 == null) {
         break missingId;
       }
 
-      id = R.id.added3Button;
-      ImageButton added3Button = ViewBindings.findChildViewById(rootView, id);
-      if (added3Button == null) {
+      id = R.id.addButton2;
+      ImageButton addButton2 = ViewBindings.findChildViewById(rootView, id);
+      if (addButton2 == null) {
         break missingId;
       }
 
-      id = R.id.added4Button;
-      ImageButton added4Button = ViewBindings.findChildViewById(rootView, id);
-      if (added4Button == null) {
+      id = R.id.addButton3;
+      ImageButton addButton3 = ViewBindings.findChildViewById(rootView, id);
+      if (addButton3 == null) {
         break missingId;
       }
 
-      id = R.id.added5Button;
-      ImageButton added5Button = ViewBindings.findChildViewById(rootView, id);
-      if (added5Button == null) {
+      id = R.id.addButton4;
+      ImageButton addButton4 = ViewBindings.findChildViewById(rootView, id);
+      if (addButton4 == null) {
         break missingId;
       }
 
-      id = R.id.added6Button;
-      ImageButton added6Button = ViewBindings.findChildViewById(rootView, id);
-      if (added6Button == null) {
+      id = R.id.addButton5;
+      ImageButton addButton5 = ViewBindings.findChildViewById(rootView, id);
+      if (addButton5 == null) {
         break missingId;
       }
 
-      id = R.id.added7Button;
-      ImageButton added7Button = ViewBindings.findChildViewById(rootView, id);
-      if (added7Button == null) {
+      id = R.id.addButton6;
+      ImageButton addButton6 = ViewBindings.findChildViewById(rootView, id);
+      if (addButton6 == null) {
         break missingId;
       }
 
-      id = R.id.added8Button;
-      ImageButton added8Button = ViewBindings.findChildViewById(rootView, id);
-      if (added8Button == null) {
+      id = R.id.addButton7;
+      ImageButton addButton7 = ViewBindings.findChildViewById(rootView, id);
+      if (addButton7 == null) {
         break missingId;
       }
 
-      id = R.id.added9Button;
-      ImageButton added9Button = ViewBindings.findChildViewById(rootView, id);
-      if (added9Button == null) {
+      id = R.id.addButton8;
+      ImageButton addButton8 = ViewBindings.findChildViewById(rootView, id);
+      if (addButton8 == null) {
         break missingId;
       }
 
-      id = R.id.addedButton;
-      ImageButton addedButton = ViewBindings.findChildViewById(rootView, id);
-      if (addedButton == null) {
+      id = R.id.addButton9;
+      ImageButton addButton9 = ViewBindings.findChildViewById(rootView, id);
+      if (addButton9 == null) {
+        break missingId;
+      }
+
+      id = R.id.addedButton1;
+      ImageButton addedButton1 = ViewBindings.findChildViewById(rootView, id);
+      if (addedButton1 == null) {
+        break missingId;
+      }
+
+      id = R.id.addedButton10;
+      ImageButton addedButton10 = ViewBindings.findChildViewById(rootView, id);
+      if (addedButton10 == null) {
+        break missingId;
+      }
+
+      id = R.id.addedButton2;
+      ImageButton addedButton2 = ViewBindings.findChildViewById(rootView, id);
+      if (addedButton2 == null) {
+        break missingId;
+      }
+
+      id = R.id.addedButton3;
+      ImageButton addedButton3 = ViewBindings.findChildViewById(rootView, id);
+      if (addedButton3 == null) {
+        break missingId;
+      }
+
+      id = R.id.addedButton4;
+      ImageButton addedButton4 = ViewBindings.findChildViewById(rootView, id);
+      if (addedButton4 == null) {
+        break missingId;
+      }
+
+      id = R.id.addedButton5;
+      ImageButton addedButton5 = ViewBindings.findChildViewById(rootView, id);
+      if (addedButton5 == null) {
+        break missingId;
+      }
+
+      id = R.id.addedButton6;
+      ImageButton addedButton6 = ViewBindings.findChildViewById(rootView, id);
+      if (addedButton6 == null) {
+        break missingId;
+      }
+
+      id = R.id.addedButton7;
+      ImageButton addedButton7 = ViewBindings.findChildViewById(rootView, id);
+      if (addedButton7 == null) {
+        break missingId;
+      }
+
+      id = R.id.addedButton8;
+      ImageButton addedButton8 = ViewBindings.findChildViewById(rootView, id);
+      if (addedButton8 == null) {
+        break missingId;
+      }
+
+      id = R.id.addedButton9;
+      ImageButton addedButton9 = ViewBindings.findChildViewById(rootView, id);
+      if (addedButton9 == null) {
         break missingId;
       }
 
@@ -312,11 +417,12 @@ public final class Signup2Binding implements ViewBinding {
         break missingId;
       }
 
-      return new Signup2Binding((LinearLayout) rootView, addButton, added2Button, added3Button,
-          added4Button, added5Button, added6Button, added7Button, added8Button, added9Button,
-          addedButton, artText, backButton, breadText, cafeText, cancelButton, creativecuisineText,
-          customizeText, drinkText, fruitText, izakayaText, nextButton, signupTwoLabel,
-          souvenirsText, sweetsText, takeoutText);
+      return new Signup2Binding((LinearLayout) rootView, addButton1, addButton10, addButton2,
+          addButton3, addButton4, addButton5, addButton6, addButton7, addButton8, addButton9,
+          addedButton1, addedButton10, addedButton2, addedButton3, addedButton4, addedButton5,
+          addedButton6, addedButton7, addedButton8, addedButton9, artText, backButton, breadText,
+          cafeText, cancelButton, creativecuisineText, customizeText, drinkText, fruitText,
+          izakayaText, nextButton, signupTwoLabel, souvenirsText, sweetsText, takeoutText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
