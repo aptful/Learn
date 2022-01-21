@@ -8,7 +8,7 @@
     tools:context=".signupThree"
     android:background="#fff8dc" >
 
-    <!--作成者:綾部，井口一部追加-->
+    <!--作成者:綾部，井口-->
     <!--帯-->
     <!--    新規登録画面（3/3）の文字-->
     <TextView
@@ -151,6 +151,7 @@
 
     <!--キーワード内容確認-->
     <TextView
+        android:id="@+id/favKeywordText"
         android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
@@ -199,11 +200,12 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text=" 利用規約に同意する"
-        android:onClick="onCheckboxClicked"
-         />
+        android:checked="false"
+        tools:ignore="OnClick,UsingOnClickInXml" />
 
 <!--    tools:ignore="OnClick"-->
     <!--        android:checked="false"-->
+<!--    android:onClick="onCheckboxClicked"-->
 
 
     <Button

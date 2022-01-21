@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 
-//作成者：綾部
+//作成者：綾部，久保田
 
 class deleteAccountScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

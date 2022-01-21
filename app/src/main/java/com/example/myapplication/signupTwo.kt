@@ -7,8 +7,9 @@ import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
+import android.view.Gravity
 
-//作成者：綾部，小島，（井口）
+//作成者：綾部，小島，井口
 
 class signupTwo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,6 +67,8 @@ class signupTwo : AppCompatActivity() {
         val addButton10 : ImageButton = findViewById(R.id.addButton10)
         val addedButton10 : ImageButton = findViewById(R.id.addedButton10)
 
+        //登録済キーワードを格納する配列
+        var favKeyword:Array<String?> = arrayOfNulls(10)
 
         //ボタンの動き
         //INVISIBLE:隠す　VISIBLE:出す
@@ -78,12 +81,14 @@ class signupTwo : AppCompatActivity() {
             addButton1.visibility = View.INVISIBLE
             addedButton1.visibility = View.VISIBLE
             count++
+            favKeyword[0] = "テイクアウト"
         }
         //追加済ボタン1の動き
         addedButton1.setOnClickListener{
             addedButton1.visibility = View.INVISIBLE
             addButton1.visibility = View.VISIBLE
             count--
+            favKeyword[0] = null
         }
 
         //追加ボタン2の動き
@@ -91,12 +96,14 @@ class signupTwo : AppCompatActivity() {
             addButton2.visibility = View.INVISIBLE
             addedButton2.visibility = View.VISIBLE
             count++
+            favKeyword[1] = "スイーツ"
         }
         //追加済ボタン2の動き
         addedButton2.setOnClickListener{
             addedButton2.visibility = View.INVISIBLE
             addButton2.visibility = View.VISIBLE
             count--
+            favKeyword[1] = null
         }
 
         //追加ボタン3の動き
@@ -104,12 +111,14 @@ class signupTwo : AppCompatActivity() {
             addButton3.visibility = View.INVISIBLE
             addedButton3.visibility = View.VISIBLE
             count++
+            favKeyword[2] = "ドリンク"
         }
         //追加済ボタン3の動き
         addedButton3.setOnClickListener{
             addedButton3.visibility = View.INVISIBLE
             addButton3.visibility = View.VISIBLE
             count--
+            favKeyword[2] = null
         }
 
         //追加ボタン4の動き
@@ -117,12 +126,14 @@ class signupTwo : AppCompatActivity() {
             addButton4.visibility = View.INVISIBLE
             addedButton4.visibility = View.VISIBLE
             count++
+            favKeyword[3] = "カフェ"
         }
         //追加済ボタン4の動き
         addedButton4.setOnClickListener{
             addedButton4.visibility = View.INVISIBLE
             addButton4.visibility = View.VISIBLE
             count--
+            favKeyword[3] = null
         }
 
         //追加ボタン5の動き
@@ -130,12 +141,14 @@ class signupTwo : AppCompatActivity() {
             addButton5.visibility = View.INVISIBLE
             addedButton5.visibility = View.VISIBLE
             count++
+            favKeyword[4] = "手土産"
         }
         //追加済ボタン5の動き
         addedButton5.setOnClickListener{
             addedButton5.visibility = View.INVISIBLE
             addButton5.visibility = View.VISIBLE
             count--
+            favKeyword[4] = null
         }
 
         //追加ボタン6の動き
@@ -143,12 +156,14 @@ class signupTwo : AppCompatActivity() {
             addButton6.visibility = View.INVISIBLE
             addedButton6.visibility = View.VISIBLE
             count++
+            favKeyword[5] = "創作料理"
         }
         //追加済ボタン6の動き
         addedButton6.setOnClickListener{
             addedButton6.visibility = View.INVISIBLE
             addButton6.visibility = View.VISIBLE
             count--
+            favKeyword[5] = null
         }
 
         //追加ボタン7の動き
@@ -156,12 +171,14 @@ class signupTwo : AppCompatActivity() {
             addButton7.visibility = View.INVISIBLE
             addedButton7.visibility = View.VISIBLE
             count++
+            favKeyword[6] = "居酒屋"
         }
         //追加済ボタン7の動き
         addedButton7.setOnClickListener{
             addedButton7.visibility = View.INVISIBLE
             addButton7.visibility = View.VISIBLE
             count--
+            favKeyword[6] = null
         }
 
         //追加ボタン8の動き
@@ -169,12 +186,14 @@ class signupTwo : AppCompatActivity() {
             addButton8.visibility = View.INVISIBLE
             addedButton8.visibility = View.VISIBLE
             count++
+            favKeyword[7] = "芸術"
         }
         //追加済ボタン8の動き
         addedButton8.setOnClickListener{
             addedButton8.visibility = View.INVISIBLE
             addButton8.visibility = View.VISIBLE
             count--
+            favKeyword[7] = null
         }
 
         //追加ボタン9の動き
@@ -182,12 +201,14 @@ class signupTwo : AppCompatActivity() {
             addButton9.visibility = View.INVISIBLE
             addedButton9.visibility = View.VISIBLE
             count++
+            favKeyword[8] = "パン"
         }
         //追加済ボタン9の動き
         addedButton9.setOnClickListener{
             addedButton9.visibility = View.INVISIBLE
             addButton9.visibility = View.VISIBLE
             count--
+            favKeyword[8] = null
         }
 
         //追加ボタン10の動き
@@ -195,21 +216,34 @@ class signupTwo : AppCompatActivity() {
             addButton10.visibility = View.INVISIBLE
             addedButton10.visibility = View.VISIBLE
             count++
+            favKeyword[9] = "果物"
         }
         //追加済ボタン10の動き
         addedButton10.setOnClickListener{
             addedButton10.visibility = View.INVISIBLE
             addButton10.visibility = View.VISIBLE
             count--
+            favKeyword[9] = null
         }
 
         //次へボタン
         val nextButton : Button = findViewById(R.id.nextButton)
+        //値の受け取り
+        val textPasswordEdit = intent.getStringExtra("passwordKey")
+        val textYearEdit = intent.getStringExtra("yearKey")
+        val textMonthEdit = intent.getStringExtra("monthKey")
+        val textDayEdit = intent.getStringExtra("dayKey")
 
         //新規登録画面3に遷移
         nextButton.setOnClickListener {
             if (count >= 1) {
                 val intent = Intent(this, signupThree::class.java)
+                //値の引き渡し
+                intent.putExtra("passwordKey", textPasswordEdit.toString())
+                intent.putExtra("yearKey", textYearEdit.toString())
+                intent.putExtra("monthKey", textMonthEdit.toString())
+                intent.putExtra("dayKey", textDayEdit.toString())
+                intent.putExtra("favKey", favKeyword)
                 startActivity(intent)
             }
         }

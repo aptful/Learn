@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.ImageView
 import androidx.appcompat.app.AlertDialog
 
-//作成者：綾部
+//作成者：綾部，久保田
 
 class configScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

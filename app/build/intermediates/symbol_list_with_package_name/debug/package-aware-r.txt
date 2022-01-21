@@ -2282,8 +2282,6 @@ id line_orange
 id linear
 id listMode
 id list_item
-id loading
-id login
 id loginButton
 id logoutButton
 id logoutText
@@ -2394,7 +2392,8 @@ id parentRelative
 id parent_matrix
 id passEdit
 id passText
-id password
+id passWord
+id passwordComentText
 id passwordEdit
 id passwordText
 id password_edit_signupText
@@ -2572,7 +2571,7 @@ id useButton_b
 id useButton_c
 id useButton_d
 id useLogo
-id username
+id userName
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -2823,8 +2822,6 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
-string action_sign_in
-string action_sign_in_short
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -2835,6 +2832,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string create_button
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2842,12 +2840,9 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string id_label
-string invalid_password
-string invalid_username
-string invalid_usernamelength
 string item_view_role_description
 string keyword
-string login_failed
+string login_button
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2903,7 +2898,6 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
-string newcreate
 string password_label
 string password_toggle_content_description
 string path_password_eye
@@ -2915,7 +2909,6 @@ string prompt_password
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_label
-string welcome
 string zxing_app_name
 string zxing_button_ok
 string zxing_msg_camera_framework_bug
