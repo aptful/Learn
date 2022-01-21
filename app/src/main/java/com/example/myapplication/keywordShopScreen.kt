@@ -35,7 +35,7 @@ class keywordShopScreen : AppCompatActivity() {
 
         //そのお店の情報詳細画面遷移
         homepic1.setOnClickListener {
-            val intent = Intent(this,detailShopScreenThree::class.java)
+            val intent = Intent(this,detailShopScreenOne::class.java)
             startActivity(intent)
         }
 
