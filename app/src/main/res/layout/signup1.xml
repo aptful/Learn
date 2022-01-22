@@ -36,14 +36,6 @@
         android:textSize="16dp"
         />
 
-    <!--戻るボタン-->
-    <ImageView
-        android:id="@+id/backButton"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="-50dp"
-        android:layout_marginLeft="15dp"
-        app:srcCompat="@drawable/back_signup" />
     <!--ID-->
     <TextView
         android:id="@+id/IDText"

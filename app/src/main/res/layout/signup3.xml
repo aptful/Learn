@@ -36,14 +36,6 @@
         android:textSize="16dp"
         />
 
-    <!--戻るボタン-->
-    <ImageView
-        android:id="@+id/backButton"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="-50dp"
-        android:layout_marginLeft="15dp"
-        app:srcCompat="@drawable/back_signup" />
 
     <!--入力内容確認画面テキスト-->
     <TextView
@@ -150,17 +142,28 @@
 
 
     <!--キーワード内容確認-->
-    <TextView
+<!--    <TextView-->
+<!--        android:id="@+id/favKeywordText"-->
+<!--        android:layout_width="280dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:background="@drawable/black_flame_back_cream"-->
+<!--        android:scrollbars="vertical"-->
+<!--        android:text="@string/keyword" />-->
+
+    <ListView
         android:id="@+id/favKeywordText"
         android:layout_width="280dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
-        android:background="@drawable/black_flame_back_cream"
-        android:scrollbars="vertical"
-        android:text="@string/keyword" />
+        android:textColor="#696969"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+
+
 
     <!--利用規約テキスト-->
-
     <TextView
         android:id="@+id/ruleText"
         android:layout_width="120dp"
