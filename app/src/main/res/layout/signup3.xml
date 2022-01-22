@@ -151,15 +151,25 @@
 <!--        android:scrollbars="vertical"-->
 <!--        android:text="@string/keyword" />-->
 
-    <ListView
-        android:id="@+id/favKeywordText"
+    <ScrollView
         android:layout_width="280dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center"
-        android:textColor="#696969"
-        android:textStyle="bold"
-        android:textSize="15dp"/>
+        android:layout_height="130dp"
+        android:layout_gravity="center">
 
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="80dp">
+            <ListView
+                android:id="@+id/favKeywordText"
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:textColor="#696969"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+    </ScrollView>
 
 
 
