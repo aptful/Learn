@@ -96,14 +96,6 @@ class signupOne : AppCompatActivity() {
             }
         }
 
-        //戻るボタン
-        val backButton: ImageView = findViewById(R.id.backButton)
-
-        //ログイン画面に遷移
-        backButton.setOnClickListener {
-            val intent = Intent(this, loginScreen::class.java)
-            startActivity(intent)
-        }
 
         //キャンセルボタン
         val cancelButton: Button = findViewById(R.id.cancelButton)
