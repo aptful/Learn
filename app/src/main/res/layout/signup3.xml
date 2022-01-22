@@ -152,13 +152,13 @@
 <!--        android:text="@string/keyword" />-->
 
     <ScrollView
-        android:layout_width="280dp"
-        android:layout_height="130dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center">
 
         <LinearLayout
-            android:layout_width="280dp"
-            android:layout_height="80dp">
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
             <ListView
                 android:id="@+id/favKeywordText"
                 android:layout_width="280dp"
