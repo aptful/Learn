@@ -6,23 +6,11 @@ import android.os.Bundle
 import android.view.View
 import android.widget.CheckBox
 import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
 import android.widget.ListView
 import android.widget.ArrayAdapter
-import android.widget.BaseAdapter
-import android.widget.AdapterView
-import android.view.Gravity
 import androidx.appcompat.app.AlertDialog
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-import androidx.annotation.NonNull
-import androidx.annotation.LayoutRes
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-
-
+import java.util.ArrayList
 
 //作成者：綾部，井口，久保田
 
@@ -72,7 +60,7 @@ class signupThree : AppCompatActivity() {
             val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, favKeywordList)
             // ListViewに、生成したAdapterを設定
             favKeywordView.adapter = adapter
-        
+
 
         //完了ボタン
         val completeButton: Button = findViewById(R.id.okButton)
