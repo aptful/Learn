@@ -160,7 +160,7 @@
         android:layout_marginLeft="230dp"
         android:layout_marginTop="-130dp"
         android:gravity="center"
-        android:text="2021/2/1 放送"  />
+        android:text="2021/9/1 放送"  />
 
     <!--店名-->
     <TextView
@@ -169,7 +169,7 @@
         android:layout_height="70dp"
         android:layout_marginLeft="185dp"
         android:gravity="center"
-        android:text="レストラン K"
+        android:text="ケーキ屋 B"
         android:textSize="25dp" />
 
     <!--アクセス-->
@@ -180,7 +180,7 @@
         android:layout_marginLeft="190dp"
         android:layout_marginTop="2dp"
         android:gravity="center"
-        android:text="土佐一宮駅から徒歩10分" />
+        android:text="中央公園すぐ斜め" />
 
     <!--お店の写真-->
     <ImageView
