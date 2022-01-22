@@ -8,6 +8,9 @@ import android.widget.Button
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.view.Gravity
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 //作成者：綾部，小島，井口
 
@@ -256,7 +259,7 @@ class signupTwo : AppCompatActivity() {
                 intent.putExtra("yearKey", textYearEdit.toString())
                 intent.putExtra("monthKey", textMonthEdit.toString())
                 intent.putExtra("dayKey", textDayEdit.toString())
-                intent.putExtra("favKey", favKeyword)
+                intent.putStringArrayListExtra("favKeyList", favKeyword)
                 startActivity(intent)
             }
         }

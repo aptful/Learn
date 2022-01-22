@@ -17,6 +17,9 @@ import androidx.appcompat.app.AlertDialog
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
 import androidx.annotation.NonNull
 import androidx.annotation.LayoutRes
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 
 
@@ -33,7 +36,9 @@ class signupThree : AppCompatActivity() {
         val textYearEdit = intent.getStringExtra("yearKey")
         val textMonthEdit = intent.getStringExtra("monthKey")
         val textDayEdit = intent.getStringExtra("dayKey")
-        val favKeyword = intent.getStringArrayExtra("favKey")
+        //登録されたキーワードが入ったリスト
+        val favKeywordList: kotlin.collections.List<String> =
+            ArrayList(intent.getStringArrayListExtra("favKeyList"))
 
         //TexiViewの上書き表示
         //パスワード
@@ -61,42 +66,13 @@ class signupThree : AppCompatActivity() {
 
 
         //キーワード
-        //改行されへんから追加された一番下しか表示できない
-//        val favKeywordText = findViewById<View>(R.id.favKeywordText) as TextView
-        var temp:Array<String?> = arrayOf("りんご", "りんご2")
             // xmlにて実装したListViewの取得
             val favKeywordView = findViewById<ListView>(R.id.favKeywordText)
             // ArrayAdapterの生成
-            val adapter = ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, temp)
+            val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, favKeywordList)
             // ListViewに、生成したAdapterを設定
             favKeywordView.adapter = adapter
-
-
-//        favKeywordText.text = favKeyword!![0] +  "，" + favKeyword!![1] +  "，" + favKeyword!![2] +  "，" + favKeyword!![3] +  "，" + favKeyword!![4] +  "，" + favKeyword!![5] +  "，" + favKeyword!![6] +  "，" + favKeyword!![7] +  "，" + favKeyword!![8] +  "，" + favKeyword!![9]
-//        if (favKeyword != null) {
-//            for (i in 0..9){
-//                if (favKeyword[i] == null){
-//                }else{
-//                    for(j in 0..i) {
-//                        favKeywordText.text = "  \n"
-//                    }
-//                        favKeywordText.text = favKeyword[i]
-//                }
-//            }
-//        }
-
-
-//        if (favKeyword != null) {
-////            for (i in 0..9){
-////                if (favKeyword[i] == null){
-////                }else{
-//                    for(j in favKeyword.indices) {
-//                        favKeywordText.text = favKeyword[j]
-//                    }
-////                }
-////            }
-//        }
-
+        
 
         //完了ボタン
         val completeButton: Button = findViewById(R.id.okButton)
