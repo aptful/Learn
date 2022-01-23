@@ -62,7 +62,7 @@ class keywordShopScreen : AppCompatActivity() {
 
         //そのお店の情報詳細画面遷移
         homepic4.setOnClickListener {
-            val intent = Intent(this,detailShopScreenThree::class.java)
+            val intent = Intent(this,detailShopScreenFour::class.java)
             startActivity(intent)
         }
 
@@ -71,7 +71,7 @@ class keywordShopScreen : AppCompatActivity() {
 
         //そのお店の情報詳細画面遷移
         homepic5.setOnClickListener {
-            val intent = Intent(this,detailShopScreenThree::class.java)
+            val intent = Intent(this,detailShopScreenFive::class.java)
             startActivity(intent)
         }
 
