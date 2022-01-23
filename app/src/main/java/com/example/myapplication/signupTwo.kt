@@ -245,6 +245,7 @@ class signupTwo : AppCompatActivity() {
         //次へボタン
         val nextButton : Button = findViewById(R.id.nextButton)
         //値の受け取り
+        val textId = intent.getStringExtra("idKey")
         val textPasswordEdit = intent.getStringExtra("passwordKey")
         val textYearEdit = intent.getStringExtra("yearKey")
         val textMonthEdit = intent.getStringExtra("monthKey")
@@ -255,6 +256,7 @@ class signupTwo : AppCompatActivity() {
             if (count >= 1) {
                 val intent = Intent(this, signupThree::class.java)
                 //値の引き渡し
+                intent.putExtra("idKey", textId.toString())
                 intent.putExtra("passwordKey", textPasswordEdit.toString())
                 intent.putExtra("yearKey", textYearEdit.toString())
                 intent.putExtra("monthKey", textMonthEdit.toString())

@@ -24,11 +24,16 @@ class signupThree : AppCompatActivity() {
         val textYearEdit = intent.getStringExtra("yearKey")
         val textMonthEdit = intent.getStringExtra("monthKey")
         val textDayEdit = intent.getStringExtra("dayKey")
+        val textId = intent.getStringExtra("idKey")
         //登録されたキーワードが入ったリスト
         val favKeywordList: kotlin.collections.List<String> =
             ArrayList(intent.getStringArrayListExtra("favKeyList"))
 
         //TexiViewの上書き表示
+        //ID
+        val idText = findViewById<TextView>(R.id.ID_edit_signupText) as TextView
+        idText.text = "  " + textId
+
         //パスワード
         val passText = findViewById<View>(R.id.password_edit_signupText) as TextView
         //入力された文字数分だけ●表示
