@@ -103,16 +103,23 @@ class couponScreen : AppCompatActivity() {
 
         }
 
+        val couponText_e: TextView = findViewById(R.id.couponText_e)
+        val useButton_e: Button = findViewById(R.id.useButton_e)
+        couponText_e.visibility = View.INVISIBLE
+        useButton_e.visibility = View.INVISIBLE
 
         //qrコード
         //スキャンボタン
         val qrButton: Button = findViewById(R.id.qrButton)
+
         //スキャンボタンのクリックイベントを設定
         qrButton.setOnClickListener {
             val qrScan = IntentIntegrator(this)
             qrScan.setOrientationLocked(false)
             qrScan.setPrompt("QRコードを認識してください。")
             qrScan.initiateScan()
+            couponText_e.visibility = View.VISIBLE
+            useButton_e.visibility = View.VISIBLE
         }
     }
 
