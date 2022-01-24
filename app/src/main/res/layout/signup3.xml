@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".signupThree"
-    android:background="#fff8dc" >
+    android:background="#fff8dc"
+    android:textColor="#fff8dc">
 
     <!--作成者:綾部，井口-->
     <!--帯-->
@@ -122,7 +123,7 @@
         android:layout_marginLeft="190dp"
         android:layout_marginTop="-31dp"
         android:gravity="center_vertical"
-        android:text=" 西暦2000年1月1日"
+        android:text=" "
         android:textSize="20dp"
         android:textColor="#696969"
         android:background="@drawable/black_flame_back_cream"/>
@@ -142,15 +143,6 @@
 
 
     <!--キーワード内容確認-->
-<!--    <TextView-->
-<!--        android:id="@+id/favKeywordText"-->
-<!--        android:layout_width="280dp"-->
-<!--        android:layout_height="80dp"-->
-<!--        android:layout_gravity="center"-->
-<!--        android:background="@drawable/black_flame_back_cream"-->
-<!--        android:scrollbars="vertical"-->
-<!--        android:text="@string/keyword" />-->
-
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -158,7 +150,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:textColor="#696969"
+            android:textStyle="bold">
             <ListView
                 android:id="@+id/favKeywordText"
                 android:layout_width="280dp"
@@ -166,7 +160,7 @@
                 android:layout_gravity="center"
                 android:textColor="#696969"
                 android:textStyle="bold"
-                android:textSize="15dp"/>
+                android:textSize="10sp" />
         </LinearLayout>
 
     </ScrollView>
@@ -214,11 +208,9 @@
         android:layout_gravity="center"
         android:text=" 利用規約に同意する"
         android:checked="false"
+        android:textColor="#696969"
+        android:textStyle="bold"
         tools:ignore="OnClick,UsingOnClickInXml" />
-
-<!--    tools:ignore="OnClick"-->
-    <!--        android:checked="false"-->
-<!--    android:onClick="onCheckboxClicked"-->
 
 
     <Button
