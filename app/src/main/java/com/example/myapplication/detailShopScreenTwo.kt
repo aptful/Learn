@@ -24,10 +24,9 @@ class detailShopScreenTwo : AppCompatActivity(){
         //戻るボタン
         val backButton : ImageView = findViewById(R.id.backButton)
 
-        //設定画面に遷移
+        //一つ前の画面に遷移
         backButton.setOnClickListener {
-            val intent = Intent(this,configScreen::class.java)
-            startActivity(intent)
+            finish()
         }
 
         //ハートボタンの生成

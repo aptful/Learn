@@ -23,12 +23,11 @@ class checkAccountScreen : AppCompatActivity() {
         }
 
         //戻るボタン
-        val buckButton : ImageView =findViewById(R.id.buckButton)
+        val backButton : ImageView = findViewById(R.id.backButton)
 
-        //設定画面に遷移
-        buckButton.setOnClickListener {
-            val intent = Intent(this,configScreen::class.java)
-            startActivity(intent)
+        //一つ前の画面に遷移
+        backButton.setOnClickListener {
+            finish()
         }
 
 

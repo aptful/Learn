@@ -31,6 +31,8 @@ class keywordListScreen : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+
         //キーワードのボタンの実装
         //テイクアウトボタン
         val  takeoutButton: Button = findViewById(R.id.takeoutButton)
