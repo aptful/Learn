@@ -36,24 +36,38 @@ class deleteAccountScreen : AppCompatActivity() {
         //退会ボタン
         val deleteButton : Button = findViewById(R.id.withdrawalButton)
 
-        //退会確認ポップアップ
+//        //退会確認ポップアップ
+//        deleteButton.setOnClickListener {
+//            AlertDialog.Builder(this)
+//                .setTitle("退会するとこのアカウントは削除されます")
+//                .setMessage("本当によろしいですか?")
+//
+//                .setPositiveButton("いいえ"){ dialog, which ->
+//                    val intent = Intent(this,deleteAccountScreen::class.java)
+//                    startActivity(intent)
+//                }
+//
+//                .setNegativeButton("はい"){ dialog, which ->
+//                    val intent = Intent(this,loginScreen::class.java)
+//                    startActivity(intent)
+//                }
+//                .show()
+//
+//        }
+
+
+        //入力間違いポップアップ
         deleteButton.setOnClickListener {
             AlertDialog.Builder(this)
-                .setTitle("退会するとこのアカウントは削除されます")
-                .setMessage("本当によろしいですか?")
+                .setTitle("IDまたはパスワードが間違っています")
 
-                .setPositiveButton("いいえ"){ dialog, which ->
+                .setPositiveButton("OK"){ dialog, which ->
                     val intent = Intent(this,deleteAccountScreen::class.java)
                     startActivity(intent)
                 }
 
-                .setNegativeButton("はい"){ dialog, which ->
-                    val intent = Intent(this,loginScreen::class.java)
-                    startActivity(intent)
-                }
                 .show()
 
         }
-
     }
 }
