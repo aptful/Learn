@@ -21,14 +21,15 @@ class detailShopScreenOne : AppCompatActivity(){
             startActivity(intent)
         }
 
-//        //戻るボタン
-//        val backButton : ImageView = findViewById(R.id.backButton)
-//
-//        //設定画面に遷移
-//        backButton.setOnClickListener {
+        //戻るボタン
+        val backButton : ImageView = findViewById(R.id.backButton)
+
+        //設定画面に遷移
+        backButton.setOnClickListener {
 //            val intent = Intent(this,configScreen::class.java)
 //            startActivity(intent)
-//        }
+            getFragmentManager().popBackStack();
+        }
 
         //ハートボタンの生成
         val heartLineButton: ImageButton = findViewById(R.id.heartLineButton)

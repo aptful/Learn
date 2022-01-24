@@ -46,15 +46,6 @@
         android:layout_marginTop="-80dp"
         android:background="@drawable/home"
     />
-    <!--説明追加-->
-    <TextView
-        android:id="@+id/Text1"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="28dp"
-        android:text="　＊各お店の写真をタップするとお店の詳細が見れるよ"
-        android:textStyle="bold"/>
 
     <ScrollView
         android:layout_width="match_parent"
