@@ -110,7 +110,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="60dp"
                 android:layout_marginStart="30dp"
-                android:text="10/31 \ 「スイーツ」を含む番組が　\n
+                android:text="12/2 \ 「スイーツ」を含む番組が　\n
        \ \ \ \放送されました"
                 android:textColor="#696969"
                 android:textSize="20sp" />
@@ -122,7 +122,7 @@
                 android:layout_height="45dp"
                 android:layout_marginTop="65dp"
                 android:layout_marginStart="-320dp"
-                android:text="甘いチョコレートとバニラ・・・"
+                android:text="おいしいケーキを食べ・・・"
                 android:gravity="center"
                 android:textColor="#fff8dc"
                 android:backgroundTint="#6495ed"
@@ -152,7 +152,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="120dp"
                 android:layout_marginStart="-320dp"
-                android:text="10/19 \ 「カフェ」を含む番組が　\n
+                android:text="10/19 \ 「スイーツ」を含む番組が\n
        \ \ \ \放送されました"
                 android:textColor="#696969"
                 android:textSize="20sp" />
@@ -164,7 +164,7 @@
                 android:layout_height="45dp"
                 android:layout_marginTop="180dp"
                 android:layout_marginStart="-300dp"
-                android:text="古民家風カフェで外観も・・・"
+                android:text="ほっと一息ついてほしい・・・"
                 android:gravity="center"
                 android:textColor="#fff8dc"
                 android:backgroundTint="#6495ed"
@@ -194,7 +194,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="230dp"
                 android:layout_marginStart="-310dp"
-                android:text="9/20 \ 「スイーツ」を含む番組が　\n
+                android:text="9/31 \ 「スイーツ」を含む番組が　\n
        \ \ \ \放送されました"
                 android:textColor="#696969"
                 android:textSize="20sp" />
@@ -206,7 +206,7 @@
                 android:layout_height="45dp"
                 android:layout_marginTop="290dp"
                 android:layout_marginStart="-340dp"
-                android:text="今話題の「マリトッツォ」が一風変わった・・・"
+                android:text="落ちついた雰囲気の店内・・・"
                 android:gravity="center"
                 android:textColor="#fff8dc"
                 android:backgroundTint="#6495ed"
@@ -236,8 +236,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="340dp"
                 android:layout_marginStart="-320dp"
-                android:text="9/10 \ 「パン」を含む番組が　\n
-       \ \ \ \放送されました"
+                android:text="7/13 「スイーツ」「カフェ」\n\ \ \ \ \ \ \ を含む番組が放送されました"
                 android:textColor="#696969"
                 android:textSize="20sp" />
 
@@ -248,7 +247,7 @@
                 android:layout_height="45dp"
                 android:layout_marginTop="400dp"
                 android:layout_marginStart="-310dp"
-                android:text="野菜をたっぷり使ったサンドウィッチ・・・"
+                android:text="古民家をDIYでリノベーショ・・・"
                 android:gravity="center"
                 android:textColor="#fff8dc"
                 android:backgroundTint="#6495ed"
@@ -280,7 +279,7 @@
                 android:layout_height="60dp"
                 android:layout_marginStart="-320dp"
                 android:layout_marginTop="450dp"
-                android:text="9/1 「ドリンク」「カフェ」\n \ \ \ \ \ \ \ を含む番組が放送されました"
+                android:text="6/16 「スイーツ」「カフェ」\n \ \ \ \ \ \ \ を含む番組が放送されました"
                 android:textColor="#696969"
                 android:textSize="20sp" />
 
@@ -295,7 +294,7 @@
                 android:layout_marginTop="510dp"
                 android:backgroundTint="#6495ed"
                 android:gravity="center"
-                android:text="次に流行するかもしれない・・・"
+                android:text="高知の旅行をテーマとした・・・"
                 android:textColor="#fff8dc"
                 android:textSize="15sp" />
 

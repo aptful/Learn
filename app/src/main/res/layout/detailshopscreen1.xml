@@ -63,7 +63,7 @@
         android:id="@+id/broaddayText"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:text="2021/8/31"
+        android:text="2021/12/2"
         android:textColor="#696969"
         android:gravity="center"
         />
