@@ -81,12 +81,21 @@ class signupThree : AppCompatActivity() {
         //ユーザ登録完了ポップアップ
         completeButton.setOnClickListener {
             AlertDialog.Builder(this)
-                .setTitle("登録完了")
-                .setMessage("ログインしてみましょう")
+                .setTitle("利用規約に同意しますか")
 
-                .setPositiveButton("OK"){ dialog, which ->
-                    val intent = Intent(this,loginScreen::class.java)
-                    startActivity(intent)
+                .setPositiveButton("同意する"){ dialog, which ->
+                    AlertDialog.Builder(this)
+                        .setTitle("登録完了!")
+                        .setMessage("ログインしてみましょう")
+
+                        .setPositiveButton("OK"){ dialog, which ->
+                            val intent = Intent(this,loginScreen::class.java)
+                            startActivity(intent)
+                        }
+                        .show()
+
+                }
+                .setNegativeButton("同意しない") { dialog, which ->
                 }
 
                 .show()
