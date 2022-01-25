@@ -7,10 +7,10 @@ import android.widget.ImageView
 
 //作成者：綾部
 
-class keywordShopScreen : AppCompatActivity() {
+class keywordShopScreenDrink : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.keywordshopscreen)
+        setContentView(R.layout.keywordshopdrink)
 
         //戻るボタン
         val backButton : ImageView = findViewById(R.id.backButton)

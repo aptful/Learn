@@ -30,7 +30,7 @@ class searchScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         takeoutButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenSweet::class.java)
             startActivity(intent)
         }
 
@@ -39,7 +39,7 @@ class searchScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         sweetsButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenSweet::class.java)
             startActivity(intent)
         }
 
@@ -48,7 +48,7 @@ class searchScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         drinkButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenSweet::class.java)
             startActivity(intent)
         }
 
@@ -57,7 +57,7 @@ class searchScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         cafeButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenSweet::class.java)
             startActivity(intent)
         }
 
@@ -67,7 +67,7 @@ class searchScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         temiyageButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenSweet::class.java)
             startActivity(intent)
         }
 
@@ -76,7 +76,7 @@ class searchScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         izakayaButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenSweet::class.java)
             startActivity(intent)
         }
     }
