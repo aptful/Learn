@@ -55,11 +55,11 @@ class signupOne : AppCompatActivity() {
             intent.putExtra("idKey", textId.getText().toString())
             //入力制限．パスワードが6文字以上，誕生年が4文字以上，誕生月日が1文字以上
             if (textPasswordEdit.length() > 5 && textYearEdit.length() > 3 && textMonthEdit.length() > 0 && textDayEdit.length() > 0) {
-                //誕生年が1901年以上
-                //（今日の日付）-（誕生年*10000 + 誕生月*100 + 誕生日 + 1）の結果が正
                 //生年月日をyyyymmddに変換
-                val birth = textYearEdit.getText().toString().toInt() * 10000 + textMonthEdit.getText().toString().toInt() * 100 + textDayEdit.getText().toString().toInt() - 1
-                if (textYearEdit.getText().toString().toInt() > 1900 && (dateSum - birth) > 0) {
+                val birthSum = textYearEdit.getText().toString().toInt() * 10000 + textMonthEdit.getText().toString().toInt() * 100 + textDayEdit.getText().toString().toInt() - 1
+                //誕生年が1901年以上かつ，
+                //（今日の日付）-（誕生年*10000 + 誕生月*100 + 誕生日 + 1）の結果が正
+                if (textYearEdit.getText().toString().toInt() > 1900 && (dateSum - birthSum) > 0) {
                     //誕生月によって日にちの制限．うるう年を想定して2月はどの年でも29日を入力可としている
                     when (textMonthEdit.getText().toString().toInt()) {
                         1, 3, 5, 7, 8, 10, 12 -> {

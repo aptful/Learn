@@ -226,7 +226,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="335dp"
         android:layout_marginStart="-310dp"
-        android:text="10/31 \ 「スイーツ」を含む番組が　\n
+        android:text="10/19 \「スイーツ」を含む番組が\n
         \ \ \ \放送されました"
         android:textColor="#696969"
         android:textSize="20sp" />
@@ -238,7 +238,7 @@
         android:layout_height="45dp"
         android:layout_marginTop="390dp"
         android:layout_marginStart="-320dp"
-        android:text="甘いチョコレートとバニラ・・・"
+        android:text="ほっと一息ついてほしい・・・"
         android:gravity="center"
         android:textColor="#fff8dc"
         android:backgroundTint="#6495ed"
@@ -268,7 +268,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="430dp"
                 android:layout_marginStart="-305dp"
-                android:text="10/20\ \ \ もうすぐ期限切れとなる\n \ \ \ \
+                android:text="10/１９\ \ \ もうすぐ期限切れとなる\n \ \ \ \
         クーポンがあります"
                 android:textColor="#696969"
                 android:textSize="20sp" />

@@ -9,7 +9,7 @@
     tools:context=".detailShopScreenThree"
     android:background="#fff8dc" >
 
-    <!--綾部-->
+    <!--小島-->
 
     <!--帯->
     <!-しょっぷ-->
@@ -37,7 +37,7 @@
 
     <!--戻るボタン-->
     <ImageView
-        android:id="@+id/backButton"
+        android:id="@+id/imageView4"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginTop="-60dp"
@@ -63,7 +63,7 @@
         android:id="@+id/broaddayText"
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:text="2021/8/31"
+        android:text="2021/12/2"
         android:textColor="#696969"
         android:gravity="center"
         />
@@ -291,7 +291,7 @@
         android:layout_height="40dp"
         android:background="@drawable/color_heart_pic"
         android:layout_gravity="right"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="60dp"
         android:layout_marginTop="-30dp"
         app:layout_constraintTop_toTopOf="parent"
         />
@@ -303,12 +303,9 @@
         android:layout_height="40dp"
         android:background="@drawable/line_pic"
         android:layout_gravity="right"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="60dp"
         android:layout_marginTop="-40dp"
         app:layout_constraintTop_toTopOf="parent"
         />
-
-
-
 
 </LinearLayout>
