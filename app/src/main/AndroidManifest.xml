@@ -20,7 +20,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity> <!-- <activity android:name=".loginScreen"/> -->
-        <activity android:name=".keywordShopScreen" />
+        <activity android:name=".keywordShopScreenSweet" />
+        <activity android:name=".keywordShopScreenCafe" />
+        <activity android:name=".keywordShopScreenDrink" />
+        <activity android:name=".keywordShopScreenIzakaya" />
+        <activity android:name=".keywordShopScreenTakeout" />
+        <activity android:name=".keywordShopScreenSouvenirs" />
         <activity android:name=".mypageScreen" />
         <activity android:name=".signupOne" />
         <activity android:name=".signupTwo" />
@@ -33,7 +38,11 @@
         <activity android:name=".couponScreen" />
         <activity android:name=".keywordListScreen" />
         <activity android:name=".keywordEditScreen" />
+        <activity android:name=".detailShopScreenOne" />
+        <activity android:name=".detailShopScreenTwo" />
         <activity android:name=".detailShopScreenThree" />
+        <activity android:name=".detailShopScreenFour" />
+        <activity android:name=".detailShopScreenFive" />
         <activity android:name=".newsListScreen" />
         <activity android:name=".newsCouponScreen" />
         <activity android:name=".newsKeywordScreen" />

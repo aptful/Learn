@@ -37,7 +37,7 @@
 
     <!--戻るボタン-->
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/backButton"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_marginTop="-60dp"
@@ -291,7 +291,7 @@
         android:layout_height="40dp"
         android:background="@drawable/color_heart_pic"
         android:layout_gravity="right"
-        android:layout_marginRight="60dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="-30dp"
         app:layout_constraintTop_toTopOf="parent"
         />
@@ -303,21 +303,11 @@
         android:layout_height="40dp"
         android:background="@drawable/line_pic"
         android:layout_gravity="right"
-        android:layout_marginRight="60dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="-40dp"
         app:layout_constraintTop_toTopOf="parent"
         />
 
 
-    <!--Line共有-->
-    <ImageButton
-        android:id="@+id/Lineaicon"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:background="@drawable/line"
-        android:layout_gravity="right"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="-40dp"
-        />
 
 </LinearLayout>

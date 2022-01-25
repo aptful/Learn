@@ -24,11 +24,16 @@ class signupThree : AppCompatActivity() {
         val textYearEdit = intent.getStringExtra("yearKey")
         val textMonthEdit = intent.getStringExtra("monthKey")
         val textDayEdit = intent.getStringExtra("dayKey")
+        val textId = intent.getStringExtra("idKey")
         //登録されたキーワードが入ったリスト
         val favKeywordList: kotlin.collections.List<String> =
             ArrayList(intent.getStringArrayListExtra("favKeyList"))
 
         //TexiViewの上書き表示
+        //ID
+        val idText = findViewById<TextView>(R.id.ID_edit_signupText) as TextView
+        idText.text = "  " + textId
+
         //パスワード
         val passText = findViewById<View>(R.id.password_edit_signupText) as TextView
         //入力された文字数分だけ●表示
@@ -76,12 +81,21 @@ class signupThree : AppCompatActivity() {
         //ユーザ登録完了ポップアップ
         completeButton.setOnClickListener {
             AlertDialog.Builder(this)
-                .setTitle("登録完了")
-                .setMessage("ログインしてみましょう")
+                .setTitle("利用規約に同意しますか")
 
-                .setPositiveButton("OK"){ dialog, which ->
-                    val intent = Intent(this,loginScreen::class.java)
-                    startActivity(intent)
+                .setPositiveButton("同意する"){ dialog, which ->
+                    AlertDialog.Builder(this)
+                        .setTitle("登録完了!")
+                        .setMessage("ログインしてみましょう")
+
+                        .setPositiveButton("OK"){ dialog, which ->
+                            val intent = Intent(this,loginScreen::class.java)
+                            startActivity(intent)
+                        }
+                        .show()
+
+                }
+                .setNegativeButton("同意しない") { dialog, which ->
                 }
 
                 .show()

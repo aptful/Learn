@@ -65,19 +65,18 @@
 
     <!--ID表示-->
     <TextView
-            android:id="@+id/id"
-            android:layout_width="200dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="80dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text2"
-            android:text="abcd7"
-            android:textSize="20dp"
-            android:textColor="#696969"
-            android:gravity="center_vertical"
-            android:paddingLeft="5dp"
-            />
+        android:id="@+id/id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text=""
+        android:textColor="#696969"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
 
 
 

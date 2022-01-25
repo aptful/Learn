@@ -7,18 +7,17 @@ import android.widget.ImageView
 
 //作成者：綾部
 
-class keywordShopScreen : AppCompatActivity() {
+class keywordShopScreenDrink : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.keywordshopscreen)
+        setContentView(R.layout.keywordshopdrink)
 
         //戻るボタン
         val backButton : ImageView = findViewById(R.id.backButton)
 
         //キーワード一覧画面に遷移
         backButton.setOnClickListener {
-            val intent = Intent(this,searchScreen::class.java)
-            startActivity(intent)
+            finish()
         }
 
         //ホームボタン
@@ -31,7 +30,7 @@ class keywordShopScreen : AppCompatActivity() {
         }
 
         //ひとつ目のお店ボタン
-        val homepic1 : ImageView = findViewById(R.id.homepic1)
+        val homepic1 : ImageView = findViewById(R.id.backgroundWhite1)
 
         //そのお店の情報詳細画面遷移
         homepic1.setOnClickListener {
@@ -40,7 +39,7 @@ class keywordShopScreen : AppCompatActivity() {
         }
 
         //ふたつ目のお店ボタン
-        val homepic2 : ImageView = findViewById(R.id.homepic2)
+        val homepic2 : ImageView = findViewById(R.id.backgroundWhite2)
 
         //そのお店の情報詳細画面遷移
         homepic2.setOnClickListener {
@@ -49,7 +48,7 @@ class keywordShopScreen : AppCompatActivity() {
         }
 
         //みっつ目のお店ボタン
-        val homepic3 : ImageView = findViewById(R.id.homepic3)
+        val homepic3 : ImageView = findViewById(R.id.backgroundWhite3)
 
         //そのお店の情報詳細画面遷移
         homepic3.setOnClickListener {
@@ -58,7 +57,7 @@ class keywordShopScreen : AppCompatActivity() {
         }
 
         //よっつ目のお店ボタン
-        val homepic4 : ImageView = findViewById(R.id.homepic4)
+        val homepic4 : ImageView = findViewById(R.id.backgroundWhite4)
 
         //そのお店の情報詳細画面遷移
         homepic4.setOnClickListener {
@@ -67,7 +66,7 @@ class keywordShopScreen : AppCompatActivity() {
         }
 
         //いつつ目のお店ボタン
-        val homepic5 : ImageView = findViewById(R.id.homepic5)
+        val homepic5 : ImageView = findViewById(R.id.backgroundWhite5)
 
         //そのお店の情報詳細画面遷移
         homepic5.setOnClickListener {

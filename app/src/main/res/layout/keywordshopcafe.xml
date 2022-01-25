@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".favShopScreen"
+    tools:context=".searchScreen"
     android:background="#fff8dc" >
 
 
     <!--帯->
-    <!-しょっぷ-->
+    <!-さーち-->
     <TextView
         android:id="@+id/shopScreen"
         android:layout_width="match_parent"
@@ -23,8 +23,17 @@
         android:textColor="#696969"
         android:textSize="30dp" />
 
-    <!--オレンジのライン-->
+    <!--戻るボタン-->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="-75dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/back_normal" />
 
+    <!--オレンジのライン-->
     <View
         android:id="@+id/line_orange"
         android:layout_width="wrap_content"
@@ -47,6 +56,20 @@
         android:background="@drawable/home"
     />
 
+    <TextView
+        android:id="@+id/keywordView"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ff7f50"
+        android:text="カフェ"
+        android:textColor="#fff8dc"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -57,6 +80,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+
+
     <!--1個目-->
     <!--背景白-->
     <ImageView
@@ -64,7 +89,7 @@
         android:layout_height="140dp"
         android:layout_width="350dp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:src="@drawable/rectangle"/>
 
     <!--日付 放送-->
@@ -75,7 +100,7 @@
         android:layout_marginLeft="230dp"
         android:layout_marginTop="-130dp"
         android:gravity="center"
-        android:text="2021/2/1 放送"  />
+        android:text="2021/12/2"  />
 
     <!--店名-->
     <TextView
@@ -84,7 +109,7 @@
         android:layout_height="70dp"
         android:layout_marginLeft="185dp"
         android:gravity="center"
-        android:text="レストラン K"
+        android:text="ケーキ屋 A"
         android:textSize="25dp" />
 
     <!--アクセス-->
@@ -125,7 +150,7 @@
         android:layout_marginLeft="230dp"
         android:layout_marginTop="-130dp"
         android:gravity="center"
-        android:text="2021/2/1 放送"  />
+        android:text="2021/9/1 放送"  />
 
     <!--店名-->
     <TextView
@@ -134,7 +159,7 @@
         android:layout_height="70dp"
         android:layout_marginLeft="185dp"
         android:gravity="center"
-        android:text="レストラン K"
+        android:text="お菓子屋 B"
         android:textSize="25dp" />
 
     <!--アクセス-->
@@ -145,7 +170,7 @@
         android:layout_marginLeft="190dp"
         android:layout_marginTop="2dp"
         android:gravity="center"
-        android:text="土佐一宮駅から徒歩10分" />
+        android:text="中央公園すぐ斜め" />
 
     <!--お店の写真-->
     <ImageView
@@ -174,7 +199,7 @@
         android:layout_marginLeft="230dp"
         android:layout_marginTop="-130dp"
         android:gravity="center"
-        android:text="2021/2/1 放送"  />
+        android:text="2021/8/31 放送"  />
 
     <!--店名-->
     <TextView
@@ -183,7 +208,7 @@
         android:layout_height="70dp"
         android:layout_marginLeft="185dp"
         android:gravity="center"
-        android:text="レストラン K"
+        android:text="カフェ E"
         android:textSize="25dp" />
 
     <!--アクセス-->
@@ -194,7 +219,7 @@
         android:layout_marginLeft="190dp"
         android:layout_marginTop="2dp"
         android:gravity="center"
-        android:text="土佐一宮駅から徒歩10分" />
+        android:text="高知駅から徒歩10分" />
 
     <!--お店の写真 -->
     <ImageView
@@ -223,7 +248,7 @@
         android:layout_marginLeft="230dp"
         android:layout_marginTop="-130dp"
         android:gravity="center"
-        android:text="2021/2/1 放送"  />
+        android:text="2021/7/13 放送"  />
 
     <!--店名-->
     <TextView
@@ -232,7 +257,7 @@
         android:layout_height="70dp"
         android:layout_marginLeft="185dp"
         android:gravity="center"
-        android:text="レストラン K"
+        android:text="コーヒー M"
         android:textSize="25dp" />
 
     <!--アクセス-->
@@ -243,7 +268,7 @@
         android:layout_marginLeft="190dp"
         android:layout_marginTop="2dp"
         android:gravity="center"
-        android:text="土佐一宮駅から徒歩10分" />
+        android:text="高知駅から徒歩10分" />
 
      <!--お店の写真-->
     <ImageView
@@ -272,7 +297,7 @@
         android:layout_marginLeft="230dp"
         android:layout_marginTop="-130dp"
         android:gravity="center"
-        android:text="2021/2/1 放送"  />
+        android:text="2021/6/16 放送"  />
 
     <!--店名-->
     <TextView
@@ -281,7 +306,7 @@
         android:layout_height="70dp"
         android:layout_marginLeft="185dp"
         android:gravity="center"
-        android:text="レストラン K"
+        android:text="カフェバー K"
         android:textSize="25dp" />
 
     <!--アクセス-->
@@ -292,14 +317,14 @@
         android:layout_marginLeft="190dp"
         android:layout_marginTop="2dp"
         android:gravity="center"
-        android:text="土佐一宮駅から徒歩10分" />
+        android:text="高知駅から徒歩10分" />
 
     <!--お店の写真-->
     <ImageView
         android:id="@+id/homepic5"
         android:layout_width="125dp"
         android:layout_height="125dp"
-        app:srcCompat="@drawable/home1"
+        app:srcCompat="@drawable/home2"
         android:layout_marginTop="-116dp"
         android:layout_marginLeft="50dp"/>
 

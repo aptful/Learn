@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.annotation.RequiresApi
 import java.time.LocalDate
 import java.time.ZonedDateTime
@@ -28,6 +29,16 @@ class signupOne : AppCompatActivity() {
         val textMonthEdit = findViewById<EditText>(R.id.monthEdit)
         //誕生日入力欄
         val textDayEdit = findViewById<EditText>(R.id.dayEdit)
+        //ID欄上書き表示
+        val textId = findViewById<TextView>(R.id.id) as TextView
+        //IDランダム生成
+        fun getRandomString(length: Int): String {
+            val allowedChars = ('a'..'z') + ('0'..'9')
+            return (1..length)
+                .map { allowedChars.random() }
+                .joinToString("")
+        }
+        textId.text = getRandomString(5)
 
         //今日の日付を取得
         val dateNow: LocalDate = LocalDate.now()
@@ -40,6 +51,8 @@ class signupOne : AppCompatActivity() {
         //新規登録画面2に遷移
         nextButton.setOnClickListener {
             val intent = Intent(this, signupTwo::class.java)
+            //IDの引き渡し
+            intent.putExtra("idKey", textId.getText().toString())
             //入力制限．パスワードが6文字以上，誕生年が4文字以上，誕生月日が1文字以上
             if (textPasswordEdit.length() > 5 && textYearEdit.length() > 3 && textMonthEdit.length() > 0 && textDayEdit.length() > 0) {
                 //誕生年が1901年以上

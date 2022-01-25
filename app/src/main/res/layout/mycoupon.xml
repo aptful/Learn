@@ -171,6 +171,29 @@
                 android:textSize="20sp" />
 
 
+            <TextView
+                android:id="@+id/couponText_e"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/black_flame_back_cream"
+                android:gravity="center_horizontal"
+                android:text="D居酒屋\n2022年2月28日まで有効\nバニラアイス無料"
+                android:textColor="#696969"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/useButton_e"
+                android:layout_width="245dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-75dp"
+                android:backgroundTint="#ff7f50"
+                android:text="利用する"
+                android:textColor="#fff8dc"
+                android:textSize="20sp" />
+
         </LinearLayout>
 
     </ScrollView>

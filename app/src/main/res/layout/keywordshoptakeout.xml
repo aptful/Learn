@@ -56,25 +56,15 @@
         android:background="@drawable/home"
     />
 
-    <!--説明追加-->
-    <TextView
-        android:id="@+id/Text1"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="28dp"
-        android:text="　＊各お店の写真をタップするとお店の詳細が見れるよ"
-        android:textStyle="bold"/>
-
     <TextView
         android:id="@+id/keywordView"
         android:layout_width="140dp"
         android:layout_height="35dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="5dp"
         android:background="#ff7f50"
-        android:text="スイーツ"
+        android:text="テイクアウト"
         android:textColor="#fff8dc"
         android:textSize="20dp"
         android:textStyle="bold"

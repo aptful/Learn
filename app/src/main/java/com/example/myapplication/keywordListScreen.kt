@@ -31,13 +31,15 @@ class keywordListScreen : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+
         //キーワードのボタンの実装
         //テイクアウトボタン
         val  takeoutButton: Button = findViewById(R.id.takeoutButton)
 
         //キーワードに該当するお店一覧画面遷移
         takeoutButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenTakeout::class.java)
             startActivity(intent)
         }
 
@@ -46,7 +48,7 @@ class keywordListScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         sweetsButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenSweet::class.java)
             startActivity(intent)
         }
 
@@ -55,7 +57,7 @@ class keywordListScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         drinkButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenDrink::class.java)
             startActivity(intent)
         }
 
@@ -64,7 +66,7 @@ class keywordListScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         cafeButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenCafe::class.java)
             startActivity(intent)
         }
 
@@ -74,7 +76,7 @@ class keywordListScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         temiyageButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenSouvenirs::class.java)
             startActivity(intent)
         }
 
@@ -83,7 +85,7 @@ class keywordListScreen : AppCompatActivity() {
 
         //キーワードに該当するお店一覧画面遷移
         izakayaButton.setOnClickListener {
-            val intent = Intent(this,keywordShopScreen::class.java)
+            val intent = Intent(this,keywordShopScreenIzakaya::class.java)
             startActivity(intent)
         }
 

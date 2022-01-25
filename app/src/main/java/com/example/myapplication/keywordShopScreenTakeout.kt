@@ -7,10 +7,18 @@ import android.widget.ImageView
 
 //作成者：綾部
 
-class favShopScreen : AppCompatActivity() {
+class keywordShopScreenTakeout : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.favshopscreen)
+        setContentView(R.layout.keywordshoptakeout)
+
+        //戻るボタン
+        val backButton : ImageView = findViewById(R.id.backButton)
+
+        //キーワード一覧画面に遷移
+        backButton.setOnClickListener {
+            finish()
+        }
 
         //ホームボタン
         val homeButton : ImageView = findViewById(R.id.homeButton)
@@ -65,7 +73,6 @@ class favShopScreen : AppCompatActivity() {
             val intent = Intent(this,detailShopScreenFive::class.java)
             startActivity(intent)
         }
-
 
 
     }
