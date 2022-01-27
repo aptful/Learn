@@ -52,14 +52,14 @@ class signupTwo : AppCompatActivity() {
         val addButton7 : ImageButton = findViewById(R.id.addButton7)
         val addedButton7 : ImageButton = findViewById(R.id.addedButton7)
 
-        val addButton8 : ImageButton = findViewById(R.id.addButton8)
-        val addedButton8 : ImageButton = findViewById(R.id.addedButton8)
-
-        val addButton9 : ImageButton = findViewById(R.id.addButton9)
-        val addedButton9 : ImageButton = findViewById(R.id.addedButton9)
-
-        val addButton10 : ImageButton = findViewById(R.id.addButton10)
-        val addedButton10 : ImageButton = findViewById(R.id.addedButton10)
+//        val addButton8 : ImageButton = findViewById(R.id.addButton8)
+//        val addedButton8 : ImageButton = findViewById(R.id.addedButton8)
+//
+//        val addButton9 : ImageButton = findViewById(R.id.addButton9)
+//        val addedButton9 : ImageButton = findViewById(R.id.addedButton9)
+//
+//        val addButton10 : ImageButton = findViewById(R.id.addButton10)
+//        val addedButton10 : ImageButton = findViewById(R.id.addedButton10)
 
         //登録済キーワードを格納する配列
         val favKeyword: ArrayList<String> = ArrayList()
@@ -176,50 +176,50 @@ class signupTwo : AppCompatActivity() {
             favKeyword.remove("居酒屋")
         }
 
-        //追加ボタン8の動き
-        addButton8.setOnClickListener{
-            addButton8.visibility = View.INVISIBLE
-            addedButton8.visibility = View.VISIBLE
-            count++
-            favKeyword.add("芸術")
-        }
-        //追加済ボタン8の動き
-        addedButton8.setOnClickListener{
-            addedButton8.visibility = View.INVISIBLE
-            addButton8.visibility = View.VISIBLE
-            count--
-            favKeyword.remove("芸術")
-        }
-
-        //追加ボタン9の動き
-        addButton9.setOnClickListener{
-            addButton9.visibility = View.INVISIBLE
-            addedButton9.visibility = View.VISIBLE
-            count++
-            favKeyword.add("パン")
-        }
-        //追加済ボタン9の動き
-        addedButton9.setOnClickListener{
-            addedButton9.visibility = View.INVISIBLE
-            addButton9.visibility = View.VISIBLE
-            count--
-            favKeyword.remove("パン")
-        }
-
-        //追加ボタン10の動き
-        addButton10.setOnClickListener{
-            addButton10.visibility = View.INVISIBLE
-            addedButton10.visibility = View.VISIBLE
-            count++
-            favKeyword.add("果物")
-        }
-        //追加済ボタン10の動き
-        addedButton10.setOnClickListener{
-            addedButton10.visibility = View.INVISIBLE
-            addButton10.visibility = View.VISIBLE
-            count--
-            favKeyword.remove("果物")
-        }
+//        //追加ボタン8の動き
+//        addButton8.setOnClickListener{
+//            addButton8.visibility = View.INVISIBLE
+//            addedButton8.visibility = View.VISIBLE
+//            count++
+//            favKeyword.add("芸術")
+//        }
+//        //追加済ボタン8の動き
+//        addedButton8.setOnClickListener{
+//            addedButton8.visibility = View.INVISIBLE
+//            addButton8.visibility = View.VISIBLE
+//            count--
+//            favKeyword.remove("芸術")
+//        }
+//
+//        //追加ボタン9の動き
+//        addButton9.setOnClickListener{
+//            addButton9.visibility = View.INVISIBLE
+//            addedButton9.visibility = View.VISIBLE
+//            count++
+//            favKeyword.add("パン")
+//        }
+//        //追加済ボタン9の動き
+//        addedButton9.setOnClickListener{
+//            addedButton9.visibility = View.INVISIBLE
+//            addButton9.visibility = View.VISIBLE
+//            count--
+//            favKeyword.remove("パン")
+//        }
+//
+//        //追加ボタン10の動き
+//        addButton10.setOnClickListener{
+//            addButton10.visibility = View.INVISIBLE
+//            addedButton10.visibility = View.VISIBLE
+//            count++
+//            favKeyword.add("果物")
+//        }
+//        //追加済ボタン10の動き
+//        addedButton10.setOnClickListener{
+//            addedButton10.visibility = View.INVISIBLE
+//            addButton10.visibility = View.VISIBLE
+//            count--
+//            favKeyword.remove("果物")
+//        }
 
         //次へボタン
         val nextButton : Button = findViewById(R.id.nextButton)
