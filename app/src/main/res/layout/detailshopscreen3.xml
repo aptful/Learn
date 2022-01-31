@@ -226,7 +226,7 @@
         android:layout_height="25dp"
         android:background="@drawable/orange_circle"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="25dp"
         />
 
     <!--住所-->
@@ -236,7 +236,7 @@
         android:layout_height="40dp"
         android:text="住所：高知県高知市"
         android:layout_marginLeft="65dp"
-        android:layout_marginTop="-35dp"
+        android:layout_marginTop="-20dp"
         android:gravity=""
         />
 
@@ -247,7 +247,7 @@
         android:layout_height="25dp"
         android:background="@drawable/orange_circle"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         />
 
     <!--営業時間，定休日-->
@@ -257,7 +257,7 @@
         android:layout_height="40dp"
         android:text="営業時間：11:00〜17:00\n定休日：火曜日，金曜日"
         android:layout_marginLeft="65dp"
-        android:layout_marginTop="-35dp"
+        android:layout_marginTop="-25dp"
         android:gravity=""
         />
 
@@ -268,7 +268,7 @@
         android:layout_height="25dp"
         android:background="@drawable/orange_circle"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         />
 
     <!--電話番号-->
@@ -278,7 +278,7 @@
         android:layout_height="40dp"
         android:text="電話番号：0889-29-××××"
         android:layout_marginLeft="65dp"
-        android:layout_marginTop="-35dp"
+        android:layout_marginTop="-25dp"
         android:gravity=""
         />
 

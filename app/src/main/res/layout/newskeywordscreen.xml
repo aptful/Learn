@@ -96,7 +96,7 @@
         android:layout_width="365dp"
         android:layout_height="470dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="-480dp">
+        android:layout_marginTop="-650dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -177,7 +177,7 @@
                 android:id="@+id/orangeLine2"
                 android:layout_width="330dp"
                 android:layout_height="2dp"
-                android:layout_marginTop="220dp"
+                android:layout_marginTop="230dp"
                 android:layout_marginStart="-320dp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -284,13 +284,13 @@
                 android:textSize="20sp" />
 
 
-            <!--オレンジのライン-->
+
 
             <Button
                 android:id="@+id/contentsText5"
                 android:layout_width="300dp"
                 android:layout_height="45dp"
-                android:layout_marginStart="-280dp"
+                android:layout_marginStart="-300dp"
                 android:layout_marginTop="510dp"
                 android:backgroundTint="#6495ed"
                 android:gravity="center"
@@ -298,19 +298,20 @@
                 android:textColor="#fff8dc"
                 android:textSize="15sp" />
 
-            <View
-                android:id="@+id/orangeLine5"
-                android:layout_width="330dp"
-                android:layout_height="2dp"
-                android:layout_marginTop="550dp"
-                android:layout_marginStart="-300dp"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:visibility="visible"
-                android:background="#ff7f50"
-                />
+            <!--オレンジのライン-->
+<!--            <View-->
+<!--                android:id="@+id/orangeLine5"-->
+<!--                android:layout_width="330dp"-->
+<!--                android:layout_height="2dp"-->
+<!--                android:layout_marginTop="550dp"-->
+<!--                android:layout_marginStart="-300dp"-->
+<!--                app:layout_constraintTop_toTopOf="parent"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                android:visibility="visible"-->
+<!--                android:background="#ff7f50"-->
+<!--                />-->
 
 
 

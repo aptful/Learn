@@ -32,14 +32,13 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="end"
+        android:layout_marginTop="-75sp"
         android:layout_marginEnd="12sp"
-        android:layout_marginTop="-50sp"
         android:layout_marginBottom="30dp"
         android:backgroundTint="#fff8dc"
         android:text="次へ"
         android:textColor="#6495ed"
-        android:textSize="16sp"
-        />
+        android:textSize="16sp" />
 
     <!--キーワードを選ぼうの文字-->
     <TextView
@@ -47,7 +46,7 @@
         android:layout_width="255dp"
         android:layout_height="55dp"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="100dp"
         android:text="あなた好みにカスタマイズ!キーワードを1つ以上選ぼう"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -397,7 +396,7 @@
         android:id="@+id/cancelButton"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="170dp"
         android:backgroundTint="#6495ed"
         android:text="キャンセル"
         android:textColor="#fff8dc"
